@@ -309,6 +309,9 @@ header nav ul li a:hover {
     align-items: center;
     border: 2px solid #3E4346;
     margin-right: 300px;
+    box-shadow: 10px 10px 25px -6px rgb(0 0 0 / 75%);
+    -webkit-box-shadow: 10px 10px 25px -6px rgb(0 0 0 / 75%);
+    -moz-box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
 }
 
 .conteiner__vuelos__argentina div {
@@ -361,6 +364,9 @@ header nav ul li a:hover {
     border: 2px solid #3E4346;
     margin-top: 20px;
     margin-left: 300px;
+    box-shadow: 10px 10px 25px -6px rgb(0 0 0 / 75%);
+    -webkit-box-shadow: 10px 10px 25px -6px rgb(0 0 0 / 75%);
+    -moz-box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
 }
 
 .conteiner__vuelos__uruguay div {
@@ -407,6 +413,9 @@ header nav ul li a:hover {
     border: 2px solid #3E4346;
     margin-top: 20px;
     margin-right: 300px;
+    box-shadow: 10px 10px 25px -6px rgb(0 0 0 / 75%);
+    -webkit-box-shadow: 10px 10px 25px -6px rgb(0 0 0 / 75%);
+    -moz-box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
 }
 
 .conteiner__vuelos__brasil div {
@@ -454,6 +463,9 @@ header nav ul li a:hover {
     border: 2px solid #3E4346;
     margin-top: 20px;
     margin-left: 300px;
+    box-shadow: 10px 10px 25px -6px rgb(0 0 0 / 75%);
+    -webkit-box-shadow: 10px 10px 25px -6px rgb(0 0 0 / 75%);
+    -moz-box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
 }
 
 .conteiner__vuelos__chile div {
@@ -500,6 +512,9 @@ header nav ul li a:hover {
     border: 2px solid #3E4346;
     margin-top: 20px;
     margin-right: 300px;
+    box-shadow: 10px 10px 25px -6px rgb(0 0 0 / 75%);
+    -webkit-box-shadow: 10px 10px 25px -6px rgb(0 0 0 / 75%);
+    -moz-box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
 }
 
 .conteiner__vuelos__tokyo div {
@@ -547,6 +562,9 @@ header nav ul li a:hover {
     border: 2px solid #3E4346;
     margin-top: 20px;
     margin-left: 300px;
+    box-shadow: 10px 10px 25px -6px rgb(0 0 0 / 75%);
+    -webkit-box-shadow: 10px 10px 25px -6px rgb(0 0 0 / 75%);
+    -moz-box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
 }
 
 .conteiner__vuelos__espania div {
@@ -578,7 +596,7 @@ header nav ul li a:hover {
     margin-left: 30px;
 }
 
-.conteiner__vuelos__espania div a:hover{
+.conteiner__vuelos__espania div a:hover {
     color: #14181B;
     background-color: #858585;
     border: 1px solid #858585;
@@ -594,6 +612,9 @@ header nav ul li a:hover {
     margin-bottom: 50px;
     margin-top: 20px;
     margin-right: 300px;
+    box-shadow: 10px 10px 25px -6px rgb(0 0 0 / 75%);
+    -webkit-box-shadow: 10px 10px 25px -6px rgb(0 0 0 / 75%);
+    -moz-box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
 }
 
 .conteiner__vuelos__italia div {
@@ -625,7 +646,7 @@ header nav ul li a:hover {
     margin-right: 30px;
 }
 
-.conteiner__vuelos__italia div a:hover{
+.conteiner__vuelos__italia div a:hover {
     color: #14181B;
     background-color: #858585;
     border: 1px solid #858585;
@@ -737,7 +758,7 @@ header nav ul li a:hover {
     margin-top: 10px;
 }
 
-.conteiner__alojamiento div a:hover{
+.conteiner__alojamiento div a:hover {
     color: #CDF6FF;
     background-color: #14181B;
     border: 1px solid #14181B;
@@ -856,7 +877,7 @@ header nav ul li a:hover {
     border-radius: 10px;
 }
 
-.excursiones__boton p a:hover{
+.excursiones__boton p a:hover {
     color: #14181B;
     background-color: #858585;
     border: 1px solid #858585;
@@ -916,7 +937,7 @@ header nav ul li a:hover {
     border-radius: 10px;
 }
 
-.excursiones__boton-chile p a:hover{
+.excursiones__boton-chile p a:hover {
     color: #14181B;
     background-color: #858585;
     border: 1px solid #858585;
@@ -977,7 +998,7 @@ header nav ul li a:hover {
     border-radius: 10px;
 }
 
-.excursiones__boton-japon p a:hover{
+.excursiones__boton-japon p a:hover {
     color: #14181B;
     background-color: #858585;
     border: 1px solid #858585;
@@ -1170,7 +1191,7 @@ header nav ul li a:hover {
     color: #14181B;
 }
 
-.grid__sobrenosotros-cinco input:hover{
+.grid__sobrenosotros-cinco input:hover {
     color: #CDF6FF;
     background-color: #14181B;
     border: 1px solid #14181B;
