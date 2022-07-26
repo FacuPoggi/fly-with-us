@@ -1,0 +1,2762 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box
+}
+
+
+@font-face {
+    font-family: 'Renogare';
+    src: url(../assets/fonts/Renogare-Regular.otf);
+}
+
+body {
+    background-color: #14181B;
+    font-family: 'Renogare';
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+/*------------HEADER------------*/
+header {
+    background-color: #3E4346;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+.logo__avion {
+    width: 150px;
+    height: 150px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #CDF6FF;
+    margin: 20px;
+}
+
+.inicio {
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/muelle.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*------------INDEX-----------*/
+
+
+.inicio__titulo {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 300px;
+    color: #CDF6FF;
+}
+
+.inicio__titulo__parrafo {
+    text-align: center;
+    font-weight: 600;
+    padding-top: 10px;
+    font-size: 20px;
+    color: #CDF6FF;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.inicio__boton {
+    text-align: center;
+    padding: 20px;
+}
+
+.inicio__boton a {
+    text-decoration: none;
+    color: #14181B;
+    background-color: #CDF6FF;
+    padding: 10px;
+    border: 1px solid #CDF6FF;
+    font-weight: 600;
+    border-radius: 15px;
+}
+
+.recomendacion__titulo {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 600;
+    color: #CDF6FF;
+}
+
+.recomendacion__parrafo {
+    font-size: 23px;
+    text-decoration: none;
+    font-weight: 200;
+    text-align: center;
+    color: #CDF6FF;
+}
+
+.viajes__vuelos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.viajes__vuelos div {
+    width: 301px;
+    height: 410px;
+    border: 1px solid #3E4346;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #3E4346;
+    border-radius: 15px;
+    box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
+}
+
+.viajes__vuelos div h3 {
+    color: #CDF6FF;
+    padding: 15px;
+    font-weight: 200;
+}
+
+.viajes__vuelos div a {
+    background-color: #CDF6FF;
+    color: #14181B;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 10px;
+    font-weight: 100;
+}
+
+.viajes__vuelos div img {
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.viajes__ofertas {
+    display: flex;
+    justify-content: center;
+}
+
+.flex__conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.index__hr {
+    border-color: #CDF6FF;
+    margin-top: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.index__titulo__paquetes {
+    text-align: center;
+    font-size: 30px;
+    color: #CDF6FF;
+    margin-top: 30px;
+}
+
+.grid__conteiner__paquete-viajes-argentina {
+    border: 2px solid #3E4346;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 800px;
+    box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
+}
+
+.grid__conteiner__paquete-viajes-chile {
+    border: 2px solid #3E4346;
+    margin-top: -120px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 800px;
+    box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
+}
+
+.grid__conteiner {
+    border: 2px solid #3E4346;
+    margin-top: 8px;
+    display: grid;
+    grid-template-columns: repeat(3, 1.5fr);
+    grid-auto-rows: 350px;
+}
+
+.grid__texto-encima {
+    position: relative;
+}
+
+.grid__texto-encima h3 {
+    position: absolute;
+    color: white;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+.excursiones__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.excursiones__boton__paquete-viajes {
+    height: 200px;
+    width: 21%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px;
+    background-color: #14181b;
+    position: relative;
+    bottom: 53.7vh;
+    left: 39vw;
+    border-radius: 15px;
+}
+
+
+.excursiones__boton__paquete-viajes p {
+    color: #CDF6FF;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+
+.excursiones__boton__paquete-viajes p a {
+    text-decoration: none;
+    background-color: #CDF6FF;
+    color: #14181B;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.paquete__viaje-chile {
+    margin-top: -120px;
+}
+
+
+
+
+
+/*----------VUELOS----------*/
+
+.vuelos__h1 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    color: #CDF6FF;
+}
+
+.conteiner__vuelos__argentina {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #3E4346;
+    margin-right: 300px;
+}
+
+.conteiner__vuelos__argentina div {
+    width: 50%;
+    text-align: center;
+}
+
+.conteiner__vuelos__argentina div h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #CDF6FF;
+}
+
+.conteiner__vuelos__argentina div p {
+    margin-bottom: 20px;
+    margin-right: 30px;
+    font-size: 20px;
+    color: #858585;
+    letter-spacing: -0.50px;
+}
+
+.vuelos__precio strong {
+    font-size: 25px;
+    color: #CDF6FF;
+}
+
+.conteiner__vuelos__argentina div a {
+    background-color: #CDF6FF;
+    padding: 10px;
+    text-decoration: none;
+    color: #14181B;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+.conteiner__vuelos__uruguay {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #3E4346;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+.conteiner__vuelos__uruguay div {
+    width: 50%;
+    text-align: center;
+}
+
+.conteiner__vuelos__uruguay div h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #CDF6FF;
+}
+
+.conteiner__vuelos__uruguay div p {
+    margin-bottom: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+    color: #858585;
+    letter-spacing: -0.50px;
+}
+
+.conteiner__vuelos__uruguay div a {
+    background-color: #CDF6FF;
+    padding: 10px;
+    text-decoration: none;
+    color: #14181B;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.conteiner__vuelos__brasil {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #3E4346;
+    margin-top: 20px;
+    margin-right: 300px;
+}
+
+.conteiner__vuelos__brasil div {
+    width: 50%;
+    text-align: center;
+}
+
+.conteiner__vuelos__brasil div h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #CDF6FF;
+}
+
+.conteiner__vuelos__brasil div p {
+    margin-bottom: 20px;
+    margin-right: 30px;
+    font-size: 20px;
+    color: #858585;
+    letter-spacing: -0.50px;
+}
+
+.conteiner__vuelos__brasil div a {
+    background-color: #CDF6FF;
+    padding: 10px;
+    text-decoration: none;
+    color: #14181B;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+.conteiner__vuelos__chile {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #3E4346;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+.conteiner__vuelos__chile div {
+    width: 50%;
+    text-align: center;
+}
+
+.conteiner__vuelos__chile div h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #CDF6FF;
+}
+
+.conteiner__vuelos__chile div p {
+    margin-bottom: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+    color: #858585;
+    letter-spacing: -0.50px;
+}
+
+.conteiner__vuelos__chile div a {
+    background-color: #CDF6FF;
+    padding: 10px;
+    text-decoration: none;
+    color: #14181B;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.conteiner__vuelos__tokyo {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #3E4346;
+    margin-top: 20px;
+    margin-right: 300px;
+}
+
+.conteiner__vuelos__tokyo div {
+    width: 50%;
+    text-align: center;
+}
+
+.conteiner__vuelos__tokyo div h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #CDF6FF;
+}
+
+.conteiner__vuelos__tokyo div p {
+    margin-bottom: 20px;
+    margin-right: 30px;
+    font-size: 20px;
+    color: #858585;
+    letter-spacing: -0.50px;
+}
+
+.conteiner__vuelos__tokyo div a {
+    background-color: #CDF6FF;
+    padding: 10px;
+    text-decoration: none;
+    color: #14181B;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+.conteiner__vuelos__espania {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #3E4346;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+.conteiner__vuelos__espania div {
+    width: 50%;
+    text-align: center;
+}
+
+.conteiner__vuelos__espania div h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #CDF6FF;
+}
+
+.conteiner__vuelos__espania div p {
+    margin-bottom: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+    color: #858585;
+    letter-spacing: -0.50px;
+}
+
+.conteiner__vuelos__espania div a {
+    background-color: #CDF6FF;
+    padding: 10px;
+    text-decoration: none;
+    color: #14181B;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.conteiner__vuelos__italia {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #3E4346;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-right: 300px;
+}
+
+.conteiner__vuelos__italia div {
+    width: 50%;
+    text-align: center;
+}
+
+.conteiner__vuelos__italia div h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #CDF6FF;
+}
+
+.conteiner__vuelos__italia div p {
+    margin-bottom: 20px;
+    margin-right: 30px;
+    font-size: 20px;
+    color: #858585;
+    letter-spacing: -0.50px;
+}
+
+.conteiner__vuelos__italia div a {
+    background-color: #CDF6FF;
+    padding: 10px;
+    text-decoration: none;
+    color: #3E4346;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 30px;
+
+}
+
+.buenosaires {
+    width: 35%;
+    height: 600px;
+}
+
+.montevideo {
+    width: 35%;
+    height: 600px;
+}
+
+.riodejaneiro {
+    width: 35%;
+    height: 600px;
+}
+
+.santiagodechile {
+    width: 35%;
+    height: 600px;
+}
+
+.tokyo {
+    width: 35%;
+    height: 600px;
+}
+
+.madrid {
+    width: 35%;
+    height: 600px;
+}
+
+.venecia {
+    width: 35%;
+    height: 600px;
+}
+
+
+
+/*----------ALOJAMIENTO----------*/
+
+.alojamiento__h1 {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 15px;
+    color: #CDF6FF;
+}
+
+.conteiner__alojamiento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.conteiner__alojamiento div {
+    width: 35%;
+    height: 850px;
+    margin: 30px;
+    padding-bottom: 15px;
+    border: 1px solid #3E4346;
+    text-align: center;
+    background-color: #3E4346;
+    border-radius: 15px;
+    box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
+}
+
+.conteiner__alojamiento div img {
+    width: 100%;
+    height: 400px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.conteiner__alojamiento div h2 {
+    color: #CDF6FF;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.alojamiento__texto {
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 15px;
+    line-height: 22px;
+    color: #858585;
+    letter-spacing: -0.50px;
+}
+
+.alojamiento__precio {
+    font-size: 30px;
+    padding-bottom: 30px;
+    color: #CDF6FF;
+}
+
+.conteiner__alojamiento div a {
+    background-color: #CDF6FF;
+    color: #14181B;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 10px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+
+/*----------EXCURSIONES----------*/
+
+
+.excursiones__h1 {
+    color: #CDF6FF;
+    text-align: center;
+    padding: 15px;
+}
+
+.flex__conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.grid__conteiner {
+    border: 2px solid #3E4346;
+    margin-top: 8px;
+    display: grid;
+    grid-template-columns: repeat(3, 1.5fr);
+    grid-auto-rows: 350px;
+}
+
+.grid__items {
+    background-color: #3E4346;
+}
+
+.excursiones__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.excursiones__bloque-texto {
+    border: 2px solid #3E4346;
+    grid-column: 1 / 4;
+    grid-row: 3;
+}
+
+.excursiones__bloque-texto-japon {
+    border: 2px solid #3E4346;
+    grid-column: 1 / 4;
+    grid-row: 3;
+}
+
+.excursiones__bloque-texto h2 {
+    text-align: center;
+    padding: 15px;
+    color: #CDF6FF;
+}
+
+.excursiones__bloque-texto-japon h2 {
+    text-align: center;
+    padding: 15px;
+    color: #CDF6FF;
+}
+
+.excursiones__texto {
+    font-size: 20px;
+    line-height: 20px;
+    color: #858585;
+    margin-bottom: 20px;
+    letter-spacing: -0.50px;
+}
+
+
+.excursiones__img__buenosaires-uno {
+    grid-column: 1 / 3;
+}
+
+.excursiones__img__buenosaires-cuatro {
+    grid-column: 3;
+    grid-row: 1 / 3;
+}
+
+.excursiones__bandera-argentina {
+    object-fit: fill;
+}
+
+.excursiones__boton {
+    height: 200px;
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px;
+    background-color: #14181b;
+    position: relative;
+    bottom: 500px;
+    left: 68.7%;
+    border-radius: 15px;
+}
+
+.excursiones__boton p {
+    color: #CDF6FF;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.excursiones__boton p a {
+    text-decoration: none;
+    background-color: #CDF6FF;
+    color: #14181B;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.grid__conteiner-chile {
+    border: 2px solid #3E4346;
+    margin-top: 8px;
+    display: grid;
+    grid-template-columns: repeat(3, 1.5fr);
+    grid-auto-rows: 350px;
+    margin-top: -120px;
+}
+
+.excursiones__img__chile-uno {
+    grid-column: 2/ 3;
+    grid-row: 1;
+}
+
+.excursiones__img__chile-tres {
+    grid-column: 2 / 4;
+}
+
+.excursiones__img__chile-cuatro {
+    grid-row: 1 / 3;
+    grid-column: 1;
+}
+
+.excursiones__boton-chile {
+    height: 200px;
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px;
+    background-color: #14181b;
+    position: relative;
+    bottom: 500px;
+    left: 15.1%;
+    border-radius: 15px;
+}
+
+.excursiones__boton-chile p {
+    color: #CDF6FF;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.excursiones__boton-chile p a {
+    text-decoration: none;
+    background-color: #CDF6FF;
+    color: #14181B;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.grid__conteiner-japon {
+    border: 2px solid #3E4346;
+    margin-top: 8px;
+    display: grid;
+    grid-template-columns: repeat(3, 1.5fr);
+    grid-auto-rows: 350px;
+    margin-top: -120px;
+}
+
+.excursiones__img__japon-uno {
+    grid-column: 1;
+    grid-row: span 2;
+}
+
+.excursiones__img__japon-dos {
+    grid-column: 3;
+    grid-row: span 2;
+}
+
+.excursiones__img__japon-tres {
+    grid-column: 2;
+    grid-row: 1 / 3;
+}
+
+.excursiones__boton-japon {
+    height: 200px;
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px;
+    background-color: #14181b;
+    position: relative;
+    bottom: 500px;
+    left: 68.7%;
+    border-radius: 15px;
+}
+
+.excursiones__boton-japon p {
+    color: #CDF6FF;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.excursiones__boton-japon p a {
+    text-decoration: none;
+    background-color: #CDF6FF;
+    color: #14181B;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+
+/*-------SOBRE NOSOTROS--------*/
+
+.h1__sobrenosotros {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    color: #CDF6FF;
+
+}
+
+.div__sobrenosotros {
+    align-items: center;
+    height: 150px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.p__sobrenosotros {
+    text-align: center;
+    font-weight: 600;
+    padding-top: 10px;
+    color: #CDF6FF;
+
+}
+
+.sobrenosotros {
+    width: 100%;
+    height: 85vh;
+    background-image: url("../img/tunel.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.grid__conteiner-sobrenosotros {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 200px 200px 200px 200px 100px 100px;
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: #3E4346;
+    border: 2px solid #3E4346;
+}
+
+.grid__conteiner-sobrenosotros h2 {
+    grid-row: 1;
+    text-align: center;
+    font-size: 30px;
+    color: #CDF6FF;
+}
+
+.grid__sobrenosotros-uno {
+    grid-row: 2;
+}
+
+.grid__sobrenosotros-uno hr {
+    height: 5px;
+    background-color: #14181B;
+    border: 1px solid #14181B;
+}
+
+.grid__sobrenosotros-uno label {
+    margin-left: 7%;
+    font-size: 25px;
+    color: #CDF6FF;
+}
+
+.grid__sobrenosotros-uno input {
+    margin-left: 7%;
+    width: 85%;
+    font-size: 20px;
+    background-color: #14181B;
+    height: 35px;
+    font-family: 'Renogare';
+}
+
+.grid__sobrenosotros-dos {
+    grid-row: 2;
+}
+
+.grid__sobrenosotros-dos hr {
+    height: 5px;
+    background-color: #14181B;
+    border: 1px solid #14181B;
+}
+
+.grid__sobrenosotros-dos label {
+    margin-left: 7%;
+    font-size: 25px;
+    color: #CDF6FF;
+}
+
+.grid__sobrenosotros-dos input {
+    margin-left: 7%;
+    width: 85%;
+    font-size: 20px;
+    background-color: #14181B;
+    height: 35px;
+    font-family: 'Renogare';
+}
+
+.grid__sobrenosotros-tres {
+    grid-row: 3;
+}
+
+.grid__sobrenosotros-tres hr {
+    height: 5px;
+    background-color: #14181B;
+    border: 1px solid #14181B;
+}
+
+.grid__sobrenosotros-tres label {
+    margin-left: 7%;
+    font-size: 25px;
+    color: #CDF6FF;
+}
+
+.grid__sobrenosotros-tres input {
+    margin-left: 7%;
+    width: 85%;
+    font-size: 20px;
+    background-color: #14181B;
+    height: 35px;
+    font-family: 'Renogare';
+}
+
+.grid__sobrenosotros-cuatro {
+    grid-row: 4;
+}
+
+.grid__sobrenosotros-cuatro hr {
+    height: 5px;
+    background-color: #14181B;
+    border: 1px solid #14181B;
+}
+
+.grid__sobrenosotros-cuatro p {
+    margin-left: 7%;
+    font-size: 25px;
+    color: #CDF6FF;
+}
+
+.grid__sobrenosotros-cuatro textarea {
+    margin-left: 7%;
+    width: 85%;
+    height: 200px;
+    background-color: #14181B;
+    font-family: 'Renogare';
+    font-size: 20px;
+}
+
+.grid__sobrenosotros-cuatro input {
+    margin-left: -55px;
+    transform: scale(1.5);
+}
+
+.checkbox__sobrenosotros {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkbox__sobrenosotros p {
+    font-size: 25px;
+    color: #CDF6FF;
+}
+
+.grid__sobrenosotros-cinco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    grid-row: 5;
+}
+
+.grid__sobrenosotros-cinco input {
+    font-size: 25px;
+    width: 15%;
+    background-color: #14181B;
+    border: 2px solid #14181B;
+    color: #CDF6FF;
+}
+
+.flex__sobrenosotros-seis {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.grid__sobrenosotros-seis hr {
+    height: 5px;
+    background-color: #14181B;
+    border: 1px solid #14181B;
+}
+
+.grid__sobrenosotros-seis div p {
+    font-size: 20px;
+    color: #CDF6FF;
+}
+
+.whatsapp {
+    width: 64px;
+    height: 64px;
+}
+
+/*----------FOOTER------------*/
+footer {
+    background-color: #3E4346;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div {
+    margin-right: 30px;
+}
+
+.facebook {
+    width: 64px;
+    height: 64px;
+}
+
+.instagram {
+    width: 64px;
+    height: 64px;
+}
+
+.twitter {
+    width: 64px;
+    height: 64px;
+}
+
+
+
+
+/*-----------MEDIA QUERIES---------*/
+
+
+/*---------------INDEX-------------*/
+@media screen and (max-width: 1588px) {
+    .excursiones__boton__paquete-viajes {
+        bottom: 59.5vh;
+        width: 21%;
+    }
+
+    .excursiones__boton__paquete-viajes p {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:1364px) {
+    .excursiones__boton__paquete-viajes {
+        position: initial;
+        background-color: #3E4346;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 30%;
+    }
+
+    .grid__conteiner__paquete-viajes-chile {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width:1098px) {
+    .excursiones__boton__paquete-viajes {
+        height: 160px;
+    }
+}
+
+@media screen and (max-width:960px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .inicio__titulo {
+        font-size: 30px;
+    }
+
+    .inicio__titulo__parrafo {
+        font-size: 18px;
+        width: 50%;
+    }
+
+    .recomendacion__titulo {
+        font-size: 20px;
+    }
+
+    .recomendacion__parrafo {
+        font-size: 18px;
+    }
+
+    .index__titulo__paquetes {
+        font-size: 25px;
+    }
+
+    .grid__conteiner__paquete-viajes-argentina {
+        grid-template-columns: 700px;
+        grid-template-rows: repeat(3, 0.5fr);
+    }
+
+    .grid__conteiner__paquete-viajes-chile {
+        grid-template-columns: 700px;
+        grid-template-rows: repeat(3, 0.5fr);
+    }
+
+    .excursiones__img-chile {
+        height: 523px;
+    }
+}
+
+
+@media screen and (max-width:760px) {
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul li {
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width:712px) {
+    .viajes__vuelos div {
+        margin: 10px;
+    }
+
+    .grid__conteiner__paquete-viajes-argentina {
+        grid-template-columns: 500px;
+        grid-template-rows: repeat(3, 0.5fr);
+    }
+
+    .grid__conteiner__paquete-viajes-chile {
+        grid-template-columns: 500px;
+        grid-template-rows: repeat(3, 0.5fr);
+    }
+
+    .excursiones__boton__paquete-viajes p {
+        font-size: 18px;
+    }
+
+    .excursiones__boton__paquete-viajes p a {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:579px) {
+    header nav ul li a {
+        font-size: 15px;
+    }
+
+    .inicio__titulo {
+        font-size: 25px;
+        padding-top: 250px;
+    }
+
+    .inicio__titulo__parrafo {
+        font-size: 15px;
+    }
+
+    .inicio__boton a {
+        font-size: 13px;
+    }
+
+    .recomendacion__titulo {
+        font-size: 18px;
+    }
+
+    .recomendacion__parrafo {
+        font-size: 15px;
+    }
+
+    .index__titulo__paquetes {
+        font-size: 20px;
+    }
+
+    .excursiones__boton__paquete-viajes {
+        height: 130px;
+    }
+
+    .excursiones__boton__paquete-viajes p {
+        font-size: 15px;
+    }
+
+    .excursiones__boton__paquete-viajes p a {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:507px) {
+    .logo__avion {
+        width: 100px;
+        height: 100px;
+    }
+
+    .inicio__titulo {
+        font-size: 20px;
+    }
+
+    .inicio__titulo__parrafo {
+        font-size: 12px;
+    }
+
+    .recomendacion__titulo {
+        font-size: 16px;
+    }
+
+    .recomendacion__parrafo {
+        font-size: 12px;
+    }
+
+    .viajes__vuelos div h3 {
+        font-size: 16px;
+    }
+
+    .viajes__vuelos div a {
+        font-size: 13px;
+    }
+
+    .grid__conteiner__paquete-viajes-argentina {
+        grid-template-columns: 400px;
+        grid-template-rows: repeat(3, 0.5fr);
+    }
+
+    .grid__conteiner__paquete-viajes-chile {
+        grid-template-columns: 400px;
+        grid-template-rows: repeat(3, 0.5fr);
+    }
+
+    .excursiones__boton__paquete-viajes {
+        height: 120px;
+    }
+
+    .grid__texto-encima h3 {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width:451px) {
+    .recomendacion__titulo {
+        font-size: 14px;
+    }
+
+    .excursiones__boton__paquete-viajes {
+        height: 100px;
+    }
+
+    .excursiones__boton__paquete-viajes p {
+        font-size: 12px;
+    }
+
+    .excursiones__boton__paquete-viajes p a {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:411px) {
+    .logo__avion {
+        width: 100px;
+        height: 100px;
+    }
+
+    .inicio__titulo {
+        font-size: 15px;
+        padding-top: 100px;
+    }
+
+    .inicio__boton a {
+        font-size: 10px;
+    }
+
+    .recomendacion__titulo {
+        font-size: 12px;
+    }
+
+    .recomendacion__parrafo {
+        font-size: 10px;
+    }
+
+    .viajes__vuelos {
+        padding-top: 30px;
+    }
+
+    .viajes__vuelos div {
+        width: 280px;
+        height: 390px;
+    }
+
+    .viajes__vuelos div h3 {
+        font-size: 10px;
+    }
+
+    .viajes__vuelos div a {
+        font-size: 10px;
+    }
+
+    .index__titulo__paquetes {
+        font-size: 15px;
+    }
+
+    .grid__conteiner__paquete-viajes-argentina {
+        grid-template-columns: 300px;
+        grid-template-rows: repeat(3, 0.5fr);
+    }
+
+    .grid__conteiner__paquete-viajes-chile {
+        grid-template-columns: 300px;
+        grid-template-rows: repeat(3, 0.5fr);
+    }
+
+    .grid__texto-encima h3 {
+        font-size: 10px;
+    }
+
+    .excursiones__boton__paquete-viajes {
+        height: 90px;
+    }
+
+    .excursiones__boton__paquete-viajes p {
+        font-size: 10px;
+    }
+
+    .excursiones__boton__paquete-viajes p a {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .grid__conteiner__paquete-viajes-argentina {
+        grid-template-columns: 300px;
+        grid-template-rows: repeat(3, 0.5fr);
+    }
+
+    .grid__conteiner__paquete-viajes-chile {
+        grid-template-columns: 300px;
+        grid-template-rows: repeat(3, 0.5fr);
+    }
+}
+
+@media screen and (max-width:310px) {
+    .grid__conteiner__paquete-viajes-argentina {
+        grid-template-columns: 250px;
+        grid-template-rows: repeat(3, 0.5fr);
+    }
+
+    .grid__conteiner__paquete-viajes-chile {
+        grid-template-columns: 250px;
+        grid-template-rows: repeat(3, 0.5fr);
+    }
+}
+
+/*---------------VUELOS------------*/
+
+@media screen and (max-width:1490px) {
+    .conteiner__vuelos__argentina {
+        width: 90%;
+        margin-right: 60px;
+    }
+
+    .conteiner__vuelos__argentina div p {
+        font-size: 15px;
+    }
+
+    .conteiner__vuelos__uruguay {
+        width: 90%;
+        margin-left: 115px;
+    }
+
+    .conteiner__vuelos__uruguay div p {
+        font-size: 15px;
+    }
+
+    .conteiner__vuelos__brasil {
+        width: 90%;
+        margin-right: 60px;
+    }
+
+    .conteiner__vuelos__brasil div p {
+        font-size: 15px;
+    }
+
+    .conteiner__vuelos__chile {
+        width: 90%;
+        margin-left: 115px;
+    }
+
+    .conteiner__vuelos__chile div p {
+        font-size: 15px;
+    }
+
+    .santiagodechile {
+        width: 45%;
+        height: 730px;
+    }
+
+    .conteiner__vuelos__tokyo {
+        width: 90%;
+        margin-right: 60px;
+    }
+
+    .conteiner__vuelos__tokyo div p {
+        font-size: 15px;
+    }
+
+    .conteiner__vuelos__espania {
+        width: 90%;
+        margin-left: 115px;
+    }
+
+    .conteiner__vuelos__espania div p {
+        font-size: 15px;
+    }
+
+    .conteiner__vuelos__italia {
+        width: 90%;
+        margin-right: 60px;
+    }
+
+    .conteiner__vuelos__italia div p {
+        font-size: 15px;
+    }
+
+    .venecia {
+        width: 45%;
+        height: 675px;
+    }
+
+    .vuelos__precio strong {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    .conteiner__vuelos__argentina {
+        margin: 0 auto;
+    }
+
+    .buenosaires {
+        width: 45%;
+    }
+
+    .conteiner__vuelos__uruguay {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .montevideo {
+        width: 45%;
+    }
+
+    .conteiner__vuelos__brasil {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .riodejaneiro {
+        width: 45%;
+    }
+
+    .conteiner__vuelos__chile {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .santiagodechile {
+        width: 45%;
+    }
+
+    .conteiner__vuelos__tokyo {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .tokyo {
+        width: 45%;
+    }
+
+    .conteiner__vuelos__espania {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .madrid {
+        width: 45%;
+    }
+
+    .conteiner__vuelos__italia {
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .venecia {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .vuelos__h1 {
+        font-size: 22px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .conteiner__vuelos__argentina {
+        width: 100%;
+        height: 65vh;
+    }
+
+    .conteiner__vuelos__argentina div h2 {
+        font-size: 20px;
+    }
+
+    .conteiner__vuelos__argentina div p {
+        font-size: 12px;
+    }
+
+    .buenosaires {
+        height: 100%;
+    }
+
+    .conteiner__vuelos__uruguay {
+        width: 100%;
+        height: 65vh;
+    }
+
+    .conteiner__vuelos__uruguay div h2 {
+        font-size: 20px;
+    }
+
+    .conteiner__vuelos__uruguay div p {
+        font-size: 12px;
+    }
+
+    .montevideo {
+        height: 100%;
+    }
+
+    .conteiner__vuelos__brasil {
+        width: 100%;
+        height: 65vh;
+    }
+
+    .conteiner__vuelos__brasil div h2 {
+        font-size: 20px;
+    }
+
+    .conteiner__vuelos__brasil div p {
+        font-size: 12px;
+    }
+
+    .riodejaneiro {
+        height: 100%;
+    }
+
+    .conteiner__vuelos__chile {
+        width: 100%;
+        height: 65vh;
+    }
+
+    .conteiner__vuelos__chile div h2 {
+        font-size: 20px;
+    }
+
+    .conteiner__vuelos__chile div p {
+        font-size: 12px;
+    }
+
+    .santiagodechile {
+        height: 100%;
+    }
+
+    .conteiner__vuelos__tokyo {
+        width: 100%;
+        height: 65vh;
+    }
+
+    .conteiner__vuelos__tokyo div h2 {
+        font-size: 20px;
+    }
+
+    .conteiner__vuelos__tokyo div p {
+        font-size: 12px;
+    }
+
+    .tokyo {
+        height: 100%;
+    }
+
+    .conteiner__vuelos__espania {
+        width: 100%;
+        height: 65vh;
+    }
+
+    .conteiner__vuelos__espania div h2 {
+        font-size: 20px;
+    }
+
+    .conteiner__vuelos__espania div p {
+        font-size: 12px;
+    }
+
+    .madrid {
+        height: 550px;
+    }
+
+    .conteiner__vuelos__italia {
+        width: 100%;
+        height: 65vh;
+    }
+
+    .conteiner__vuelos__italia div h2 {
+        font-size: 20px;
+    }
+
+    .conteiner__vuelos__italia div p {
+        font-size: 12px;
+    }
+
+    .venecia {
+        width: 48%;
+        height: 100%;
+    }
+
+    .vuelos__precio strong {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:760px) {
+    .vuelos__h1 {
+        font-size: 20px;
+    }
+
+    .conteiner__vuelos__argentina {
+        height: 50vh;
+    }
+
+    .conteiner__vuelos__argentina div h2 {
+        font-size: 15px;
+    }
+
+    .conteiner__vuelos__argentina div p {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .conteiner__vuelos__argentina div a {
+        font-size: 10px;
+        padding: 8px;
+    }
+
+    .conteiner__vuelos__uruguay {
+        height: 50vh;
+    }
+
+    .conteiner__vuelos__uruguay div h2 {
+        font-size: 15px;
+    }
+
+    .conteiner__vuelos__uruguay div p {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .conteiner__vuelos__uruguay div a {
+        font-size: 10px;
+        padding: 8px;
+    }
+
+    .conteiner__vuelos__brasil {
+        height: 50vh;
+    }
+
+    .conteiner__vuelos__brasil div h2 {
+        font-size: 15px;
+    }
+
+    .conteiner__vuelos__brasil div p {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .conteiner__vuelos__brasil div a {
+        font-size: 10px;
+        padding: 8px;
+    }
+
+    .conteiner__vuelos__chile {
+        height: 50vh;
+    }
+
+    .conteiner__vuelos__chile div h2 {
+        font-size: 15px;
+    }
+
+    .conteiner__vuelos__chile div p {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .conteiner__vuelos__chile div a {
+        font-size: 10px;
+        padding: 8px;
+    }
+
+    .conteiner__vuelos__tokyo {
+        height: 50vh;
+    }
+
+    .conteiner__vuelos__tokyo div h2 {
+        font-size: 15px;
+    }
+
+    .conteiner__vuelos__tokyo div p {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .conteiner__vuelos__tokyo div a {
+        font-size: 10px;
+        padding: 8px;
+    }
+
+    .conteiner__vuelos__espania {
+        height: 50vh;
+    }
+
+    .conteiner__vuelos__espania div h2 {
+        font-size: 15px;
+    }
+
+    .conteiner__vuelos__espania div p {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .conteiner__vuelos__espania div a {
+        font-size: 10px;
+        padding: 8px;
+    }
+
+    .madrid {
+        height: 100%;
+    }
+
+    .conteiner__vuelos__italia {
+        height: 55vh;
+    }
+
+    .conteiner__vuelos__italia div h2 {
+        font-size: 15px;
+    }
+
+    .conteiner__vuelos__italia div p {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .conteiner__vuelos__italia div a {
+        font-size: 10px;
+        padding: 8px;
+    }
+
+    .vuelos__precio strong {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:578px) {
+    .conteiner__vuelos__argentina {
+        height: 45vh;
+    }
+
+    .conteiner__vuelos__argentina div h2 {
+        font-size: 12px;
+    }
+
+    .conteiner__vuelos__argentina div p {
+        font-size: 9px;
+    }
+
+    .conteiner__vuelos__uruguay {
+        height: 45vh;
+    }
+
+    .conteiner__vuelos__uruguay div h2 {
+        font-size: 12px;
+    }
+
+    .conteiner__vuelos__uruguay div p {
+        font-size: 9px;
+    }
+
+    .conteiner__vuelos__brasil {
+        height: 45vh;
+    }
+
+    .conteiner__vuelos__brasil div h2 {
+        font-size: 12px;
+    }
+
+    .conteiner__vuelos__brasil div p {
+        font-size: 9px;
+    }
+
+    .conteiner__vuelos__chile {
+        height: 45vh;
+    }
+
+    .conteiner__vuelos__chile div h2 {
+        font-size: 12px;
+    }
+
+    .conteiner__vuelos__chile div p {
+        font-size: 9px;
+    }
+
+    .conteiner__vuelos__tokyo {
+        height: 45vh;
+    }
+
+    .conteiner__vuelos__tokyo div h2 {
+        font-size: 12px;
+    }
+
+    .conteiner__vuelos__tokyo div p {
+        font-size: 9px;
+    }
+
+    .conteiner__vuelos__espania {
+        height: 45vh;
+    }
+
+    .conteiner__vuelos__espania div h2 {
+        font-size: 12px;
+    }
+
+    .conteiner__vuelos__espania div p {
+        font-size: 9px;
+    }
+
+    .conteiner__vuelos__italia {
+        height: 45vh;
+    }
+
+    .conteiner__vuelos__italia div h2 {
+        font-size: 12px;
+    }
+
+    .conteiner__vuelos__italia div p {
+        font-size: 9px;
+    }
+
+    .vuelos__precio strong {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .vuelos__h1 {
+        font-size: 15px;
+    }
+
+    .conteiner__vuelos__argentina {
+        height: 35vh;
+    }
+
+    .conteiner__vuelos__uruguay {
+        height: 35vh;
+    }
+
+    .conteiner__vuelos__brasil {
+        height: 35vh;
+    }
+
+    .conteiner__vuelos__chile {
+        height: 42vh;
+    }
+
+    .conteiner__vuelos__tokyo {
+        height: 35vh;
+    }
+
+    .conteiner__vuelos__espania {
+        height: 35vh;
+    }
+
+    .conteiner__vuelos__italia {
+        height: 42vh;
+    }
+}
+
+/*-------------ALOJAMIENTO------------*/
+
+@media screen and (max-width:1490px) {
+    .alojamiento__texto {
+        font-size: 15px;
+    }
+
+    .alojamiento__precio {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:1322px) {
+    .conteiner__alojamiento div {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:1138px) {
+    .conteiner__alojamiento div {
+        width: 43%;
+    }
+}
+
+@media screen and (max-width:960px) {
+    .conteiner__alojamiento div {
+        width: 55%;
+    }
+
+    .conteiner__alojamiento div {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .alojamiento__h1 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:760px) {
+    .alojamiento__h1 {
+        font-size: 20px;
+    }
+
+    .conteiner__alojamiento div h2 {
+        font-size: 20px;
+    }
+
+    .alojamiento__texto {
+        font-size: 12px;
+    }
+
+    .alojamiento__precio {
+        font-size: 20px;
+    }
+
+    .conteiner__alojamiento div a {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .conteiner__alojamiento div {
+        width: 70%;
+    }
+
+    .conteiner__alojamiento div h2 {
+        font-size: 15px;
+    }
+
+    .alojamiento__texto {
+        font-size: 10px;
+    }
+
+    .alojamiento__precio {
+        font-size: 15px;
+    }
+
+    .conteiner__alojamiento div a {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .conteiner__alojamiento div {
+        width: 100%;
+    }
+
+    .conteiner__alojamiento div img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .alojamiento__h1 {
+        font-size: 15px;
+    }
+}
+
+/*-------------EXCURSIONES------------*/
+
+@media screen and (max-width:1490px) {
+    .grid__conteiner {
+        width: 90%;
+    }
+
+    .excursiones__boton {
+        width: 20%;
+        left: 69.7%;
+    }
+
+    .grid__conteiner-chile {
+        width: 90%;
+    }
+
+    .excursiones__boton-chile {
+        width: 18%;
+        left: 8%;
+    }
+
+    .excursiones__boton-chile p {
+        font-size: 25px;
+    }
+
+    .grid__conteiner-japon {
+        width: 90%;
+    }
+
+    .excursiones__boton-japon {
+        width: 20%;
+        left: 70.9%;
+    }
+}
+
+@media screen and (max-width:1395px) {
+
+    .excursiones__boton {
+        left: 73.7%;
+        bottom: 450px;
+        height: 150px;
+    }
+
+    .excursiones__boton p {
+        font-size: 25px;
+    }
+
+    .excursiones__boton p a {
+        font-size: 18px;
+    }
+
+    .excursiones__boton-chile {
+        left: 6%;
+        bottom: 450px;
+        height: 150px;
+    }
+
+    .excursiones__boton-chile p {
+        font-size: 25px;
+    }
+
+    .excursiones__boton-chile p a {
+        font-size: 18px;
+    }
+
+    .excursiones__boton-japon {
+        left: 73.9%;
+        bottom: 450px;
+        height: 150px;
+    }
+
+    .excursiones__boton-japon p {
+        font-size: 25px;
+    }
+
+    .excursiones__boton-japon p a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:1260px) {
+    .excursiones__boton-japon {
+        left: 74.7%;
+    }
+
+    .excursiones__boton-chile p {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    .grid__conteiner-chile {
+        margin-top: -80px;
+    }
+
+    .grid__conteiner-japon {
+        margin-top: -80px;
+    }
+
+    .excursiones__h1 {
+        font-size: 22px;
+    }
+
+    .excursiones__bloque-texto h2 {
+        font-size: 20px;
+    }
+
+    .excursiones__bloque-texto-japon h2 {
+        font-size: 20px;
+    }
+
+    .excursiones__texto {
+        font-size: 15px;
+    }
+
+    .excursiones__boton {
+        height: 130px;
+        bottom: 440px;
+    }
+
+    .excursiones__boton p {
+        font-size: 22px;
+    }
+
+    .excursiones__boton p a {
+        font-size: 15px;
+    }
+
+    .excursiones__boton-chile {
+        height: 130px;
+        bottom: 440px;
+    }
+
+    .excursiones__boton-chile p {
+        font-size: 20px;
+    }
+
+    .excursiones__boton-chile p a {
+        font-size: 15px;
+    }
+
+    .excursiones__boton-japon {
+        height: 130px;
+        bottom: 440px;
+    }
+
+    .excursiones__boton-japon p {
+        font-size: 22px;
+    }
+
+    .excursiones__boton-japon p a {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .excursiones__boton {
+        height: 110px;
+        bottom: 420px;
+        left: 74.7%;
+    }
+
+    .excursiones__boton p {
+        font-size: 20px;
+    }
+
+    .excursiones__boton p a {
+        font-size: 12px;
+    }
+
+    .excursiones__boton-chile {
+        height: 110px;
+        bottom: 420px;
+        left: 5.5%;
+    }
+
+    .excursiones__boton-chile p {
+        font-size: 19px;
+    }
+
+    .excursiones__boton-chile p a {
+        font-size: 12px;
+    }
+
+    .excursiones__boton-japon {
+        height: 110px;
+        bottom: 420px;
+        left: 76.9%;
+    }
+
+    .excursiones__boton-japon p {
+        font-size: 20px;
+    }
+
+    .excursiones__boton-japon p a {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:930px) {
+    .excursiones__h1 {
+        font-size: 20px;
+    }
+
+    .excursiones__bloque-texto h2 {
+        font-size: 15px;
+    }
+
+    .excursiones__bloque-texto-japon h2 {
+        font-size: 15px;
+    }
+
+    .excursiones__texto {
+        font-size: 15px;
+    }
+
+    .excursiones__boton p {
+        font-size: 18px;
+    }
+
+    .excursiones__boton p a {
+        font-size: 10px;
+    }
+
+    .excursiones__boton-chile p {
+        font-size: 18px;
+    }
+
+    .excursiones__boton-chile p a {
+        font-size: 10px;
+    }
+
+    .excursiones__boton-japon p {
+        font-size: 18px;
+    }
+
+    .excursiones__boton-japon p a {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:830px) {
+    .excursiones__h1 {
+        font-size: 18px;
+    }
+
+    .grid__conteiner {
+        grid-template-columns: 1fr;
+        grid-template-rows: 290px 500px 500px 500px 350px;
+    }
+
+    .excursiones__img__buenosaires-dos {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .excursiones__img__buenosaires-tres {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .excursiones__img__buenosaires-cuatro {
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    .excursiones__bandera-argentina {
+        object-fit: cover;
+    }
+
+    .excursiones__bloque-texto {
+        grid-column: 1;
+        grid-row: 5;
+    }
+
+    .grid__conteiner-chile {
+        margin-top: 0%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 290px 500px 500px 550px 380px;
+    }
+
+    .excursiones__img__chile-uno {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .excursiones__img__chile-dos {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .excursiones__img__chile-tres {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .excursiones__img__chile-cuatro {
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    .grid__conteiner-japon {
+        margin-top: 0%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 800px 500px 500px;
+    }
+
+    .excursiones__img__japon-uno {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .excursiones__img__japon-dos {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .excursiones__img__japon-tres {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .excursiones__bloque-texto-japon {
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    .excursiones__boton {
+        height: 110px;
+        background-color: #3E4346;
+        position: initial;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .excursiones__boton p {
+        font-size: 15px;
+    }
+
+    .excursiones__boton p a {
+        padding: 5px;
+    }
+
+    .excursiones__boton-chile {
+        height: 110px;
+        background-color: #3E4346;
+        position: initial;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .excursiones__boton-chile p {
+        font-size: 15px;
+    }
+
+    .excursiones__boton-chile p a {
+        padding: 5px;
+    }
+
+    .excursiones__boton-japon {
+        height: 110px;
+        background-color: #3E4346;
+        position: initial;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .excursiones__boton-japon p {
+        font-size: 15px;
+    }
+
+    .excursiones__boton-japon p a {
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width:730px) {
+    .excursiones__bloque-texto h2 {
+        font-size: 13px;
+    }
+
+    .excursiones__texto {
+        font-size: 12px;
+    }
+
+    .excursiones__boton {
+        height: 80px;
+    }
+
+    .excursiones__boton p {
+        font-size: 13px;
+    }
+
+    .excursiones__boton p a {
+        font-size: 8px;
+    }
+
+    .excursiones__boton-chile {
+        height: 80px;
+    }
+
+    .excursiones__boton-chile p {
+        font-size: 13px;
+    }
+
+    .excursiones__boton-chile p a {
+        font-size: 8px;
+    }
+
+    .excursiones__boton-japon {
+        height: 80px;
+    }
+
+    .excursiones__boton-japon p {
+        font-size: 13px;
+    }
+
+    .excursiones__boton-japon p a {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width:648px) {
+    .excursiones__h1 {
+        font-size: 15px;
+    }
+
+    .excursiones__boton {
+        height: 70px;
+    }
+
+    .excursiones__boton p {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .excursiones__boton-chile {
+        height: 70px;
+    }
+
+    .excursiones__boton-chile p {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .excursiones__boton-japon {
+        height: 70px;
+    }
+
+    .excursiones__boton-japon p {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width:544px) {
+    .excursiones__bloque-texto h2 {
+        font-size: 13px;
+    }
+
+    .excursiones__bloque-texto-japon h2 {
+        font-size: 13px;
+    }
+
+    .excursiones__texto {
+        font-size: 10px;
+    }
+
+    .excursiones__boton {
+        width: 25%;
+    }
+
+    .excursiones__boton-chile {
+        width: 25%;
+    }
+
+    .excursiones__boton-japon {
+        width: 25%;
+    }
+}
+
+/*----------SOBRE NOSOTROS---------*/
+
+@media screen and (max-width:1482px) {
+    .checkbox__sobrenosotros p {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+    .grid__sobrenosotros-seis div p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:1296px) {
+    .grid__conteiner-sobrenosotros {
+        width: 80%;
+    }
+
+    .checkbox__sobrenosotros p {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+    .grid__sobrenosotros-seis div p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:960px) {
+    .sobrenosotros {
+        height: 60vh;
+    }
+
+    .h1__sobrenosotros {
+        font-size: 20px;
+    }
+
+    .p__sobrenosotros {
+        font-size: 15px;
+    }
+
+    .grid__conteiner-sobrenosotros h2 {
+        font-size: 20px;
+    }
+
+    .grid__sobrenosotros-uno label {
+        font-size: 15px;
+    }
+
+    .grid__sobrenosotros-dos label {
+        font-size: 15px;
+    }
+
+    .grid__sobrenosotros-tres label {
+        font-size: 15px;
+    }
+
+    .grid__sobrenosotros-cuatro p {
+        font-size: 15px;
+    }
+
+    .grid__sobrenosotros-cinco input {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:834px) {
+    .grid__sobrenosotros-cuatro p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:734px) {
+    .flex__sobrenosotros-seis {
+        flex-direction: column;
+    }
+
+    .grid__sobrenosotros-seis div p {
+        margin-bottom: 20px;
+    }
+
+    .grid__sobrenosotros-cinco input {
+        width: 80px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .h1__sobrenosotros {
+        font-size: 15px;
+    }
+
+    .p__sobrenosotros {
+        font-size: 12px;
+    }
+
+    .grid__conteiner-sobrenosotros h2 {
+        font-size: 15px;
+    }
+
+    .grid__sobrenosotros-uno label {
+        font-size: 12px;
+    }
+
+    .grid__sobrenosotros-dos label {
+        font-size: 12px;
+    }
+
+    .grid__sobrenosotros-tres label {
+        font-size: 12px;
+    }
+
+    .grid__sobrenosotros-cuatro p {
+        font-size: 13px;
+    }
+
+    .grid__sobrenosotros-cinco input {
+        font-size: 15px;
+    }
+
+    .grid__sobrenosotros-seis div p {
+        font-size: 10px;
+    }
+
+    .whatsapp {
+        width: 42px;
+        height: 42px;
+    }
+}
+
+@media screen and (max-width:572px) {
+    .checkbox__sobrenosotros p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .h1__sobrenosotros {
+        font-size: 12px;
+    }
+
+    .p__sobrenosotros {
+        font-size: 10px;
+    }
+
+    .checkbox__sobrenosotros p {
+        font-size: 10px;
+    }
+
+    .grid__sobrenosotros-seis div p {
+        font-size: 8px;
+    }
+}
+
+
+/*--------------FOOTER-----------*/
+
+@media screen and (max-width:650px) {
+    .logo__avion {
+        width: 100px;
+        height: 100px;
+    }
+
+    .facebook {
+        width: 42px;
+        height: 42px;
+    }
+
+    .twitter {
+        width: 42px;
+        height: 42px;
+    }
+
+    .instagram {
+        width: 42px;
+        height: 42px;
+    }
+}
