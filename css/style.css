@@ -19,12 +19,28 @@ body {
 
 
 /*------------HEADER------------*/
-header {
-    background-color: #3E4346;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+.header-color{
+    background-color: #3E4346 !important;
+}
+
+.form-control{
+    background-color: #14181B !important;
+    border: 1px solid #14181B;
+    color: #CDF6FF !important;
+}
+.form-control::placeholder{
+    color: #CDF6FF;
+}
+
+.boton-color-index{
+    color: #14181B !important;
+    border-color: #CDF6FF !important;
+    background-color: #CDF6FF !important;
+}
+
+.nav-link{
+    color: #CDF6FF !important;
+    margin: 0%;
 }
 
 
@@ -33,11 +49,8 @@ header {
     height: 150px;
 }
 
-header nav ul {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    padding: 0%;
+.container-fluid{
+    margin-right: 25px !important;
 }
 
 header nav ul li a {
@@ -50,7 +63,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #14181B;
+    color: #14181B !important;
 }
 
 .inicio {
@@ -775,6 +788,7 @@ header nav ul li a:hover {
     color: #CDF6FF;
     text-align: center;
     padding: 15px;
+    font-size: 30px;
 }
 
 .flex__conteiner {
@@ -1273,6 +1287,37 @@ footer div {
     }
 }
 
+/* @media screen and (max-width:1366px){
+    .nav-link{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:1310px){
+    .nav-link{
+        font-size: 15px;
+    }
+    .boton-color-index{
+        font-size: 15px;
+    }
+    .form-control{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:1208px){
+    .nav-link{
+        font-size: 13px;
+    }
+    .boton-color-index{
+        font-size: 13px;
+    }
+    .form-control{
+        font-size: 13px;
+    }
+} */
+
+
 @media screen and (max-width:1364px) {
     .excursiones__boton__paquete-viajes {
         position: initial;
@@ -1288,11 +1333,50 @@ footer div {
     }
 }
 
+@media screen and (max-width:1195px){
+    .nav-link{
+        font-size: 17px;
+    }
+    
+}
+
+@media screen and (max-width:1127px){
+    .nav-link{
+        font-size: 15px;
+    }
+    .boton-color-index{
+        font-size: 15px;
+    }
+    .form-control{
+        font-size: 15px;
+    }
+}
+
 @media screen and (max-width:1098px) {
     .excursiones__boton__paquete-viajes {
         height: 160px;
     }
 }
+
+@media screen and (max-width:1035px){
+    .nav-link{
+        font-size: 14px;
+    }
+    .boton-color-index{
+        font-size: 14px;
+    }
+    .form-control{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:991px){
+    .nav-link{
+        padding: 10px;
+        margin-left: 5px;
+    }
+}
+
 
 @media screen and (max-width:960px) {
     header {
@@ -1333,18 +1417,6 @@ footer div {
 
     .excursiones__img-chile {
         height: 523px;
-    }
-}
-
-
-@media screen and (max-width:760px) {
-    header nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    header nav ul li {
-        margin: 10px;
     }
 }
 
@@ -2973,12 +3045,7 @@ footer div {
 
 /*--------------FOOTER-----------*/
 
-@media screen and (max-width:650px) {
-    .logo__avion {
-        width: 100px;
-        height: 100px;
-    }
-
+@media screen and (max-width:503px) {
     .facebook {
         width: 42px;
         height: 42px;
