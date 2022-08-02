@@ -2715,6 +2715,9 @@ footer div {
 }
 
 @media screen and (max-width:1296px) {
+    .h1__sobrenosotros{
+        font-size: 30px;
+    }
     .grid__conteiner-sobrenosotros {
         width: 80%;
     }
