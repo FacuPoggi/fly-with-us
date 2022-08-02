@@ -19,37 +19,39 @@ body {
 
 
 /*------------HEADER------------*/
-.header-color{
+.header-color {
     background-color: #3E4346 !important;
 }
 
-.form-control{
+.form-control {
     background-color: #14181B !important;
     border: 1px solid #14181B;
     color: #CDF6FF !important;
 }
-.form-control::placeholder{
+
+.form-control::placeholder {
     color: #CDF6FF;
 }
 
-.boton-color-index{
+.boton-color-index {
     color: #14181B !important;
     border-color: #CDF6FF !important;
     background-color: #CDF6FF !important;
 }
 
-.nav-link{
+.nav-link {
     color: #CDF6FF !important;
     margin: 0%;
+    margin-right: 10px;
+    margin-left: 10px;
 }
-
 
 .logo__avion {
     width: 150px;
     height: 150px;
 }
 
-.container-fluid{
+.container-fluid {
     margin-right: 25px !important;
 }
 
@@ -134,53 +136,30 @@ header nav ul li a:hover {
     color: #CDF6FF;
 }
 
-.viajes__vuelos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding-top: 50px;
-}
-
-.viajes__vuelos div {
-    width: 301px;
-    height: 410px;
-    border: 1px solid #3E4346;
-    margin-bottom: 30px;
-    text-align: center;
-    background-color: #3E4346;
-    border-radius: 15px;
-    box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
-}
-
-.viajes__vuelos div h3 {
-    color: #CDF6FF;
-    padding: 15px;
-    font-size: 20px;
-    font-weight: 200;
-}
-
-.viajes__vuelos div a {
-    background-color: #CDF6FF;
-    color: #14181B;
-    text-decoration: none;
-    padding: 8px;
-    border-radius: 10px;
-    font-weight: 100;
-}
-
-.viajes__vuelos div a:hover {
-    color: #CDF6FF;
-    background-color: #14181B;
-    border: 1px solid #14181B;
-}
-
-.viajes__vuelos div img {
+.img-carousel {
     width: 100%;
-    height: 300px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    height: 70vh;
+    object-fit: contain;
+}
+
+.carousel-inner {
+    text-align: center !important;
+}
+
+.carousel-control-prev {
+    left: 12%;
+}
+
+.carousel-control-next {
+    right: 12%;
+}
+
+.carousel-caption a {
+    text-decoration: none;
+    color: #14181B;
+    background-color: #CDF6FF;
+    padding: 5px;
+    border-radius: 15px;
 }
 
 .viajes__ofertas {
@@ -1287,37 +1266,6 @@ footer div {
     }
 }
 
-/* @media screen and (max-width:1366px){
-    .nav-link{
-        font-size: 18px;
-    }
-}
-
-@media screen and (max-width:1310px){
-    .nav-link{
-        font-size: 15px;
-    }
-    .boton-color-index{
-        font-size: 15px;
-    }
-    .form-control{
-        font-size: 15px;
-    }
-}
-
-@media screen and (max-width:1208px){
-    .nav-link{
-        font-size: 13px;
-    }
-    .boton-color-index{
-        font-size: 13px;
-    }
-    .form-control{
-        font-size: 13px;
-    }
-} */
-
-
 @media screen and (max-width:1364px) {
     .excursiones__boton__paquete-viajes {
         position: initial;
@@ -1333,21 +1281,29 @@ footer div {
     }
 }
 
-@media screen and (max-width:1195px){
-    .nav-link{
-        font-size: 17px;
+@media screen and (max-width:1289px) {
+    .nav-link {
+        margin: 0%;
     }
-    
 }
 
-@media screen and (max-width:1127px){
-    .nav-link{
+@media screen and (max-width:1195px) {
+    .nav-link {
+        font-size: 17px;
+    }
+
+}
+
+@media screen and (max-width:1127px) {
+    .nav-link {
         font-size: 15px;
     }
-    .boton-color-index{
+
+    .boton-color-index {
         font-size: 15px;
     }
-    .form-control{
+
+    .form-control {
         font-size: 15px;
     }
 }
@@ -1358,20 +1314,22 @@ footer div {
     }
 }
 
-@media screen and (max-width:1035px){
-    .nav-link{
+@media screen and (max-width:1035px) {
+    .nav-link {
         font-size: 14px;
     }
-    .boton-color-index{
+
+    .boton-color-index {
         font-size: 14px;
     }
-    .form-control{
+
+    .form-control {
         font-size: 14px;
     }
 }
 
-@media screen and (max-width:991px){
-    .nav-link{
+@media screen and (max-width:991px) {
+    .nav-link {
         padding: 10px;
         margin-left: 5px;
     }
@@ -1420,10 +1378,28 @@ footer div {
     }
 }
 
-@media screen and (max-width:712px) {
-    .viajes__vuelos div {
-        margin: 10px;
+@media screen and (max-width:829px) {
+    .carousel-caption {
+        margin-bottom: 100px;
     }
+
+    .carousel-indicators {
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width:775px) {
+    .carousel-caption h5 {
+        font-size: 15px;
+    }
+
+    .carousel-caption a {
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width:712px) {
 
     .grid__conteiner__paquete-viajes-argentina {
         grid-template-columns: 500px;
@@ -1441,6 +1417,34 @@ footer div {
 
     .excursiones__boton__paquete-viajes p a {
         font-size: 17px;
+    }
+}
+
+@media screen and (max-width:669px) {
+    .carousel-caption {
+        margin-bottom: 100px;
+    }
+
+    .carousel-indicators {
+        margin-bottom: 100px;
+    }
+
+    .img-carousel {
+        height: 55vh;
+    }
+}
+
+@media screen and (max-width:583px) {
+    .carousel-caption {
+        margin-bottom: 70px;
+    }
+
+    .carousel-indicators {
+        margin-bottom: 70px;
+    }
+
+    .img-carousel {
+        height: 48vh;
     }
 }
 
@@ -1509,14 +1513,6 @@ footer div {
         font-size: 12px;
     }
 
-    .viajes__vuelos div h3 {
-        font-size: 16px;
-    }
-
-    .viajes__vuelos div a {
-        font-size: 13px;
-    }
-
     .grid__conteiner__paquete-viajes-argentina {
         grid-template-columns: 400px;
         grid-template-rows: repeat(3, 0.5fr);
@@ -1578,21 +1574,24 @@ footer div {
         font-size: 10px;
     }
 
-    .viajes__vuelos {
-        padding-top: 30px;
+    .carousel-caption {
+        margin-bottom: 30px;
     }
 
-    .viajes__vuelos div {
-        width: 280px;
-        height: 390px;
+    .carousel-indicators {
+        margin-bottom: 30px;
     }
 
-    .viajes__vuelos div h3 {
-        font-size: 10px;
+    .img-carousel {
+        height: 35vh;
     }
 
-    .viajes__vuelos div a {
-        font-size: 10px;
+    .carousel-caption h5 {
+        font-size: 12px;
+    }
+
+    .carousel-caption a {
+        font-size: 12px;
     }
 
     .index__titulo__paquetes {
@@ -3022,22 +3021,22 @@ footer div {
     }
 }
 
-@media screen and (max-width:430px){
-    .grid__sobrenosotros-seis div p{
+@media screen and (max-width:430px) {
+    .grid__sobrenosotros-seis div p {
         font-size: 7.5px;
     }
 }
 
-@media screen and (max-width:402px){
-    .checkbox__sobrenosotros p{
+@media screen and (max-width:402px) {
+    .checkbox__sobrenosotros p {
         font-size: 8px;
     }
-    
-    .grid__sobrenosotros-cuatro input{
+
+    .grid__sobrenosotros-cuatro input {
         transform: scale(1);
     }
 
-    .grid__sobrenosotros-seis div p{
+    .grid__sobrenosotros-seis div p {
         font-size: 7px;
     }
 }
