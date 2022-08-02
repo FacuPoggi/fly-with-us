@@ -330,7 +330,7 @@ header nav ul li a:hover {
 
 .conteiner__vuelos__argentina div p {
     margin-bottom: 20px;
-    margin-right: 30px;
+    margin-right: 3%;
     font-size: 20px;
     color: #858585;
     letter-spacing: -0.50px;
@@ -348,7 +348,7 @@ header nav ul li a:hover {
     color: #14181B;
     text-align: center;
     border-radius: 10px;
-    margin-right: 30px;
+    margin-right: 3%;
 }
 
 .conteiner__vuelos__argentina div a:hover {
@@ -385,7 +385,7 @@ header nav ul li a:hover {
 
 .conteiner__vuelos__uruguay div p {
     margin-bottom: 20px;
-    margin-left: 30px;
+    margin-left: 3%;
     font-size: 20px;
     color: #858585;
     letter-spacing: -0.50px;
@@ -398,7 +398,7 @@ header nav ul li a:hover {
     color: #14181B;
     text-align: center;
     border-radius: 10px;
-    margin-left: 30px;
+    margin-left: 3%;
 }
 
 .conteiner__vuelos__uruguay div a:hover {
@@ -434,7 +434,7 @@ header nav ul li a:hover {
 
 .conteiner__vuelos__brasil div p {
     margin-bottom: 20px;
-    margin-right: 30px;
+    margin-right: 3%;
     font-size: 20px;
     color: #858585;
     letter-spacing: -0.50px;
@@ -447,7 +447,7 @@ header nav ul li a:hover {
     color: #14181B;
     text-align: center;
     border-radius: 10px;
-    margin-right: 30px;
+    margin-right: 3%;
 }
 
 .conteiner__vuelos__brasil div a:hover {
@@ -484,7 +484,7 @@ header nav ul li a:hover {
 
 .conteiner__vuelos__chile div p {
     margin-bottom: 20px;
-    margin-left: 30px;
+    margin-left: 3%;
     font-size: 20px;
     color: #858585;
     letter-spacing: -0.50px;
@@ -497,7 +497,7 @@ header nav ul li a:hover {
     color: #14181B;
     text-align: center;
     border-radius: 10px;
-    margin-left: 30px;
+    margin-left: 3%;
 }
 
 .conteiner__vuelos__chile div a:hover {
@@ -533,7 +533,7 @@ header nav ul li a:hover {
 
 .conteiner__vuelos__tokyo div p {
     margin-bottom: 20px;
-    margin-right: 30px;
+    margin-right: 3%;
     font-size: 20px;
     color: #858585;
     letter-spacing: -0.50px;
@@ -546,7 +546,7 @@ header nav ul li a:hover {
     color: #14181B;
     text-align: center;
     border-radius: 10px;
-    margin-right: 30px;
+    margin-right: 3%;
 }
 
 .conteiner__vuelos__tokyo div a:hover {
@@ -583,7 +583,7 @@ header nav ul li a:hover {
 
 .conteiner__vuelos__espania div p {
     margin-bottom: 20px;
-    margin-left: 30px;
+    margin-left: 3%;
     font-size: 20px;
     color: #858585;
     letter-spacing: -0.50px;
@@ -596,7 +596,7 @@ header nav ul li a:hover {
     color: #14181B;
     text-align: center;
     border-radius: 10px;
-    margin-left: 30px;
+    margin-left: 3%;
 }
 
 .conteiner__vuelos__espania div a:hover {
@@ -633,7 +633,7 @@ header nav ul li a:hover {
 
 .conteiner__vuelos__italia div p {
     margin-bottom: 20px;
-    margin-right: 30px;
+    margin-right: 3%;
     font-size: 20px;
     color: #858585;
     letter-spacing: -0.50px;
@@ -646,7 +646,7 @@ header nav ul li a:hover {
     color: #3E4346;
     text-align: center;
     border-radius: 10px;
-    margin-right: 30px;
+    margin-right: 3%;
 }
 
 .conteiner__vuelos__italia div a:hover {
@@ -819,12 +819,14 @@ header nav ul li a:hover {
     text-align: center;
     padding: 15px;
     color: #CDF6FF;
+    font-size: 25px;
 }
 
 .excursiones__bloque-texto-japon h2 {
     text-align: center;
     padding: 15px;
     color: #CDF6FF;
+    font-size: 25px;
 }
 
 .excursiones__texto {
@@ -867,7 +869,7 @@ header nav ul li a:hover {
 .excursiones__boton p {
     color: #CDF6FF;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 
@@ -927,7 +929,7 @@ header nav ul li a:hover {
 .excursiones__boton-chile p {
     color: #CDF6FF;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 
@@ -988,7 +990,7 @@ header nav ul li a:hover {
 .excursiones__boton-japon p {
     color: #CDF6FF;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 
@@ -1166,7 +1168,7 @@ header nav ul li a:hover {
 }
 
 .grid__sobrenosotros-cuatro input {
-    margin-left: -55px;
+    margin-left: 0%;
     transform: scale(1.5);
 }
 
@@ -2228,15 +2230,15 @@ footer div {
         font-size: 15px;
     }
 
-    .conteiner__vuelos__argentina div p{
+    .conteiner__vuelos__argentina div p {
         font-size: 7px;
     }
 
-    .conteiner__vuelos__uruguay div p{
+    .conteiner__vuelos__uruguay div p {
         font-size: 7px;
     }
 
-    .conteiner__vuelos__brasil div p{
+    .conteiner__vuelos__brasil div p {
         font-size: 7px;
     }
 
@@ -2244,11 +2246,11 @@ footer div {
         font-size: 7px;
     }
 
-    .conteiner__vuelos__tokyo div p{
+    .conteiner__vuelos__tokyo div p {
         font-size: 7px;
     }
 
-    .conteiner__vuelos__espania div p{
+    .conteiner__vuelos__espania div p {
         font-size: 7px;
     }
 
@@ -2258,6 +2260,16 @@ footer div {
 }
 
 /*-------------EXCURSIONES------------*/
+
+@media screen and (max-width:1620px) {
+    .excursiones__boton-chile {
+        left: 11.1%;
+    }
+
+    .excursiones__boton-japon {
+        left: 76.7%;
+    }
+}
 
 @media screen and (max-width:1490px) {
     .grid__conteiner {
@@ -2292,7 +2304,7 @@ footer div {
     }
 }
 
-@media screen and (max-width:1395px) {
+@media screen and (max-width:1420px) {
 
     .excursiones__boton {
         left: 73.7%;
@@ -2345,9 +2357,11 @@ footer div {
     .excursiones__boton-chile p {
         font-size: 22px;
     }
+
+
 }
 
-@media screen and (max-width:1150px) {
+@media screen and (max-width:1170px) {
     .grid__conteiner-chile {
         margin-top: -80px;
     }
@@ -2462,7 +2476,7 @@ footer div {
     }
 
     .excursiones__bloque-texto h2 {
-        font-size: 15px;
+        font-size: 17px;
     }
 
     .excursiones__bloque-texto-japon h2 {
@@ -2482,7 +2496,7 @@ footer div {
     }
 
     .excursiones__boton-chile p {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .excursiones__boton-chile p a {
@@ -2500,7 +2514,7 @@ footer div {
 
 @media screen and (max-width:830px) {
     .excursiones__h1 {
-        font-size: 18px;
+        font-size: 17px;
     }
 
     .grid__conteiner {
@@ -2530,6 +2544,10 @@ footer div {
     .excursiones__bloque-texto {
         grid-column: 1;
         grid-row: 5;
+    }
+
+    .excursiones__texto {
+        font-size: 13px;
     }
 
     .grid__conteiner-chile {
@@ -2715,7 +2733,7 @@ footer div {
     }
 }
 
-@media screen and (max-width:544px) {
+@media screen and (max-width:570px) {
     .excursiones__bloque-texto h2 {
         font-size: 13px;
     }
@@ -2741,7 +2759,33 @@ footer div {
     }
 }
 
+@media screen and (max-width:460px) {
+    .excursiones__bloque-texto h2 {
+        font-size: 12px;
+    }
+
+    .excursiones__texto {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width:370px) {
+    .excursiones__texto {
+        font-size: 7px;
+    }
+}
+
 /*----------SOBRE NOSOTROS---------*/
+
+@media screen and (max-width:1560px) {
+    .checkbox__sobrenosotros p {
+        font-size: 20px;
+    }
+
+    .grid__sobrenosotros-seis div p {
+        font-size: 15px;
+    }
+}
 
 @media screen and (max-width:1482px) {
     .checkbox__sobrenosotros p {
@@ -2786,6 +2830,10 @@ footer div {
         font-size: 15px;
     }
 
+    .grid__conteiner-sobrenosotros {
+        grid-template-rows: 100px 200px 200px 200px 200px 100px 300px;
+    }
+
     .grid__conteiner-sobrenosotros h2 {
         font-size: 20px;
     }
@@ -2812,6 +2860,10 @@ footer div {
 }
 
 @media screen and (max-width:834px) {
+    .grid__conteiner-sobrenosotros {
+        grid-template-rows: 50px 200px 200px 200px 200px 100px 300px;
+    }
+
     .grid__sobrenosotros-cuatro p {
         font-size: 15px;
     }
@@ -2895,6 +2947,26 @@ footer div {
 
     .grid__sobrenosotros-seis div p {
         font-size: 8px;
+    }
+}
+
+@media screen and (max-width:430px){
+    .grid__sobrenosotros-seis div p{
+        font-size: 7.5px;
+    }
+}
+
+@media screen and (max-width:402px){
+    .checkbox__sobrenosotros p{
+        font-size: 8px;
+    }
+    
+    .grid__sobrenosotros-cuatro input{
+        transform: scale(1);
+    }
+
+    .grid__sobrenosotros-seis div p{
+        font-size: 7px;
     }
 }
 
