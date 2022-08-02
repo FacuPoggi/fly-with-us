@@ -144,6 +144,7 @@ header nav ul li a:hover {
 .viajes__vuelos div h3 {
     color: #CDF6FF;
     padding: 15px;
+    font-size: 20px;
     font-weight: 200;
 }
 
@@ -236,6 +237,7 @@ header nav ul li a:hover {
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
+    margin: 0%;
 }
 
 .excursiones__img {
@@ -1576,6 +1578,16 @@ footer div {
 
 /*---------------VUELOS------------*/
 
+@media screen and (max-width:1504px) {
+    .conteiner__vuelos__chile div p {
+        font-size: 17px;
+    }
+
+    .conteiner__vuelos__italia div p {
+        font-size: 17px;
+    }
+}
+
 @media screen and (max-width:1490px) {
     .conteiner__vuelos__argentina {
         width: 90%;
@@ -2215,6 +2227,34 @@ footer div {
     .alojamiento__h1 {
         font-size: 15px;
     }
+
+    .conteiner__vuelos__argentina div p{
+        font-size: 7px;
+    }
+
+    .conteiner__vuelos__uruguay div p{
+        font-size: 7px;
+    }
+
+    .conteiner__vuelos__brasil div p{
+        font-size: 7px;
+    }
+
+    .conteiner__vuelos__chile div p {
+        font-size: 7px;
+    }
+
+    .conteiner__vuelos__tokyo div p{
+        font-size: 7px;
+    }
+
+    .conteiner__vuelos__espania div p{
+        font-size: 7px;
+    }
+
+    .conteiner__vuelos__italia div p {
+        font-size: 7px;
+    }
 }
 
 /*-------------EXCURSIONES------------*/
@@ -2715,9 +2755,10 @@ footer div {
 }
 
 @media screen and (max-width:1296px) {
-    .h1__sobrenosotros{
+    .h1__sobrenosotros {
         font-size: 30px;
     }
+
     .grid__conteiner-sobrenosotros {
         width: 80%;
     }
