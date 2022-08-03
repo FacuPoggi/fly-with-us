@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--BOOTSTRAP-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!--CSS--->
     <link rel="stylesheet" href="../css/style.css">
     <title>Fly With Us</title>
@@ -42,7 +43,8 @@
                         </li>
                     </ul>
                     <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="¿A dónde vas a viajar?" aria-label="Search">
+                        <input class="form-control form-control-index me-2" type="search"
+                            placeholder="¿A dónde vas a viajar?" aria-label="Search">
                         <button class="btn boton-color-index" type="submit">Buscar</button>
                     </form>
                 </div>
@@ -60,70 +62,45 @@
                 </p>
             </div>
         </section>
+        <br>
         <section>
-            <div>
-                <div class="grid__conteiner-sobrenosotros">
-                    <h2>¡Contactanos!</h2>
-                    <form action="">
-                        <div class="grid__sobrenosotros-uno">
-                            <hr>
-                            <br>
-                            <label for="nombre-y-apellido">¿Cuál es tu nombre?</label>
-                            <input type="text" name="nombre-y-apellido">
-                            <br>
-                            <br>
-                            <br>
-                        </div>
-                        <div class="grid__sobrenosotros-dos">
-                            <hr>
-                            <br>
-                            <label for="email">Déjanos tu email</label>
-                            <input type="text" name="email">
-                            <br>
-                            <br>
-                            <br>
-                        </div>
-                        <div class="grid__sobrenosotros-tres">
-                            <hr>
-                            <br>
-                            <div>
-                                <label for="telefono">Déjanos tu teléfono</label>
-                                <input type="text" name="telefono">
-                            </div>
-                            <br>
-                            <br>
-                            <br>
-                        </div>
-                        <div class="grid__sobrenosotros-cuatro">
-                            <hr>
-                            <br>
-                            <p>Escribinos tu consulta.</p>
-                            <textarea name="" id="" cols="30" rows="10"></textarea>
-                            <br>
-                            <br>
-                            <div class="checkbox__sobrenosotros">
-                                <input type="checkbox" name="" id="">
-                                <p>He leído y acepto los términos y condiciones de uso</p>
-                            </div>
-                            <br>
-                        </div>
-                        <div class="grid__sobrenosotros-cinco">
-                            <br>
-                            <input type="submit">
-                        </div>
-                        <div class="grid__sobrenosotros-seis">
-                            <hr>
-                            <br>
-                            <div class="flex__sobrenosotros-seis">
-                                <p>¡También podes contactarnos por Whatsapp para una respuesta más rápida!</p>
-                                <a href="https://web.whatsapp.com" target="_blank"><img class="whatsapp"
-                                        src="../img/whatsapp.png" alt="whatsapp"></a>
-                            </div>
-                        </div>
-                    </form>
-                </div>
+            <div class="form-sobrenosotros">
+                <form>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label form-label-sobrenosotros">¿Cuál es tu
+                            nombre?</label>
+                        <input type="text" class="form-control form-control-sobrenosotros" id="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label form-label-sobrenosotros">Déjanos tu
+                            teléfono</label>
+                        <input type="text" class="form-control form-control-sobrenosotros" id="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label form-label-sobrenosotros">Déjanos tu
+                            email</label>
+                        <input type="email" class="form-control form-control-sobrenosotros" id="exampleInputEmail1"
+                            aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text form-text-sobrenosotros">We'll never share your email with
+                            anyone else.</div>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input form-check-input-sobrenosotros"
+                            id="exampleCheck1">
+                        <label class="form-check-label form-check-label-sobrenosotros" for="exampleCheck1">Check me
+                            out</label>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label form-label-sobrenosotros">Example
+                            textarea</label>
+                        <textarea class="form-control form-control-sobrenosotros" id="exampleFormControlTextarea1"
+                            rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn boton-color-sobrenosotros">Submit</button>
+                </form>
             </div>
         </section>
+        <br>
     </main>
 
     <footer>
@@ -139,7 +116,9 @@
     </footer>
 
     <!--JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

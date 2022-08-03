@@ -23,13 +23,13 @@ body {
     background-color: #3E4346 !important;
 }
 
-.form-control {
+.form-control-index {
     background-color: #14181B !important;
     border: 1px solid #14181B;
     color: #CDF6FF !important;
 }
 
-.form-control::placeholder {
+.form-control-index::placeholder {
     color: #CDF6FF;
 }
 
@@ -162,7 +162,7 @@ header nav ul li a:hover {
     border-radius: 13px;
 }
 
-.carousel-boton-index a:hover{
+.carousel-boton-index a:hover {
     background-color: #14181B;
     color: #CDF6FF;
 }
@@ -749,189 +749,47 @@ header nav ul li a:hover {
     background-size: cover;
 }
 
-.grid__conteiner-sobrenosotros {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 100px 200px 200px 200px 200px 100px 350px;
-    width: 50%;
-    height: 100%;
-    margin: 0 auto;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    background-color: #3E4346;
-    border: 2px solid #3E4346;
+.form-sobrenosotros {
+    width: 30%;
+    margin: 0% auto;
 }
 
-.grid__conteiner-sobrenosotros h2 {
-    grid-row: 1;
-    text-align: center;
-    font-size: 30px;
-    color: #CDF6FF;
+.form-control-sobrenosotros {
+    background-color: #444444 !important;
+    border: 2px solid #858585;
+    color: #9dccd6 !important;
 }
 
-.grid__sobrenosotros-uno {
-    grid-row: 2;
+.form-label-sobrenosotros {
+    color: #9dccd6;
 }
 
-.grid__sobrenosotros-uno hr {
-    height: 5px;
-    background-color: #14181B;
-    border: 1px solid #14181B;
+.form-text-sobrenosotros {
+    color: #9dccd6;
 }
 
-.grid__sobrenosotros-uno label {
-    margin-left: 7%;
-    font-size: 25px;
-    color: #CDF6FF;
+.form-check-label-sobrenosotros {
+    color: #9dccd6;
 }
 
-.grid__sobrenosotros-uno input {
-    margin-left: 7%;
-    width: 85%;
-    font-size: 20px;
-    background-color: #14181B;
-    color: #CDF6FF;
-    height: 35px;
-    font-family: 'Renogare';
+.form-check-input {
+    background-color: #858585 !important;
 }
 
-.grid__sobrenosotros-dos {
-    grid-row: 2;
+.form-check-input:checked {
+    background-color: #14181B !important;
+    border-color: #CDF6FF;
 }
 
-.grid__sobrenosotros-dos hr {
-    height: 5px;
-    background-color: #14181B;
-    border: 1px solid #14181B;
-}
-
-.grid__sobrenosotros-dos label {
-    margin-left: 7%;
-    font-size: 25px;
-    color: #CDF6FF;
-}
-
-.grid__sobrenosotros-dos input {
-    margin-left: 7%;
-    width: 85%;
-    font-size: 20px;
-    background-color: #14181B;
-    color: #CDF6FF;
-    height: 35px;
-    font-family: 'Renogare';
-}
-
-.grid__sobrenosotros-tres {
-    grid-row: 3;
-}
-
-.grid__sobrenosotros-tres hr {
-    height: 5px;
-    background-color: #14181B;
-    border: 1px solid #14181B;
-}
-
-.grid__sobrenosotros-tres label {
-    margin-left: 7%;
-    font-size: 25px;
-    color: #CDF6FF;
-}
-
-.grid__sobrenosotros-tres input {
-    margin-left: 7%;
-    width: 85%;
-    font-size: 20px;
-    background-color: #14181B;
-    color: #CDF6FF;
-    height: 35px;
-    font-family: 'Renogare';
-}
-
-.grid__sobrenosotros-cuatro {
-    grid-row: 4;
-}
-
-.grid__sobrenosotros-cuatro hr {
-    height: 5px;
-    background-color: #14181B;
-    border: 1px solid #14181B;
-}
-
-.grid__sobrenosotros-cuatro p {
-    margin-left: 7%;
-    font-size: 25px;
-    color: #CDF6FF;
-}
-
-.grid__sobrenosotros-cuatro textarea {
-    margin-left: 7%;
-    width: 85%;
-    height: 200px;
-    background-color: #14181B;
-    color: #CDF6FF;
-    font-family: 'Renogare';
-    font-size: 20px;
-}
-
-.grid__sobrenosotros-cuatro input {
-    margin-left: 0%;
-    transform: scale(1.5);
-}
-
-.checkbox__sobrenosotros {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.checkbox__sobrenosotros p {
-    font-size: 25px;
-    color: #CDF6FF;
-}
-
-.grid__sobrenosotros-cinco {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50%;
-    grid-row: 5;
-}
-
-.grid__sobrenosotros-cinco input {
-    font-size: 25px;
-    width: 15%;
-    background-color: #CDF6FF;
-    border: 2px solid #CDF6FF;
+.boton-color-sobrenosotros {
+    background-color: #858585;
     color: #14181B;
 }
 
-.grid__sobrenosotros-cinco input:hover {
-    color: #CDF6FF;
+.boton-color-sobrenosotros:hover {
+    border: 2px solid #444444;
     background-color: #14181B;
-    border: 1px solid #14181B;
-}
-
-.flex__sobrenosotros-seis {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.grid__sobrenosotros-seis hr {
-    height: 5px;
-    background-color: #14181B;
-    border: 1px solid #14181B;
-}
-
-.grid__sobrenosotros-seis div p {
-    font-size: 20px;
     color: #CDF6FF;
-}
-
-.whatsapp {
-    width: 64px;
-    height: 64px;
 }
 
 /*----------FOOTER------------*/
@@ -1365,203 +1223,242 @@ footer div {
 
 /*---------------VUELOS------------*/
 
-@media screen and (max-width:1270px){
-    .card-vuelos-titulo{
+@media screen and (max-width:1270px) {
+    .card-vuelos-titulo {
         font-size: 22px;
     }
-    .card-texto-vuelos{
+
+    .card-texto-vuelos {
         font-size: 13px;
     }
-    .vuelos__precio strong{
+
+    .vuelos__precio strong {
         font-size: 22px;
     }
-    .card-body-vuelos a{
+
+    .card-body-vuelos a {
         font-size: 14px;
     }
 }
 
-@media screen and (max-width:1267px){
-    .card-vuelos{
+@media screen and (max-width:1267px) {
+    .card-vuelos {
         margin-right: 200px;
     }
-    .card-vuelos-contrario{
+
+    .card-vuelos-contrario {
         margin-left: 200px;
     }
 }
 
-@media screen and (max-width:1063px){
-    .card-vuelos-titulo{
+@media screen and (max-width:1063px) {
+    .card-vuelos-titulo {
         font-size: 20px;
     }
-    .card-texto-vuelos{
+
+    .card-texto-vuelos {
         font-size: 12px;
     }
-    .vuelos__precio strong{
+
+    .vuelos__precio strong {
         font-size: 20px;
     }
-    .card-body-vuelos a{
+
+    .card-body-vuelos a {
         font-size: 14px;
         padding: 8px;
     }
 }
 
-@media screen and (max-width:1023px){
-    .card-vuelos{
+@media screen and (max-width:1023px) {
+    .card-vuelos {
         margin-right: 150px;
     }
-    .card-vuelos-contrario{
+
+    .card-vuelos-contrario {
         margin-left: 150px;
     }
 }
 
-@media screen and (max-width:989px){
-    .vuelos__h1{
+@media screen and (max-width:989px) {
+    .vuelos__h1 {
         font-size: 22px;
     }
-    .card-vuelos{
+
+    .card-vuelos {
         margin-right: 150px;
     }
-    .card-vuelos-contrario{
+
+    .card-vuelos-contrario {
         margin-left: 150px;
     }
 }
 
-@media screen and (max-width:817px){
-    .vuelos__h1{
+@media screen and (max-width:817px) {
+    .vuelos__h1 {
         font-size: 20px;
     }
-    .card-vuelos-titulo{
+
+    .card-vuelos-titulo {
         font-size: 17px;
     }
-    .card-texto-vuelos{
+
+    .card-texto-vuelos {
         font-size: 10px;
     }
-    .vuelos__precio strong{
+
+    .vuelos__precio strong {
         font-size: 17px;
     }
-    .card-body-vuelos a{
+
+    .card-body-vuelos a {
         font-size: 12px;
     }
 }
 
-@media screen and (max-width:767px){
-    .card-vuelos{
+@media screen and (max-width:767px) {
+    .card-vuelos {
         margin-right: 0%;
         margin: 0 auto;
     }
-    .card-vuelos-contrario{
+
+    .card-vuelos-contrario {
         margin-left: 0%;
         margin: 0 auto;
     }
-    .vuelos__h1{
+
+    .vuelos__h1 {
         font-size: 18px;
     }
-    .card-vuelos-titulo{
+
+    .card-vuelos-titulo {
         font-size: 15px;
     }
-    .card-texto-vuelos{
+
+    .card-texto-vuelos {
         font-size: 8px;
     }
-    .vuelos__precio strong{
+
+    .vuelos__precio strong {
         font-size: 15px;
     }
-    .card-body-vuelos a{
+
+    .card-body-vuelos a {
         font-size: 10px;
         padding: 5px;
     }
 }
 
-@media screen and (max-width:581px){
-    .card-vuelos{
+@media screen and (max-width:581px) {
+    .card-vuelos {
         max-width: 100% !important;
     }
-    .card-vuelos-contrario{
+
+    .card-vuelos-contrario {
         max-width: 100% !important;
     }
-    .vuelos__h1{
+
+    .vuelos__h1 {
         font-size: 18px;
     }
-    .card-vuelos-titulo{
+
+    .card-vuelos-titulo {
         font-size: 12px;
     }
-    .card-texto-vuelos{
+
+    .card-texto-vuelos {
         font-size: 6px;
         margin: 0%;
     }
-    .vuelos__precio{
+
+    .vuelos__precio {
         margin: 0%;
     }
-    .vuelos__precio strong{
+
+    .vuelos__precio strong {
         font-size: 12px;
     }
-    .card-body-vuelos a{
+
+    .card-body-vuelos a {
         font-size: 8px;
     }
 }
 
-@media screen and (max-width:500px){
-    .vuelos__h1{
+@media screen and (max-width:500px) {
+    .vuelos__h1 {
         font-size: 15px;
     }
 }
 
-@media screen and (max-width:473px){
-    .vuelos__h1{
+@media screen and (max-width:473px) {
+    .vuelos__h1 {
         font-size: 15px;
     }
-    .card-vuelos-titulo{
+
+    .card-vuelos-titulo {
         font-size: 10px;
     }
-    .card-texto-vuelos{
+
+    .card-texto-vuelos {
         font-size: 5px;
     }
-    .vuelos__precio strong{
+
+    .vuelos__precio strong {
         font-size: 10px;
     }
-    .card-body-vuelos a{
+
+    .card-body-vuelos a {
         font-size: 7px;
     }
 }
 
-@media screen and (max-width:411px){
-    .vuelos__h1{
+@media screen and (max-width:411px) {
+    .vuelos__h1 {
         font-size: 12px;
     }
-    .card-vuelos-titulo{
+
+    .card-vuelos-titulo {
         font-size: 8px;
     }
-    .card-texto-vuelos{
+
+    .card-texto-vuelos {
         font-size: 5px;
     }
-    .vuelos__precio strong{
+
+    .vuelos__precio strong {
         font-size: 8px;
     }
-    .card-body-vuelos a{
+
+    .card-body-vuelos a {
         font-size: 6px;
         padding: 3px;
     }
 }
 
-@media screen and (max-width:344px){
-    .vuelos__h1{
+@media screen and (max-width:344px) {
+    .vuelos__h1 {
         font-size: 10px;
     }
-    .card-vuelos-titulo{
+
+    .card-vuelos-titulo {
         font-size: 7px;
     }
-    .card-texto-vuelos{
+
+    .card-texto-vuelos {
         font-size: 5px;
     }
-    .vuelos__precio strong{
+
+    .vuelos__precio strong {
         font-size: 7px;
     }
-    .card-body-vuelos a{
+
+    .card-body-vuelos a {
         font-size: 5px;
     }
 }
 
-@media screen and (max-width:313px){
-    .card-vuelos-titulo{
+@media screen and (max-width:313px) {
+    .card-vuelos-titulo {
         font-size: 6px;
     }
 }
@@ -2186,43 +2083,15 @@ footer div {
 
 /*----------SOBRE NOSOTROS---------*/
 
-@media screen and (max-width:1560px) {
-    .checkbox__sobrenosotros p {
-        font-size: 20px;
-    }
-
-    .grid__sobrenosotros-seis div p {
-        font-size: 15px;
-    }
-}
-
-@media screen and (max-width:1482px) {
-    .checkbox__sobrenosotros p {
-        font-size: 18px;
-        margin-left: 10px;
-    }
-
-    .grid__sobrenosotros-seis div p {
-        font-size: 15px;
-    }
-}
-
 @media screen and (max-width:1296px) {
     .h1__sobrenosotros {
         font-size: 30px;
     }
+}
 
-    .grid__conteiner-sobrenosotros {
-        width: 80%;
-    }
-
-    .checkbox__sobrenosotros p {
-        font-size: 18px;
-        margin-left: 10px;
-    }
-
-    .grid__sobrenosotros-seis div p {
-        font-size: 12px;
+@media screen and (max-width:1155px) {
+    .form-text-sobrenosotros {
+        font-size: 11px;
     }
 }
 
@@ -2238,57 +2107,11 @@ footer div {
     .p__sobrenosotros {
         font-size: 15px;
     }
-
-    .grid__conteiner-sobrenosotros {
-        grid-template-rows: 100px 200px 200px 200px 200px 100px 300px;
-    }
-
-    .grid__conteiner-sobrenosotros h2 {
-        font-size: 20px;
-    }
-
-    .grid__sobrenosotros-uno label {
-        font-size: 15px;
-    }
-
-    .grid__sobrenosotros-dos label {
-        font-size: 15px;
-    }
-
-    .grid__sobrenosotros-tres label {
-        font-size: 15px;
-    }
-
-    .grid__sobrenosotros-cuatro p {
-        font-size: 15px;
-    }
-
-    .grid__sobrenosotros-cinco input {
-        font-size: 20px;
-    }
 }
 
-@media screen and (max-width:834px) {
-    .grid__conteiner-sobrenosotros {
-        grid-template-rows: 50px 200px 200px 200px 200px 100px 300px;
-    }
-
-    .grid__sobrenosotros-cuatro p {
-        font-size: 15px;
-    }
-}
-
-@media screen and (max-width:734px) {
-    .flex__sobrenosotros-seis {
-        flex-direction: column;
-    }
-
-    .grid__sobrenosotros-seis div p {
-        margin-bottom: 20px;
-    }
-
-    .grid__sobrenosotros-cinco input {
-        width: 80px;
+@media screen and (max-width:907px) {
+    .form-text-sobrenosotros {
+        font-size: 9px;
     }
 }
 
@@ -2301,42 +2124,23 @@ footer div {
         font-size: 12px;
     }
 
-    .grid__conteiner-sobrenosotros h2 {
-        font-size: 15px;
+    .form-sobrenosotros{
+        width: 45%;
     }
 
-    .grid__sobrenosotros-uno label {
+    .form-label-sobrenosotros {
         font-size: 12px;
     }
 
-    .grid__sobrenosotros-dos label {
+    .form-text-sobrenosotros {
+        font-size: 7px;
+    }
+
+    .form-check-label-sobrenosotros {
         font-size: 12px;
     }
 
-    .grid__sobrenosotros-tres label {
-        font-size: 12px;
-    }
-
-    .grid__sobrenosotros-cuatro p {
-        font-size: 13px;
-    }
-
-    .grid__sobrenosotros-cinco input {
-        font-size: 15px;
-    }
-
-    .grid__sobrenosotros-seis div p {
-        font-size: 10px;
-    }
-
-    .whatsapp {
-        width: 42px;
-        height: 42px;
-    }
-}
-
-@media screen and (max-width:572px) {
-    .checkbox__sobrenosotros p {
+    .boton-color-sobrenosotros {
         font-size: 12px;
     }
 }
@@ -2350,35 +2154,62 @@ footer div {
         font-size: 10px;
     }
 
-    .checkbox__sobrenosotros p {
+    .form-label-sobrenosotros {
         font-size: 10px;
     }
 
-    .grid__sobrenosotros-seis div p {
+    .form-check-label-sobrenosotros {
+        font-size: 10px;
+    }
+
+    .boton-color-sobrenosotros {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:412px){
+    .form-label-sobrenosotros {
+        font-size: 9px;
+    }
+
+    .form-text-sobrenosotros {
+        font-size: 5px;
+    }
+
+    .form-check-label-sobrenosotros {
+        font-size: 9px;
+    }
+
+    .boton-color-sobrenosotros {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width:393px) {
+    .h1__sobrenosotros {
+        font-size: 10px;
+    }
+
+    .p__sobrenosotros {
+        font-size: 8px;
+    }
+
+    .form-label-sobrenosotros {
+        font-size: 8px;
+    }
+
+    .form-text-sobrenosotros {
+        font-size: 5px;
+    }
+
+    .form-check-label-sobrenosotros {
+        font-size: 8px;
+    }
+
+    .boton-color-sobrenosotros {
         font-size: 8px;
     }
 }
-
-@media screen and (max-width:430px) {
-    .grid__sobrenosotros-seis div p {
-        font-size: 7.5px;
-    }
-}
-
-@media screen and (max-width:402px) {
-    .checkbox__sobrenosotros p {
-        font-size: 8px;
-    }
-
-    .grid__sobrenosotros-cuatro input {
-        transform: scale(1);
-    }
-
-    .grid__sobrenosotros-seis div p {
-        font-size: 7px;
-    }
-}
-
 
 /*--------------FOOTER-----------*/
 
