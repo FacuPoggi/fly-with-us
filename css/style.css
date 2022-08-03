@@ -295,37 +295,46 @@ header nav ul li a:hover {
     color: #CDF6FF;
 }
 
-.conteiner__vuelos__argentina {
-    margin: 0 auto;
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+.card-vuelos {
+    background-color: #14181B;
     border: 2px solid #3E4346;
-    margin-right: 300px;
-    box-shadow: 10px 10px 25px -6px rgb(0 0 0 / 75%);
-    -webkit-box-shadow: 10px 10px 25px -6px rgb(0 0 0 / 75%);
-    -moz-box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
+    margin: 0 auto;
+    margin-right: 250px;
+    border-radius: 35px;
 }
 
-.conteiner__vuelos__argentina div {
-    width: 50%;
+.card-vuelos-contrario {
+    background-color: #14181B;
+    border: 2px solid #3E4346;
+    margin: 0 auto;
+    margin-left: 250px;
+    border-radius: 35px;
+}
+
+.bordes-img-vuelos {
+    border-bottom-left-radius: 35px;
+    border-top-left-radius: 35px;
+}
+
+.bordes-img-vuelos-contrario {
+    border-bottom-right-radius: 35px;
+    border-top-right-radius: 35px;
+}
+
+.card-body-vuelos {
+    width: 100%;
     text-align: center;
 }
 
-.conteiner__vuelos__argentina div h2 {
+.card-vuelos-titulo {
     font-size: 25px;
     margin-bottom: 10px;
     color: #CDF6FF;
 }
 
-.conteiner__vuelos__argentina div p {
-    margin-bottom: 20px;
-    margin-right: 3%;
-    font-size: 20px;
+.card-texto-vuelos {
     color: #858585;
-    letter-spacing: -0.50px;
+    letter-spacing: 0.30px;
 }
 
 .vuelos__precio strong {
@@ -333,353 +342,54 @@ header nav ul li a:hover {
     color: #CDF6FF;
 }
 
-.conteiner__vuelos__argentina div a {
+.card-body-vuelos a {
     background-color: #CDF6FF;
     padding: 10px;
     text-decoration: none;
     color: #14181B;
     text-align: center;
-    border-radius: 10px;
-    margin-right: 3%;
+    border-radius: 15px;
 }
 
-.conteiner__vuelos__argentina div a:hover {
-    color: #14181B;
-    background-color: #858585;
-    border: 1px solid #858585;
-}
-
-.conteiner__vuelos__uruguay {
-    margin: 0 auto;
-    width: 80%;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
-    border: 2px solid #3E4346;
-    margin-top: 20px;
-    margin-left: 300px;
-    box-shadow: 10px 10px 25px -6px rgb(0 0 0 / 75%);
-    -webkit-box-shadow: 10px 10px 25px -6px rgb(0 0 0 / 75%);
-    -moz-box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
-}
-
-.conteiner__vuelos__uruguay div {
-    width: 50%;
-    text-align: center;
-}
-
-.conteiner__vuelos__uruguay div h2 {
-    font-size: 25px;
-    margin-bottom: 10px;
-    color: #CDF6FF;
-}
-
-.conteiner__vuelos__uruguay div p {
-    margin-bottom: 20px;
-    margin-left: 3%;
-    font-size: 20px;
-    color: #858585;
-    letter-spacing: -0.50px;
-}
-
-.conteiner__vuelos__uruguay div a {
-    background-color: #CDF6FF;
-    padding: 10px;
-    text-decoration: none;
-    color: #14181B;
-    text-align: center;
-    border-radius: 10px;
-    margin-left: 3%;
-}
-
-.conteiner__vuelos__uruguay div a:hover {
-    color: #14181B;
-    background-color: #858585;
-    border: 1px solid #858585;
-}
-
-.conteiner__vuelos__brasil {
-    margin: 0 auto;
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 2px solid #3E4346;
-    margin-top: 20px;
-    margin-right: 300px;
-    box-shadow: 10px 10px 25px -6px rgb(0 0 0 / 75%);
-    -webkit-box-shadow: 10px 10px 25px -6px rgb(0 0 0 / 75%);
-    -moz-box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
-}
-
-.conteiner__vuelos__brasil div {
-    width: 50%;
-    text-align: center;
-}
-
-.conteiner__vuelos__brasil div h2 {
-    font-size: 25px;
-    margin-bottom: 10px;
-    color: #CDF6FF;
-}
-
-.conteiner__vuelos__brasil div p {
-    margin-bottom: 20px;
-    margin-right: 3%;
-    font-size: 20px;
-    color: #858585;
-    letter-spacing: -0.50px;
-}
-
-.conteiner__vuelos__brasil div a {
-    background-color: #CDF6FF;
-    padding: 10px;
-    text-decoration: none;
-    color: #14181B;
-    text-align: center;
-    border-radius: 10px;
-    margin-right: 3%;
-}
-
-.conteiner__vuelos__brasil div a:hover {
-    color: #14181B;
-    background-color: #858585;
-    border: 1px solid #858585;
-}
-
-.conteiner__vuelos__chile {
-    margin: 0 auto;
-    width: 80%;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
-    border: 2px solid #3E4346;
-    margin-top: 20px;
-    margin-left: 300px;
-    box-shadow: 10px 10px 25px -6px rgb(0 0 0 / 75%);
-    -webkit-box-shadow: 10px 10px 25px -6px rgb(0 0 0 / 75%);
-    -moz-box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
-}
-
-.conteiner__vuelos__chile div {
-    width: 50%;
-    text-align: center;
-}
-
-.conteiner__vuelos__chile div h2 {
-    font-size: 25px;
-    margin-bottom: 10px;
-    color: #CDF6FF;
-}
-
-.conteiner__vuelos__chile div p {
-    margin-bottom: 20px;
-    margin-left: 3%;
-    font-size: 20px;
-    color: #858585;
-    letter-spacing: -0.50px;
-}
-
-.conteiner__vuelos__chile div a {
-    background-color: #CDF6FF;
-    padding: 10px;
-    text-decoration: none;
-    color: #14181B;
-    text-align: center;
-    border-radius: 10px;
-    margin-left: 3%;
-}
-
-.conteiner__vuelos__chile div a:hover {
-    color: #14181B;
-    background-color: #858585;
-    border: 1px solid #858585;
-}
-
-.conteiner__vuelos__tokyo {
-    margin: 0 auto;
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 2px solid #3E4346;
-    margin-top: 20px;
-    margin-right: 300px;
-    box-shadow: 10px 10px 25px -6px rgb(0 0 0 / 75%);
-    -webkit-box-shadow: 10px 10px 25px -6px rgb(0 0 0 / 75%);
-    -moz-box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
-}
-
-.conteiner__vuelos__tokyo div {
-    width: 50%;
-    text-align: center;
-}
-
-.conteiner__vuelos__tokyo div h2 {
-    font-size: 25px;
-    margin-bottom: 10px;
-    color: #CDF6FF;
-}
-
-.conteiner__vuelos__tokyo div p {
-    margin-bottom: 20px;
-    margin-right: 3%;
-    font-size: 20px;
-    color: #858585;
-    letter-spacing: -0.50px;
-}
-
-.conteiner__vuelos__tokyo div a {
-    background-color: #CDF6FF;
-    padding: 10px;
-    text-decoration: none;
-    color: #14181B;
-    text-align: center;
-    border-radius: 10px;
-    margin-right: 3%;
-}
-
-.conteiner__vuelos__tokyo div a:hover {
-    color: #14181B;
-    background-color: #858585;
-    border: 1px solid #858585;
-}
-
-.conteiner__vuelos__espania {
-    margin: 0 auto;
-    width: 80%;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
-    border: 2px solid #3E4346;
-    margin-top: 20px;
-    margin-left: 300px;
-    box-shadow: 10px 10px 25px -6px rgb(0 0 0 / 75%);
-    -webkit-box-shadow: 10px 10px 25px -6px rgb(0 0 0 / 75%);
-    -moz-box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
-}
-
-.conteiner__vuelos__espania div {
-    width: 50%;
-    text-align: center;
-}
-
-.conteiner__vuelos__espania div h2 {
-    font-size: 25px;
-    margin-bottom: 10px;
-    color: #CDF6FF;
-}
-
-.conteiner__vuelos__espania div p {
-    margin-bottom: 20px;
-    margin-left: 3%;
-    font-size: 20px;
-    color: #858585;
-    letter-spacing: -0.50px;
-}
-
-.conteiner__vuelos__espania div a {
-    background-color: #CDF6FF;
-    padding: 10px;
-    text-decoration: none;
-    color: #14181B;
-    text-align: center;
-    border-radius: 10px;
-    margin-left: 3%;
-}
-
-.conteiner__vuelos__espania div a:hover {
-    color: #14181B;
-    background-color: #858585;
-    border: 1px solid #858585;
-}
-
-.conteiner__vuelos__italia {
-    margin: 0 auto;
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 2px solid #3E4346;
-    margin-bottom: 50px;
-    margin-top: 20px;
-    margin-right: 300px;
-    box-shadow: 10px 10px 25px -6px rgb(0 0 0 / 75%);
-    -webkit-box-shadow: 10px 10px 25px -6px rgb(0 0 0 / 75%);
-    -moz-box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
-}
-
-.conteiner__vuelos__italia div {
-    width: 50%;
-    text-align: center;
-}
-
-.conteiner__vuelos__italia div h2 {
-    font-size: 25px;
-    margin-bottom: 10px;
-    color: #CDF6FF;
-}
-
-.conteiner__vuelos__italia div p {
-    margin-bottom: 20px;
-    margin-right: 3%;
-    font-size: 20px;
-    color: #858585;
-    letter-spacing: -0.50px;
-}
-
-.conteiner__vuelos__italia div a {
-    background-color: #CDF6FF;
-    padding: 10px;
-    text-decoration: none;
-    color: #3E4346;
-    text-align: center;
-    border-radius: 10px;
-    margin-right: 3%;
-}
-
-.conteiner__vuelos__italia div a:hover {
+.card-body-vuelos a:hover {
     color: #14181B;
     background-color: #858585;
     border: 1px solid #858585;
 }
 
 .buenosaires {
-    width: 35%;
-    height: 600px;
+    width: 100%;
+    height: 100%;
 }
 
 .montevideo {
-    width: 35%;
-    height: 600px;
+    width: 100%;
+    height: 100%;
 }
 
 .riodejaneiro {
-    width: 35%;
-    height: 600px;
+    width: 100%;
+    height: 100%;
 }
 
 .santiagodechile {
-    width: 35%;
-    height: 600px;
+    width: 100%;
+    height: 100%;
 }
 
 .tokyo {
-    width: 35%;
-    height: 600px;
+    width: 100%;
+    height: 100%;
 }
 
 .madrid {
-    width: 35%;
-    height: 600px;
+    width: 100%;
+    height: 100%;
 }
 
 .venecia {
-    width: 35%;
-    height: 600px;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -693,22 +403,22 @@ header nav ul li a:hover {
     color: #CDF6FF;
 }
 
-.col-lg-6{
+.col-lg-6 {
     padding: 0% !important;
 }
 
-.card-alojamiento-ultima{
+.card-alojamiento-ultima {
     margin: 0% auto;
 }
 
-.card {
-    margin : 8%!important;
+.card-alojamiento {
+    margin: 8% !important;
     background-color: #3E4346;
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
 }
 
-.card-body {
+.card-body-alojamiento {
     padding: 0% !important;
     text-align: center;
 }
@@ -717,7 +427,7 @@ header nav ul li a:hover {
     border-top-left-radius: 30px;
 }
 
-.card-title {
+.card-alojamiento-titulo {
     color: #CDF6FF;
     padding: 15px;
     font-weight: 600;
@@ -732,7 +442,7 @@ header nav ul li a:hover {
     color: #858585;
 }
 
-.card-body a {
+.card-body-alojamiento a {
     margin-bottom: 10px;
     background-color: #CDF6FF;
     color: #14181B;
@@ -740,7 +450,7 @@ header nav ul li a:hover {
     border-radius: 15px;
 }
 
-.card-body a:hover {
+.card-body-alojamiento a:hover {
     color: #CDF6FF;
     background-color: #14181B;
     border: 1px solid #14181B;
@@ -1650,555 +1360,201 @@ footer div {
 
 /*---------------VUELOS------------*/
 
-@media screen and (max-width:1504px) {
-    .conteiner__vuelos__chile div p {
-        font-size: 17px;
-    }
-
-    .conteiner__vuelos__italia div p {
-        font-size: 17px;
-    }
-}
-
-@media screen and (max-width:1490px) {
-    .conteiner__vuelos__argentina {
-        width: 90%;
-        margin-right: 60px;
-    }
-
-    .conteiner__vuelos__argentina div p {
-        font-size: 15px;
-    }
-
-    .conteiner__vuelos__uruguay {
-        width: 90%;
-        margin-left: 115px;
-    }
-
-    .conteiner__vuelos__uruguay div p {
-        font-size: 15px;
-    }
-
-    .conteiner__vuelos__brasil {
-        width: 90%;
-        margin-right: 60px;
-    }
-
-    .conteiner__vuelos__brasil div p {
-        font-size: 15px;
-    }
-
-    .conteiner__vuelos__chile {
-        width: 90%;
-        margin-left: 115px;
-    }
-
-    .conteiner__vuelos__chile div p {
-        font-size: 15px;
-    }
-
-    .santiagodechile {
-        width: 45%;
-        height: 730px;
-    }
-
-    .conteiner__vuelos__tokyo {
-        width: 90%;
-        margin-right: 60px;
-    }
-
-    .conteiner__vuelos__tokyo div p {
-        font-size: 15px;
-    }
-
-    .conteiner__vuelos__espania {
-        width: 90%;
-        margin-left: 115px;
-    }
-
-    .conteiner__vuelos__espania div p {
-        font-size: 15px;
-    }
-
-    .conteiner__vuelos__italia {
-        width: 90%;
-        margin-right: 60px;
-    }
-
-    .conteiner__vuelos__italia div p {
-        font-size: 15px;
-    }
-
-    .venecia {
-        width: 45%;
-        height: 675px;
-    }
-
-    .vuelos__precio strong {
+@media screen and (max-width:1270px){
+    .card-vuelos-titulo{
         font-size: 22px;
     }
-}
-
-@media screen and (max-width:1150px) {
-    .conteiner__vuelos__argentina {
-        margin: 0 auto;
+    .card-texto-vuelos{
+        font-size: 13px;
     }
-
-    .buenosaires {
-        width: 45%;
-    }
-
-    .conteiner__vuelos__uruguay {
-        margin: 0 auto;
-        margin-top: 20px;
-    }
-
-    .montevideo {
-        width: 45%;
-    }
-
-    .conteiner__vuelos__brasil {
-        margin: 0 auto;
-        margin-top: 20px;
-    }
-
-    .riodejaneiro {
-        width: 45%;
-    }
-
-    .conteiner__vuelos__chile {
-        margin: 0 auto;
-        margin-top: 20px;
-    }
-
-    .santiagodechile {
-        width: 45%;
-    }
-
-    .conteiner__vuelos__tokyo {
-        margin: 0 auto;
-        margin-top: 20px;
-    }
-
-    .tokyo {
-        width: 45%;
-    }
-
-    .conteiner__vuelos__espania {
-        margin: 0 auto;
-        margin-top: 20px;
-    }
-
-    .madrid {
-        width: 45%;
-    }
-
-    .conteiner__vuelos__italia {
-        margin: 0 auto;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    .venecia {
-        width: 48%;
-    }
-}
-
-@media screen and (max-width:900px) {
-    .vuelos__h1 {
+    .vuelos__precio strong{
         font-size: 22px;
-        padding-top: 20px;
-        padding-bottom: 10px;
     }
-
-    .conteiner__vuelos__argentina {
-        width: 100%;
-        height: 65vh;
-    }
-
-    .conteiner__vuelos__argentina div h2 {
-        font-size: 20px;
-    }
-
-    .conteiner__vuelos__argentina div p {
-        font-size: 12px;
-    }
-
-    .buenosaires {
-        height: 100%;
-    }
-
-    .conteiner__vuelos__uruguay {
-        width: 100%;
-        height: 65vh;
-    }
-
-    .conteiner__vuelos__uruguay div h2 {
-        font-size: 20px;
-    }
-
-    .conteiner__vuelos__uruguay div p {
-        font-size: 12px;
-    }
-
-    .montevideo {
-        height: 100%;
-    }
-
-    .conteiner__vuelos__brasil {
-        width: 100%;
-        height: 65vh;
-    }
-
-    .conteiner__vuelos__brasil div h2 {
-        font-size: 20px;
-    }
-
-    .conteiner__vuelos__brasil div p {
-        font-size: 12px;
-    }
-
-    .riodejaneiro {
-        height: 100%;
-    }
-
-    .conteiner__vuelos__chile {
-        width: 100%;
-        height: 65vh;
-    }
-
-    .conteiner__vuelos__chile div h2 {
-        font-size: 20px;
-    }
-
-    .conteiner__vuelos__chile div p {
-        font-size: 12px;
-    }
-
-    .santiagodechile {
-        height: 100%;
-    }
-
-    .conteiner__vuelos__tokyo {
-        width: 100%;
-        height: 65vh;
-    }
-
-    .conteiner__vuelos__tokyo div h2 {
-        font-size: 20px;
-    }
-
-    .conteiner__vuelos__tokyo div p {
-        font-size: 12px;
-    }
-
-    .tokyo {
-        height: 100%;
-    }
-
-    .conteiner__vuelos__espania {
-        width: 100%;
-        height: 65vh;
-    }
-
-    .conteiner__vuelos__espania div h2 {
-        font-size: 20px;
-    }
-
-    .conteiner__vuelos__espania div p {
-        font-size: 12px;
-    }
-
-    .madrid {
-        height: 550px;
-    }
-
-    .conteiner__vuelos__italia {
-        width: 100%;
-        height: 65vh;
-    }
-
-    .conteiner__vuelos__italia div h2 {
-        font-size: 20px;
-    }
-
-    .conteiner__vuelos__italia div p {
-        font-size: 12px;
-    }
-
-    .venecia {
-        width: 48%;
-        height: 100%;
-    }
-
-    .vuelos__precio strong {
-        font-size: 20px;
+    .card-body-vuelos a{
+        font-size: 14px;
     }
 }
 
-@media screen and (max-width:760px) {
-    .vuelos__h1 {
-        font-size: 20px;
+@media screen and (max-width:1267px){
+    .card-vuelos{
+        margin-right: 200px;
     }
-
-    .conteiner__vuelos__argentina {
-        height: 50vh;
-    }
-
-    .conteiner__vuelos__argentina div h2 {
-        font-size: 15px;
-    }
-
-    .conteiner__vuelos__argentina div p {
-        font-size: 10px;
-        margin-bottom: 10px;
-    }
-
-    .conteiner__vuelos__argentina div a {
-        font-size: 10px;
-        padding: 8px;
-    }
-
-    .conteiner__vuelos__uruguay {
-        height: 50vh;
-    }
-
-    .conteiner__vuelos__uruguay div h2 {
-        font-size: 15px;
-    }
-
-    .conteiner__vuelos__uruguay div p {
-        font-size: 10px;
-        margin-bottom: 10px;
-    }
-
-    .conteiner__vuelos__uruguay div a {
-        font-size: 10px;
-        padding: 8px;
-    }
-
-    .conteiner__vuelos__brasil {
-        height: 50vh;
-    }
-
-    .conteiner__vuelos__brasil div h2 {
-        font-size: 15px;
-    }
-
-    .conteiner__vuelos__brasil div p {
-        font-size: 10px;
-        margin-bottom: 10px;
-    }
-
-    .conteiner__vuelos__brasil div a {
-        font-size: 10px;
-        padding: 8px;
-    }
-
-    .conteiner__vuelos__chile {
-        height: 50vh;
-    }
-
-    .conteiner__vuelos__chile div h2 {
-        font-size: 15px;
-    }
-
-    .conteiner__vuelos__chile div p {
-        font-size: 10px;
-        margin-bottom: 10px;
-    }
-
-    .conteiner__vuelos__chile div a {
-        font-size: 10px;
-        padding: 8px;
-    }
-
-    .conteiner__vuelos__tokyo {
-        height: 50vh;
-    }
-
-    .conteiner__vuelos__tokyo div h2 {
-        font-size: 15px;
-    }
-
-    .conteiner__vuelos__tokyo div p {
-        font-size: 10px;
-        margin-bottom: 10px;
-    }
-
-    .conteiner__vuelos__tokyo div a {
-        font-size: 10px;
-        padding: 8px;
-    }
-
-    .conteiner__vuelos__espania {
-        height: 50vh;
-    }
-
-    .conteiner__vuelos__espania div h2 {
-        font-size: 15px;
-    }
-
-    .conteiner__vuelos__espania div p {
-        font-size: 10px;
-        margin-bottom: 10px;
-    }
-
-    .conteiner__vuelos__espania div a {
-        font-size: 10px;
-        padding: 8px;
-    }
-
-    .madrid {
-        height: 100%;
-    }
-
-    .conteiner__vuelos__italia {
-        height: 55vh;
-    }
-
-    .conteiner__vuelos__italia div h2 {
-        font-size: 15px;
-    }
-
-    .conteiner__vuelos__italia div p {
-        font-size: 10px;
-        margin-bottom: 10px;
-    }
-
-    .conteiner__vuelos__italia div a {
-        font-size: 10px;
-        padding: 8px;
-    }
-
-    .vuelos__precio strong {
-        font-size: 15px;
+    .card-vuelos-contrario{
+        margin-left: 200px;
     }
 }
 
-@media screen and (max-width:578px) {
-    .conteiner__vuelos__argentina {
-        height: 45vh;
+@media screen and (max-width:1063px){
+    .card-vuelos-titulo{
+        font-size: 20px;
     }
-
-    .conteiner__vuelos__argentina div h2 {
+    .card-texto-vuelos{
         font-size: 12px;
     }
-
-    .conteiner__vuelos__argentina div p {
-        font-size: 9px;
+    .vuelos__precio strong{
+        font-size: 20px;
     }
-
-    .conteiner__vuelos__uruguay {
-        height: 45vh;
+    .card-body-vuelos a{
+        font-size: 14px;
+        padding: 8px;
     }
+}
 
-    .conteiner__vuelos__uruguay div h2 {
-        font-size: 12px;
+@media screen and (max-width:1023px){
+    .card-vuelos{
+        margin-right: 150px;
     }
-
-    .conteiner__vuelos__uruguay div p {
-        font-size: 9px;
+    .card-vuelos-contrario{
+        margin-left: 150px;
     }
+}
 
-    .conteiner__vuelos__brasil {
-        height: 45vh;
+@media screen and (max-width:989px){
+    .vuelos__h1{
+        font-size: 22px;
     }
-
-    .conteiner__vuelos__brasil div h2 {
-        font-size: 12px;
+    .card-vuelos{
+        margin-right: 150px;
     }
-
-    .conteiner__vuelos__brasil div p {
-        font-size: 9px;
+    .card-vuelos-contrario{
+        margin-left: 150px;
     }
+}
 
-    .conteiner__vuelos__chile {
-        height: 45vh;
+@media screen and (max-width:817px){
+    .vuelos__h1{
+        font-size: 20px;
     }
-
-    .conteiner__vuelos__chile div h2 {
-        font-size: 12px;
+    .card-vuelos-titulo{
+        font-size: 17px;
     }
-
-    .conteiner__vuelos__chile div p {
-        font-size: 9px;
+    .card-texto-vuelos{
+        font-size: 10px;
     }
-
-    .conteiner__vuelos__tokyo {
-        height: 45vh;
+    .vuelos__precio strong{
+        font-size: 17px;
     }
-
-    .conteiner__vuelos__tokyo div h2 {
-        font-size: 12px;
-    }
-
-    .conteiner__vuelos__tokyo div p {
-        font-size: 9px;
-    }
-
-    .conteiner__vuelos__espania {
-        height: 45vh;
-    }
-
-    .conteiner__vuelos__espania div h2 {
-        font-size: 12px;
-    }
-
-    .conteiner__vuelos__espania div p {
-        font-size: 9px;
-    }
-
-    .conteiner__vuelos__italia {
-        height: 45vh;
-    }
-
-    .conteiner__vuelos__italia div h2 {
-        font-size: 12px;
-    }
-
-    .conteiner__vuelos__italia div p {
-        font-size: 9px;
-    }
-
-    .vuelos__precio strong {
+    .card-body-vuelos a{
         font-size: 12px;
     }
 }
 
-@media screen and (max-width:480px) {
-    .vuelos__h1 {
+@media screen and (max-width:767px){
+    .card-vuelos{
+        margin-right: 0%;
+        margin: 0 auto;
+    }
+    .card-vuelos-contrario{
+        margin-left: 0%;
+        margin: 0 auto;
+    }
+    .vuelos__h1{
+        font-size: 18px;
+    }
+    .card-vuelos-titulo{
         font-size: 15px;
     }
-
-    .conteiner__vuelos__argentina {
-        height: 35vh;
+    .card-texto-vuelos{
+        font-size: 8px;
     }
-
-    .conteiner__vuelos__uruguay {
-        height: 35vh;
+    .vuelos__precio strong{
+        font-size: 15px;
     }
-
-    .conteiner__vuelos__brasil {
-        height: 35vh;
-    }
-
-    .conteiner__vuelos__chile {
-        height: 42vh;
-    }
-
-    .conteiner__vuelos__tokyo {
-        height: 35vh;
-    }
-
-    .conteiner__vuelos__espania {
-        height: 35vh;
-    }
-
-    .conteiner__vuelos__italia {
-        height: 42vh;
+    .card-body-vuelos a{
+        font-size: 10px;
+        padding: 5px;
     }
 }
+
+@media screen and (max-width:581px){
+    .vuelos__h1{
+        font-size: 18px;
+    }
+    .card-vuelos-titulo{
+        font-size: 12px;
+    }
+    .card-texto-vuelos{
+        font-size: 6px;
+        margin: 0%;
+    }
+    .vuelos__precio{
+        margin: 0%;
+    }
+    .vuelos__precio strong{
+        font-size: 12px;
+    }
+    .card-body-vuelos a{
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .vuelos__h1{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:473px){
+    .vuelos__h1{
+        font-size: 15px;
+    }
+    .card-vuelos-titulo{
+        font-size: 10px;
+    }
+    .card-texto-vuelos{
+        font-size: 5px;
+    }
+    .vuelos__precio strong{
+        font-size: 10px;
+    }
+    .card-body-vuelos a{
+        font-size: 7px;
+    }
+}
+
+@media screen and (max-width:411px){
+    .vuelos__h1{
+        font-size: 12px;
+    }
+    .card-vuelos-titulo{
+        font-size: 8px;
+    }
+    .card-texto-vuelos{
+        font-size: 5px;
+    }
+    .vuelos__precio strong{
+        font-size: 8px;
+    }
+    .card-body-vuelos a{
+        font-size: 6px;
+        padding: 3px;
+    }
+}
+
+@media screen and (max-width:344px){
+    .vuelos__h1{
+        font-size: 10px;
+    }
+    .card-vuelos-titulo{
+        font-size: 7px;
+    }
+    .card-texto-vuelos{
+        font-size: 5px;
+    }
+    .vuelos__precio strong{
+        font-size: 7px;
+    }
+    .card-body-vuelos a{
+        font-size: 5px;
+    }
+}
+
+@media screen and (max-width:313px){
+    .card-vuelos-titulo{
+        font-size: 6px;
+    }
+}
+
 
 /*-------------ALOJAMIENTO------------*/
 
@@ -2257,7 +1613,7 @@ footer div {
         font-size: 20px;
     }
 
-    .card-body a {
+    .card-body-alojamiento a {
         font-size: 15px;
     }
 }
@@ -2279,7 +1635,7 @@ footer div {
         font-size: 15px;
     }
 
-    .card-body a {
+    .card-body-alojamiento a {
         font-size: 10px;
     }
 }
@@ -2298,34 +1654,6 @@ footer div {
 @media screen and (max-width:480px) {
     .alojamiento__h1 {
         font-size: 15px;
-    }
-
-    .conteiner__vuelos__argentina div p {
-        font-size: 7px;
-    }
-
-    .conteiner__vuelos__uruguay div p {
-        font-size: 7px;
-    }
-
-    .conteiner__vuelos__brasil div p {
-        font-size: 7px;
-    }
-
-    .conteiner__vuelos__chile div p {
-        font-size: 7px;
-    }
-
-    .conteiner__vuelos__tokyo div p {
-        font-size: 7px;
-    }
-
-    .conteiner__vuelos__espania div p {
-        font-size: 7px;
-    }
-
-    .conteiner__vuelos__italia div p {
-        font-size: 7px;
     }
 }
 
