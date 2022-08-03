@@ -142,24 +142,29 @@ header nav ul li a:hover {
     object-fit: contain;
 }
 
-.carousel-inner {
+.carousel-index {
     text-align: center !important;
 }
 
-.carousel-control-prev {
+.carousel-control-prex-index {
     left: 12%;
 }
 
-.carousel-control-next {
+.carousel-control-next-index {
     right: 12%;
 }
 
-.carousel-caption a {
+.carousel-boton-index a {
     text-decoration: none;
     color: #14181B;
     background-color: #CDF6FF;
     padding: 5px;
-    border-radius: 15px;
+    border-radius: 13px;
+}
+
+.carousel-boton-index a:hover{
+    background-color: #14181B;
+    color: #CDF6FF;
 }
 
 .viajes__ofertas {
