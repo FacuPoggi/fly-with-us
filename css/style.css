@@ -493,7 +493,7 @@ header nav ul li a:hover {
 
 .grid__conteiner {
     border: 2px solid #3E4346;
-    margin-top: 8px;
+    margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1.5fr);
     grid-auto-rows: 350px;
