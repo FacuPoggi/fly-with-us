@@ -483,6 +483,10 @@ header nav ul li a:hover {
     font-size: 30px;
 }
 
+.img-carousel-excursiones-bs{
+    height: 660px;
+}
+
 .flex__conteiner {
     display: flex;
     justify-content: center;
