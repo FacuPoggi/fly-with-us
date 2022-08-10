@@ -1,0 +1,29 @@
+/*----------FOOTER------------*/
+footer{
+    background-color: #3E4346;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo__avion{
+        width: 150px;
+        height: 150px;
+    }
+    div{
+        margin-right: 30px;
+        .facebook {
+            width: 64px;
+            height: 64px;
+        }
+        
+        .instagram {
+            width: 64px;
+            height: 64px;
+        }
+        
+        .twitter {
+            width: 64px;
+            height: 64px;
+        }
+        
+    }
+}

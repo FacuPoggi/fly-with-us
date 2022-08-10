@@ -1,0 +1,50 @@
+/*-----------HEADER--------------*/
+header {
+    .header-color {
+        background-color: #3E4346 !important;
+        .container-fluid {
+            margin-right: 25px !important;
+            a {
+                .logo__avion {
+                    width: 150px;
+                    height: 150px;
+                }
+            }
+            div{
+                ul{
+                    li{
+                        .nav-link{
+                            color: #CDF6FF !important;
+                            margin: 0%;
+                            margin-right: 10px;
+                            margin-left: 10px;
+                            text-decoration: none;
+                            list-style-type: none;
+                            font-size: 20px;
+                            font-weight: 600;
+                            color: #CDF6FF;
+                            &:hover{
+                                color: #14181B !important;
+                            }
+                        }
+                    }
+                }
+                form{
+                    .form-control-index{
+                        background-color: #14181B !important;
+                        border: 1px solid #14181B;
+                        color: #CDF6FF !important;
+                        &::placeholder{
+                            color: #CDF6FF;
+                        }
+                    }
+                    .boton-color-index{
+                        color: #14181B !important;
+                        border-color: #CDF6FF !important;
+                        background-color: #CDF6FF !important;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,257 @@
+@import "../base/variables";
+/*------------INDEX-----------*/
+main{
+    .inicio{
+        width: 100%;
+        height: 80vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/muelle.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        .inicio__titulo{
+            font-size: 40px;
+            text-align: center;
+            font-weight: 600;
+            padding-top: 300px;
+            color: $color-textos-principales;
+        }
+        .inicio__titulo__parrafo {
+            text-align: center;
+            font-weight: 300;
+            padding-top: 10px;
+            font-size: 20px;
+            color: $color-textos-principales;
+            width: 50%;
+            margin-left: 25%;
+        }
+        .inicio__boton {
+            text-align: center;
+            padding: 20px;
+            a{
+                text-decoration: none;
+                color: #14181B;
+                background-color: $color-textos-principales;
+                padding: 10px;
+                border: 1px solid $color-textos-principales;
+                font-weight: 600;
+                border-radius: 15px;
+                &:hover{
+                    color: $color-textos-principales;
+                    background-color: #14181B;
+                    border: 1px solid #14181B;
+                }
+            }
+        }
+    }
+    section{
+        div{
+            .recomendacion__titulo {
+                font-size: 25px;
+                text-align: center;
+                padding-top: 20px;
+                font-weight: 600;
+                color: $color-textos-principales;
+            }
+            .recomendacion__parrafo {
+                font-size: 23px;
+                text-decoration: none;
+                font-weight: 200;
+                text-align: center;
+                color: #CDF6FF;
+            }
+            .recomendacion__enlace{
+                &:hover{
+                    color: #858585;
+                }
+            }
+        }
+    }
+    section{
+        .carousel-index{
+            text-align: center !important;
+            div{
+                .img-carousel{
+                    width: 100%;
+                    height: 70vh;
+                    object-fit: contain;
+                }
+                .carousel-boton-index{
+                    a{
+                        text-decoration: none;
+                        color: #14181B;
+                        background-color: #CDF6FF;
+                        padding: 5px;
+                        border-radius: 13px;
+                        &:hover{
+                            background-color: #14181B;
+                            color: #CDF6FF;
+                        }
+                    }
+                }
+            }
+        }
+        .carousel-control-prex-index{
+            left: 12%;
+        }
+        .carousel-control-next-index {
+            right: 12%;
+        }
+    }
+    section{
+        .index__hr {
+            border-color: #CDF6FF;
+            margin-top: 10px;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+        .index__titulo__paquetes {
+            text-align: center;
+            font-size: 30px;
+            color: #CDF6FF;
+            margin-top: 30px;
+        }
+        .flex__conteiner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-width: 1500px;
+            margin: 0 auto;
+            .grid__conteiner__paquete-viajes-argentina {
+                border: 2px solid #3E4346;
+                margin-top: 20px;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: 800px;
+                box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
+                -webkit-box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
+                -moz-box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
+                .grid__items {
+                    background-color: #3E4346;
+                }
+                .grid__texto-encima {
+                    position: relative;
+                    h3  {
+                        position: absolute;
+                        color: white;
+                        bottom: 0;
+                        background-color: rgba(0, 0, 0, 0.5);
+                        width: 100%;
+                        margin: 0%;
+                    }
+                    .excursiones__img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+        .excursiones__boton__paquete-viajes {
+            height: 200px;
+            width: 21%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 1px;
+            background-color: #14181b;
+            position: relative;
+            bottom: 53.7vh;
+            left: 39vw;
+            border-radius: 15px;
+            p {
+                color: #CDF6FF;
+                text-align: center;
+                font-size: 30px;
+                margin-bottom: 25px;
+                
+            }
+            a {
+                text-decoration: none;
+                background-color: #CDF6FF;
+                color: #14181B;
+                font-size: 20px;
+                padding: 8px;
+                border-radius: 10px;
+                &:hover{
+                    color: #14181B;
+                    background-color: #858585;
+                    border: 1px solid #858585;
+                }
+            }
+        }
+    }
+    section{
+        .flex__conteiner{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-width: 1500px;
+            margin: 0 auto;
+            .grid__conteiner__paquete-viajes-chile {
+                border: 2px solid #3E4346;
+                margin-top: -120px;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: 800px;
+                box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
+                -webkit-box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
+                -moz-box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
+                .grid__items {
+                    background-color: #3E4346;
+                }
+                .grid__texto-encima {
+                    position: relative;
+                    h3  {
+                        position: absolute;
+                        color: white;
+                        bottom: 0;
+                        background-color: rgba(0, 0, 0, 0.5);
+                        width: 100%;
+                        margin: 0%;
+                    }
+                    .excursiones__img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+        .excursiones__boton__paquete-viajes {
+            height: 200px;
+            width: 21%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 1px;
+            background-color: #14181b;
+            position: relative;
+            bottom: 53.7vh;
+            left: 39vw;
+            border-radius: 15px;
+            p {
+                color: #CDF6FF;
+                text-align: center;
+                font-size: 30px;
+                margin-bottom: 25px;
+                
+            }
+            a {
+                text-decoration: none;
+                background-color: #CDF6FF;
+                color: #14181B;
+                font-size: 20px;
+                padding: 8px;
+                border-radius: 10px;
+                &:hover{
+                    color: #14181B;
+                    background-color: #858585;
+                    border: 1px solid #858585;
+                }
+            }
+        }
+    }
+}
