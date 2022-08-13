@@ -1,4 +1,3 @@
-/*----------VUELOS----------*/
 main{
     .vuelos__h1 {
         font-size: 25px;
@@ -6,6 +5,339 @@ main{
         margin-bottom: 10px;
         padding-top: 15px;
         color: #CDF6FF;
+    }
+    section{
+        .card-vuelos {
+            background-color: #14181B;
+            border: 2px solid #3E4346;
+            margin: 0 auto;
+            margin-right: 250px;
+            border-radius: 35px;
+            .buenosaires {
+                width: 100%;
+                height: 100%;
+            }
+            .bordes-img-vuelos {
+                border-bottom-left-radius: 35px;
+                border-top-left-radius: 35px;
+            }
+            .card-body-vuelos {
+                width: 100%;
+                text-align: center;
+                .card-vuelos-titulo {
+                    font-size: 25px;
+                    margin-bottom: 10px;
+                    color: #CDF6FF;
+                }
+                .card-texto-vuelos {
+                    color: #858585;
+                    letter-spacing: 0.30px;
+                }
+                .vuelos__precio {
+                    strong{
+                        font-size: 25px;
+                        color: #CDF6FF;
+                    }
+                }
+                a {
+                    background-color: #CDF6FF;
+                    padding: 10px;
+                    text-decoration: none;
+                    color: #14181B;
+                    text-align: center;
+                    border-radius: 15px;
+                    &:hover{
+                        color: #14181B;
+                        background-color: #858585;
+                        border: 1px solid #858585;
+                    }
+                }
+            }
+        }
+        .card-vuelos-contrario {
+            background-color: #14181B;
+            border: 2px solid #3E4346;
+            margin: 0 auto;
+            margin-left: 250px;
+            border-radius: 35px;
+            .montevideo {
+                width: 100%;
+                height: 100%;
+            }
+            .bordes-img-vuelos-contrario {
+                border-bottom-right-radius: 35px;
+                border-top-right-radius: 35px;
+            }
+            .card-body-vuelos {
+                width: 100%;
+                text-align: center;
+                .card-vuelos-titulo {
+                    font-size: 25px;
+                    margin-bottom: 10px;
+                    color: #CDF6FF;
+                }
+                .card-texto-vuelos {
+                    color: #858585;
+                    letter-spacing: 0.30px;
+                }
+                .vuelos__precio {
+                    strong {
+                        font-size: 25px;
+                        color: #CDF6FF;
+                    }
+                }
+                a {
+                    background-color: #CDF6FF;
+                    padding: 10px;
+                    text-decoration: none;
+                    color: #14181B;
+                    text-align: center;
+                    border-radius: 15px;
+                    &:hover{
+                        color: #14181B;
+                        background-color: #858585;
+                        border: 1px solid #858585;
+                    }
+                }
+                
+            }
+        }
+        .card-vuelos {
+            background-color: #14181B;
+            border: 2px solid #3E4346;
+            margin: 0 auto;
+            margin-right: 250px;
+            border-radius: 35px;
+            .riodejaneiro {
+                width: 100%;
+                height: 100%;
+            }
+            .bordes-img-vuelos {
+                border-bottom-left-radius: 35px;
+                border-top-left-radius: 35px;
+            }
+            .card-body-vuelos {
+                width: 100%;
+                text-align: center;
+                .card-vuelos-titulo {
+                    font-size: 25px;
+                    margin-bottom: 10px;
+                    color: #CDF6FF;
+                }
+                .card-texto-vuelos {
+                    color: #858585;
+                    letter-spacing: 0.30px;
+                }
+                .vuelos__precio {
+                    strong {
+                        font-size: 25px;
+                        color: #CDF6FF;
+                    }
+                }
+                a {
+                    background-color: #CDF6FF;
+                    padding: 10px;
+                    text-decoration: none;
+                    color: #14181B;
+                    text-align: center;
+                    border-radius: 15px;
+                    &:hover{
+                        color: #14181B;
+                        background-color: #858585;
+                        border: 1px solid #858585;
+                    }
+                }
+            }
+        }
+        .card-vuelos-contrario {
+            background-color: #14181B;
+            border: 2px solid #3E4346;
+            margin: 0 auto;
+            margin-left: 250px;
+            border-radius: 35px;
+            .santiagodechile {
+                width: 100%;
+                height: 100%;
+            }
+            .bordes-img-vuelos-contrario {
+                border-bottom-right-radius: 35px;
+                border-top-right-radius: 35px;
+            }
+            .card-body-vuelos {
+                width: 100%;
+                text-align: center;
+                .card-vuelos-titulo {
+                    font-size: 25px;
+                    margin-bottom: 10px;
+                    color: #CDF6FF;
+                }
+                .card-texto-vuelos {
+                    color: #858585;
+                    letter-spacing: 0.30px;
+                }
+                .vuelos__precio {
+                    strong {
+                        font-size: 25px;
+                        color: #CDF6FF;
+                    }
+                }
+                .card-body-vuelos a {
+                    background-color: #CDF6FF;
+                    padding: 10px;
+                    text-decoration: none;
+                    color: #14181B;
+                    text-align: center;
+                    border-radius: 15px;
+                    &:hover{
+                        color: #14181B;
+                        background-color: #858585;
+                        border: 1px solid #858585;
+                    }
+                }
+            }
+        }
+        .card-vuelos {
+            background-color: #14181B;
+            border: 2px solid #3E4346;
+            margin: 0 auto;
+            margin-right: 250px;
+            border-radius: 35px;
+            .tokyo {
+                width: 100%;
+                height: 100%;
+            }
+            .bordes-img-vuelos {
+                border-bottom-left-radius: 35px;
+                border-top-left-radius: 35px;
+            }
+            .card-body-vuelos {
+                width: 100%;
+                text-align: center;
+                .card-vuelos-titulo {
+                    font-size: 25px;
+                    margin-bottom: 10px;
+                    color: #CDF6FF;
+                }
+                .card-texto-vuelos {
+                    color: #858585;
+                    letter-spacing: 0.30px;
+                }
+                .vuelos__precio {
+                    strong {
+                        font-size: 25px;
+                        color: #CDF6FF;
+                    }
+                }
+                a {
+                    background-color: #CDF6FF;
+                    padding: 10px;
+                    text-decoration: none;
+                    color: #14181B;
+                    text-align: center;
+                    border-radius: 15px;
+                    &:hover{
+                        color: #14181B;
+                        background-color: #858585;
+                        border: 1px solid #858585;
+                    }
+                }
+            }
+        }
+        .card-vuelos-contrario {
+            background-color: #14181B;
+            border: 2px solid #3E4346;
+            margin: 0 auto;
+            margin-left: 250px;
+            border-radius: 35px;
+            .madrid {
+                width: 100%;
+                height: 100%;
+            }
+            .bordes-img-vuelos-contrario {
+                border-bottom-right-radius: 35px;
+                border-top-right-radius: 35px;
+            }
+            .card-body-vuelos {
+                width: 100%;
+                text-align: center;
+                .card-vuelos-titulo {
+                    font-size: 25px;
+                    margin-bottom: 10px;
+                    color: #CDF6FF;
+                }
+                .card-texto-vuelos {
+                    color: #858585;
+                    letter-spacing: 0.30px;
+                }
+                .vuelos__precio {
+                    strong {
+                        font-size: 25px;
+                        color: #CDF6FF;
+                    }
+                }
+                a {
+                    background-color: #CDF6FF;
+                    padding: 10px;
+                    text-decoration: none;
+                    color: #14181B;
+                    text-align: center;
+                    border-radius: 15px;
+                    &:hover{
+                        color: #14181B;
+                        background-color: #858585;
+                        border: 1px solid #858585;
+                    }
+                }
+            }
+            
+        }
+        .card-vuelos {
+            background-color: #14181B;
+            border: 2px solid #3E4346;
+            margin: 0 auto;
+            margin-right: 250px;
+            border-radius: 35px;
+            .venecia {
+                width: 100%;
+                height: 100%;
+            }
+            .bordes-img-vuelos {
+                border-bottom-left-radius: 35px;
+                border-top-left-radius: 35px;
+            }
+            .card-body-vuelos {
+                width: 100%;
+                text-align: center;
+                .card-vuelos-titulo {
+                    font-size: 25px;
+                    margin-bottom: 10px;
+                    color: #CDF6FF;
+                }
+                .card-texto-vuelos {
+                    color: #858585;
+                    letter-spacing: 0.30px;
+                }
+                .vuelos__precio {
+                    strong {
+                        font-size: 25px;
+                        color: #CDF6FF;
+                    }
+                }
+                a {
+                    background-color: #CDF6FF;
+                    padding: 10px;
+                    text-decoration: none;
+                    color: #14181B;
+                    text-align: center;
+                    border-radius: 15px;
+                    &:hover{
+                        color: #14181B;
+                        background-color: #858585;
+                        border: 1px solid #858585;
+                    }
+                }
+            }
+        }
     }
     
 }

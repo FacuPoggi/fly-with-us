@@ -13,7 +13,6 @@ body {
   font-weight: 100;
   font-style: normal; }
 
-/*-----------HEADER--------------*/
 header .header-color {
   background-color: #3E4346 !important; }
   header .header-color .container-fluid {
@@ -44,7 +43,6 @@ header .header-color {
       border-color: #CDF6FF !important;
       background-color: #CDF6FF !important; }
 
-/*------------INDEX-----------*/
 main .inicio {
   width: 100%;
   height: 80vh;
@@ -256,7 +254,6 @@ main section .excursiones__boton__paquete-viajes {
       background-color: #858585;
       border: 1px solid #858585; }
 
-/*----------VUELOS----------*/
 main .vuelos__h1 {
   font-size: 25px;
   text-align: center;
@@ -264,11 +261,625 @@ main .vuelos__h1 {
   padding-top: 15px;
   color: #CDF6FF; }
 
-/*----------ALOJAMIENTO----------*/
-/*----------EXCURSIONES----------*/
-/*-------SOBRE NOSOTROS--------*/
-/*-----------MEDIA QUERIES---------*/
-/*----------FOOTER------------*/
+main section .card-vuelos {
+  background-color: #14181B;
+  border: 2px solid #3E4346;
+  margin: 0 auto;
+  margin-right: 250px;
+  border-radius: 35px; }
+  main section .card-vuelos .buenosaires {
+    width: 100%;
+    height: 100%; }
+  main section .card-vuelos .bordes-img-vuelos {
+    border-bottom-left-radius: 35px;
+    border-top-left-radius: 35px; }
+  main section .card-vuelos .card-body-vuelos {
+    width: 100%;
+    text-align: center; }
+    main section .card-vuelos .card-body-vuelos .card-vuelos-titulo {
+      font-size: 25px;
+      margin-bottom: 10px;
+      color: #CDF6FF; }
+    main section .card-vuelos .card-body-vuelos .card-texto-vuelos {
+      color: #858585;
+      letter-spacing: 0.30px; }
+    main section .card-vuelos .card-body-vuelos .vuelos__precio strong {
+      font-size: 25px;
+      color: #CDF6FF; }
+    main section .card-vuelos .card-body-vuelos a {
+      background-color: #CDF6FF;
+      padding: 10px;
+      text-decoration: none;
+      color: #14181B;
+      text-align: center;
+      border-radius: 15px; }
+      main section .card-vuelos .card-body-vuelos a:hover {
+        color: #14181B;
+        background-color: #858585;
+        border: 1px solid #858585; }
+
+main section .card-vuelos-contrario {
+  background-color: #14181B;
+  border: 2px solid #3E4346;
+  margin: 0 auto;
+  margin-left: 250px;
+  border-radius: 35px; }
+  main section .card-vuelos-contrario .montevideo {
+    width: 100%;
+    height: 100%; }
+  main section .card-vuelos-contrario .bordes-img-vuelos-contrario {
+    border-bottom-right-radius: 35px;
+    border-top-right-radius: 35px; }
+  main section .card-vuelos-contrario .card-body-vuelos {
+    width: 100%;
+    text-align: center; }
+    main section .card-vuelos-contrario .card-body-vuelos .card-vuelos-titulo {
+      font-size: 25px;
+      margin-bottom: 10px;
+      color: #CDF6FF; }
+    main section .card-vuelos-contrario .card-body-vuelos .card-texto-vuelos {
+      color: #858585;
+      letter-spacing: 0.30px; }
+    main section .card-vuelos-contrario .card-body-vuelos .vuelos__precio strong {
+      font-size: 25px;
+      color: #CDF6FF; }
+    main section .card-vuelos-contrario .card-body-vuelos a {
+      background-color: #CDF6FF;
+      padding: 10px;
+      text-decoration: none;
+      color: #14181B;
+      text-align: center;
+      border-radius: 15px; }
+      main section .card-vuelos-contrario .card-body-vuelos a:hover {
+        color: #14181B;
+        background-color: #858585;
+        border: 1px solid #858585; }
+
+main section .card-vuelos {
+  background-color: #14181B;
+  border: 2px solid #3E4346;
+  margin: 0 auto;
+  margin-right: 250px;
+  border-radius: 35px; }
+  main section .card-vuelos .riodejaneiro {
+    width: 100%;
+    height: 100%; }
+  main section .card-vuelos .bordes-img-vuelos {
+    border-bottom-left-radius: 35px;
+    border-top-left-radius: 35px; }
+  main section .card-vuelos .card-body-vuelos {
+    width: 100%;
+    text-align: center; }
+    main section .card-vuelos .card-body-vuelos .card-vuelos-titulo {
+      font-size: 25px;
+      margin-bottom: 10px;
+      color: #CDF6FF; }
+    main section .card-vuelos .card-body-vuelos .card-texto-vuelos {
+      color: #858585;
+      letter-spacing: 0.30px; }
+    main section .card-vuelos .card-body-vuelos .vuelos__precio strong {
+      font-size: 25px;
+      color: #CDF6FF; }
+    main section .card-vuelos .card-body-vuelos a {
+      background-color: #CDF6FF;
+      padding: 10px;
+      text-decoration: none;
+      color: #14181B;
+      text-align: center;
+      border-radius: 15px; }
+      main section .card-vuelos .card-body-vuelos a:hover {
+        color: #14181B;
+        background-color: #858585;
+        border: 1px solid #858585; }
+
+main section .card-vuelos-contrario {
+  background-color: #14181B;
+  border: 2px solid #3E4346;
+  margin: 0 auto;
+  margin-left: 250px;
+  border-radius: 35px; }
+  main section .card-vuelos-contrario .santiagodechile {
+    width: 100%;
+    height: 100%; }
+  main section .card-vuelos-contrario .bordes-img-vuelos-contrario {
+    border-bottom-right-radius: 35px;
+    border-top-right-radius: 35px; }
+  main section .card-vuelos-contrario .card-body-vuelos {
+    width: 100%;
+    text-align: center; }
+    main section .card-vuelos-contrario .card-body-vuelos .card-vuelos-titulo {
+      font-size: 25px;
+      margin-bottom: 10px;
+      color: #CDF6FF; }
+    main section .card-vuelos-contrario .card-body-vuelos .card-texto-vuelos {
+      color: #858585;
+      letter-spacing: 0.30px; }
+    main section .card-vuelos-contrario .card-body-vuelos .vuelos__precio strong {
+      font-size: 25px;
+      color: #CDF6FF; }
+    main section .card-vuelos-contrario .card-body-vuelos .card-body-vuelos a {
+      background-color: #CDF6FF;
+      padding: 10px;
+      text-decoration: none;
+      color: #14181B;
+      text-align: center;
+      border-radius: 15px; }
+      main section .card-vuelos-contrario .card-body-vuelos .card-body-vuelos a:hover {
+        color: #14181B;
+        background-color: #858585;
+        border: 1px solid #858585; }
+
+main section .card-vuelos {
+  background-color: #14181B;
+  border: 2px solid #3E4346;
+  margin: 0 auto;
+  margin-right: 250px;
+  border-radius: 35px; }
+  main section .card-vuelos .tokyo {
+    width: 100%;
+    height: 100%; }
+  main section .card-vuelos .bordes-img-vuelos {
+    border-bottom-left-radius: 35px;
+    border-top-left-radius: 35px; }
+  main section .card-vuelos .card-body-vuelos {
+    width: 100%;
+    text-align: center; }
+    main section .card-vuelos .card-body-vuelos .card-vuelos-titulo {
+      font-size: 25px;
+      margin-bottom: 10px;
+      color: #CDF6FF; }
+    main section .card-vuelos .card-body-vuelos .card-texto-vuelos {
+      color: #858585;
+      letter-spacing: 0.30px; }
+    main section .card-vuelos .card-body-vuelos .vuelos__precio strong {
+      font-size: 25px;
+      color: #CDF6FF; }
+    main section .card-vuelos .card-body-vuelos a {
+      background-color: #CDF6FF;
+      padding: 10px;
+      text-decoration: none;
+      color: #14181B;
+      text-align: center;
+      border-radius: 15px; }
+      main section .card-vuelos .card-body-vuelos a:hover {
+        color: #14181B;
+        background-color: #858585;
+        border: 1px solid #858585; }
+
+main section .card-vuelos-contrario {
+  background-color: #14181B;
+  border: 2px solid #3E4346;
+  margin: 0 auto;
+  margin-left: 250px;
+  border-radius: 35px; }
+  main section .card-vuelos-contrario .madrid {
+    width: 100%;
+    height: 100%; }
+  main section .card-vuelos-contrario .bordes-img-vuelos-contrario {
+    border-bottom-right-radius: 35px;
+    border-top-right-radius: 35px; }
+  main section .card-vuelos-contrario .card-body-vuelos {
+    width: 100%;
+    text-align: center; }
+    main section .card-vuelos-contrario .card-body-vuelos .card-vuelos-titulo {
+      font-size: 25px;
+      margin-bottom: 10px;
+      color: #CDF6FF; }
+    main section .card-vuelos-contrario .card-body-vuelos .card-texto-vuelos {
+      color: #858585;
+      letter-spacing: 0.30px; }
+    main section .card-vuelos-contrario .card-body-vuelos .vuelos__precio strong {
+      font-size: 25px;
+      color: #CDF6FF; }
+    main section .card-vuelos-contrario .card-body-vuelos a {
+      background-color: #CDF6FF;
+      padding: 10px;
+      text-decoration: none;
+      color: #14181B;
+      text-align: center;
+      border-radius: 15px; }
+      main section .card-vuelos-contrario .card-body-vuelos a:hover {
+        color: #14181B;
+        background-color: #858585;
+        border: 1px solid #858585; }
+
+main section .card-vuelos {
+  background-color: #14181B;
+  border: 2px solid #3E4346;
+  margin: 0 auto;
+  margin-right: 250px;
+  border-radius: 35px; }
+  main section .card-vuelos .venecia {
+    width: 100%;
+    height: 100%; }
+  main section .card-vuelos .bordes-img-vuelos {
+    border-bottom-left-radius: 35px;
+    border-top-left-radius: 35px; }
+  main section .card-vuelos .card-body-vuelos {
+    width: 100%;
+    text-align: center; }
+    main section .card-vuelos .card-body-vuelos .card-vuelos-titulo {
+      font-size: 25px;
+      margin-bottom: 10px;
+      color: #CDF6FF; }
+    main section .card-vuelos .card-body-vuelos .card-texto-vuelos {
+      color: #858585;
+      letter-spacing: 0.30px; }
+    main section .card-vuelos .card-body-vuelos .vuelos__precio strong {
+      font-size: 25px;
+      color: #CDF6FF; }
+    main section .card-vuelos .card-body-vuelos a {
+      background-color: #CDF6FF;
+      padding: 10px;
+      text-decoration: none;
+      color: #14181B;
+      text-align: center;
+      border-radius: 15px; }
+      main section .card-vuelos .card-body-vuelos a:hover {
+        color: #14181B;
+        background-color: #858585;
+        border: 1px solid #858585; }
+
+main .alojamiento__h1 {
+  font-size: 25px;
+  text-align: center;
+  padding-top: 15px;
+  color: #CDF6FF; }
+
+main .col-lg-6 {
+  padding: 0% !important; }
+  main .col-lg-6 .card-alojamiento {
+    margin: 8% !important;
+    background-color: #3E4346;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px; }
+    main .col-lg-6 .card-alojamiento .card-body-alojamiento {
+      padding: 0% !important;
+      text-align: center; }
+    main .col-lg-6 .card-alojamiento img {
+      border-top-left-radius: 30px; }
+    main .col-lg-6 .card-alojamiento .card-alojamiento-titulo {
+      color: #CDF6FF;
+      padding: 15px;
+      font-weight: 600;
+      font-size: 25px; }
+    main .col-lg-6 .card-alojamiento .alojamiento__texto {
+      font-size: 20px;
+      margin-bottom: 10px;
+      padding: 15px;
+      line-height: 22px;
+      color: #858585; }
+    main .col-lg-6 .card-alojamiento a {
+      margin-bottom: 10px;
+      background-color: #CDF6FF;
+      color: #14181B;
+      border: #CDF6FF;
+      border-radius: 15px; }
+      main .col-lg-6 .card-alojamiento a:hover {
+        color: #CDF6FF;
+        background-color: #14181B;
+        border: 1px solid #14181B; }
+    main .col-lg-6 .card-alojamiento .alojamiento__precio {
+      font-size: 25px;
+      padding-bottom: 30px;
+      color: #CDF6FF; }
+
+main .card-alojamiento-ultima {
+  margin: 0% auto; }
+
+main .excursiones__h1 {
+  color: #CDF6FF;
+  text-align: center;
+  padding: 15px;
+  font-size: 30px; }
+
+main section .img-carousel-excursiones-bs {
+  height: 660px; }
+
+main section .img-carousel {
+  width: 100%;
+  height: 70vh;
+  object-fit: contain; }
+
+main section .flex__conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1500px;
+  margin: 0 auto; }
+  main section .flex__conteiner .grid__conteiner {
+    border: 2px solid #3E4346;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1.5fr);
+    grid-auto-rows: 350px; }
+    main section .flex__conteiner .grid__conteiner .grid__items {
+      background-color: #3E4346; }
+      main section .flex__conteiner .grid__conteiner .grid__items .excursiones__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    main section .flex__conteiner .grid__conteiner .excursiones__img__buenosaires-uno {
+      grid-column: 1 / 3; }
+      main section .flex__conteiner .grid__conteiner .excursiones__img__buenosaires-uno .excursiones__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    main section .flex__conteiner .grid__conteiner .excursiones__img__buenosaires-cuatro {
+      grid-column: 3;
+      grid-row: 1 / 3; }
+      main section .flex__conteiner .grid__conteiner .excursiones__img__buenosaires-cuatro .excursiones__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    main section .flex__conteiner .grid__conteiner .excursiones__bandera-argentina {
+      object-fit: fill; }
+      main section .flex__conteiner .grid__conteiner .excursiones__bandera-argentina .excursiones__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    main section .flex__conteiner .grid__conteiner .excursiones__bloque-texto {
+      border: 2px solid #3E4346;
+      grid-column: 1 / 4;
+      grid-row: 3; }
+      main section .flex__conteiner .grid__conteiner .excursiones__bloque-texto h2 {
+        text-align: center;
+        padding: 15px;
+        color: #CDF6FF;
+        font-size: 25px; }
+      main section .flex__conteiner .grid__conteiner .excursiones__bloque-texto .excursiones__texto {
+        font-size: 20px;
+        line-height: 20px;
+        color: #858585;
+        margin-bottom: 20px;
+        letter-spacing: -0.50px; }
+
+main section .excursiones__boton {
+  height: 200px;
+  width: 16%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px;
+  background-color: #14181b;
+  position: relative;
+  bottom: 500px;
+  left: 68.7%;
+  border-radius: 15px; }
+  main section .excursiones__boton p {
+    color: #CDF6FF;
+    text-align: center;
+    font-size: 25px; }
+    main section .excursiones__boton p a {
+      text-decoration: none;
+      background-color: #CDF6FF;
+      color: #14181B;
+      font-size: 20px;
+      padding: 8px;
+      border-radius: 10px; }
+      main section .excursiones__boton p a:hover {
+        color: #14181B;
+        background-color: #858585;
+        border: 1px solid #858585; }
+
+main section .flex__conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1500px;
+  margin: 0 auto; }
+  main section .flex__conteiner .grid__conteiner-chile {
+    border: 2px solid #3E4346;
+    margin-top: 8px;
+    display: grid;
+    grid-template-columns: repeat(3, 1.5fr);
+    grid-auto-rows: 350px;
+    margin-top: -120px; }
+    main section .flex__conteiner .grid__conteiner-chile .grid__items {
+      background-color: #3E4346; }
+      main section .flex__conteiner .grid__conteiner-chile .grid__items .excursiones__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    main section .flex__conteiner .grid__conteiner-chile .excursiones__img__chile-uno {
+      grid-column: 2/ 3;
+      grid-row: 1; }
+      main section .flex__conteiner .grid__conteiner-chile .excursiones__img__chile-uno .excursiones__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    main section .flex__conteiner .grid__conteiner-chile .excursiones__img__chile-tres {
+      grid-column: 2 / 4; }
+      main section .flex__conteiner .grid__conteiner-chile .excursiones__img__chile-tres .excursiones__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    main section .flex__conteiner .grid__conteiner-chile .excursiones__img__chile-cuatro {
+      grid-row: 1 / 3;
+      grid-column: 1; }
+      main section .flex__conteiner .grid__conteiner-chile .excursiones__img__chile-cuatro .excursiones__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    main section .flex__conteiner .grid__conteiner-chile .excursiones__bloque-texto {
+      border: 2px solid #3E4346;
+      grid-column: 1 / 4;
+      grid-row: 3; }
+      main section .flex__conteiner .grid__conteiner-chile .excursiones__bloque-texto h2 {
+        text-align: center;
+        padding: 15px;
+        color: #CDF6FF;
+        font-size: 25px; }
+      main section .flex__conteiner .grid__conteiner-chile .excursiones__bloque-texto .excursiones__texto {
+        font-size: 20px;
+        line-height: 20px;
+        color: #858585;
+        margin-bottom: 20px;
+        letter-spacing: -0.50px; }
+
+main section .excursiones__boton-chile {
+  height: 200px;
+  width: 16%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px;
+  background-color: #14181b;
+  position: relative;
+  bottom: 500px;
+  left: 15.1%;
+  border-radius: 15px; }
+  main section .excursiones__boton-chile p {
+    color: #CDF6FF;
+    text-align: center;
+    font-size: 25px; }
+    main section .excursiones__boton-chile p a {
+      text-decoration: none;
+      background-color: #CDF6FF;
+      color: #14181B;
+      font-size: 20px;
+      padding: 8px;
+      border-radius: 10px; }
+      main section .excursiones__boton-chile p a:hover {
+        color: #14181B;
+        background-color: #858585;
+        border: 1px solid #858585; }
+
+main section .flex__conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1500px;
+  margin: 0 auto; }
+  main section .flex__conteiner .grid__conteiner-japon {
+    border: 2px solid #3E4346;
+    margin-top: 8px;
+    display: grid;
+    grid-template-columns: repeat(3, 1.5fr);
+    grid-auto-rows: 350px;
+    margin-top: -120px; }
+    main section .flex__conteiner .grid__conteiner-japon .grid__items {
+      background-color: #3E4346; }
+      main section .flex__conteiner .grid__conteiner-japon .grid__items .excursiones__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    main section .flex__conteiner .grid__conteiner-japon .excursiones__img__japon-uno {
+      grid-column: 1;
+      grid-row: span 2; }
+      main section .flex__conteiner .grid__conteiner-japon .excursiones__img__japon-uno .excursiones__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    main section .flex__conteiner .grid__conteiner-japon .excursiones__img__japon-dos {
+      grid-column: 3;
+      grid-row: span 2; }
+      main section .flex__conteiner .grid__conteiner-japon .excursiones__img__japon-dos .excursiones__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    main section .flex__conteiner .grid__conteiner-japon .excursiones__img__japon-tres {
+      grid-column: 2;
+      grid-row: 1 / 3; }
+      main section .flex__conteiner .grid__conteiner-japon .excursiones__img__japon-tres .excursiones__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    main section .flex__conteiner .grid__conteiner-japon .excursiones__bloque-texto-japon {
+      border: 2px solid #3E4346;
+      grid-column: 1 / 4;
+      grid-row: 3; }
+      main section .flex__conteiner .grid__conteiner-japon .excursiones__bloque-texto-japon h2 {
+        text-align: center;
+        padding: 15px;
+        color: #CDF6FF;
+        font-size: 25px; }
+      main section .flex__conteiner .grid__conteiner-japon .excursiones__bloque-texto-japon .excursiones__texto {
+        font-size: 20px;
+        line-height: 20px;
+        color: #858585;
+        margin-bottom: 20px;
+        letter-spacing: -0.50px; }
+
+main section .excursiones__boton-japon {
+  height: 200px;
+  width: 16%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px;
+  background-color: #14181b;
+  position: relative;
+  bottom: 500px;
+  left: 68.7%;
+  border-radius: 15px; }
+  main section .excursiones__boton-japon p {
+    color: #CDF6FF;
+    text-align: center;
+    font-size: 25px; }
+  main section .excursiones__boton-japon a {
+    text-decoration: none;
+    background-color: #CDF6FF;
+    color: #14181B;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 10px; }
+    main section .excursiones__boton-japon a:hover {
+      color: #14181B;
+      background-color: #858585;
+      border: 1px solid #858585; }
+
+main .sobrenosotros {
+  width: 100%;
+  height: 85vh;
+  background-image: url("../img/tunel.jpg");
+  background-position: center;
+  background-size: cover; }
+  main .sobrenosotros .h1__sobrenosotros {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    color: #CDF6FF; }
+  main .sobrenosotros .div__sobrenosotros {
+    align-items: center;
+    height: 150px;
+    width: 50%;
+    margin-left: 25%; }
+  main .sobrenosotros .p__sobrenosotros {
+    text-align: center;
+    font-weight: 600;
+    padding-top: 10px;
+    color: #CDF6FF; }
+
+main section .form-sobrenosotros {
+  width: 30%;
+  margin: 0% auto; }
+  main section .form-sobrenosotros .form-label-sobrenosotros {
+    color: #9dccd6; }
+  main section .form-sobrenosotros .form-control-sobrenosotros {
+    background-color: #444444 !important;
+    border: 2px solid #858585;
+    color: #9dccd6 !important; }
+  main section .form-sobrenosotros .form-text-sobrenosotros {
+    color: #9dccd6; }
+  main section .form-sobrenosotros .form-check-label-sobrenosotros {
+    color: #9dccd6; }
+  main section .form-sobrenosotros .form-check-input {
+    background-color: #858585 !important; }
+    main section .form-sobrenosotros .form-check-input:checked {
+      background-color: #14181B !important;
+      border-color: #CDF6FF; }
+  main section .form-sobrenosotros .boton-color-sobrenosotros {
+    background-color: #858585;
+    color: #14181B; }
+    main section .form-sobrenosotros .boton-color-sobrenosotros:hover {
+      border: 2px solid #444444;
+      background-color: #14181B;
+      color: #CDF6FF; }
+
 footer {
   background-color: #3E4346;
   display: flex;
@@ -288,3 +899,892 @@ footer {
     footer div .twitter {
       width: 64px;
       height: 64px; }
+
+/*-----------MEDIA QUERIES---------*/
+/*---------------INDEX-------------*/
+@media screen and (max-width: 1588px) {
+  main section .excursiones__boton__paquete-viajes {
+    bottom: 59.5vh;
+    width: 21%; }
+    main section .excursiones__boton__paquete-viajes p {
+      font-size: 22px; } }
+
+@media screen and (max-width: 1364px) {
+  main section .excursiones__boton__paquete-viajes {
+    position: initial;
+    background-color: #3E4346;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 30%; }
+  main section .flex__conteiner .grid__conteiner__paquete-viajes-chile {
+    margin-top: 0; } }
+
+@media screen and (max-width: 1289px) {
+  header nav .container-fluid div ul .nav-item .nav-link {
+    margin: 0%; } }
+
+@media screen and (max-width: 1195px) {
+  header nav .container-fluid div ul .nav-item .nav-link {
+    font-size: 17px; } }
+
+@media screen and (max-width: 1127px) {
+  header nav .container-fluid div ul .nav-item .nav-link {
+    font-size: 15px; }
+  header nav .container-fluid div .d-flex .boton-color-index {
+    font-size: 15px; }
+  header nav .container-fluid div .d-flex .form-control {
+    font-size: 15px; } }
+
+@media screen and (max-width: 1098px) {
+  main section .excursiones__boton__paquete-viajes {
+    height: 160px; } }
+
+@media screen and (max-width: 1035px) {
+  header nav .container-fluid div ul .nav-item .nav-link {
+    font-size: 14px; }
+  header nav .container-fluid div .d-flex .boton-color-index {
+    font-size: 14px; }
+  header nav .container-fluid div .d-flex .form-control {
+    font-size: 14px; } }
+
+@media screen and (max-width: 991px) {
+  header nav .container-fluid div ul .nav-item .nav-link {
+    padding: 10px;
+    margin-left: 5px; } }
+
+@media screen and (max-width: 960px) {
+  main .inicio .inicio__titulo {
+    font-size: 30px; }
+  main .inicio .inicio__titulo__parrafo {
+    font-size: 18px;
+    width: 50%; }
+  main section div .recomendacion__titulo {
+    font-size: 20px; }
+  main section div .recomendacion__parrafo {
+    font-size: 18px; }
+  main section .index__titulo__paquetes {
+    font-size: 25px; }
+  main section .flex__conteiner .grid__conteiner__paquete-viajes-argentina {
+    grid-template-columns: 700px;
+    grid-template-rows: repeat(3, 0.5fr); }
+  main section .flex__conteiner .grid__conteiner__paquete-viajes-chile {
+    grid-template-columns: 700px;
+    grid-template-rows: repeat(3, 0.5fr); }
+    main section .flex__conteiner .grid__conteiner__paquete-viajes-chile .grid__items .excursiones__img-chile {
+      height: 523px; } }
+
+@media screen and (max-width: 829px) {
+  main section div .carousel-index .carousel-item .carousel-caption {
+    margin-bottom: 100px; }
+  main section div .carousel-indicators {
+    margin-bottom: 100px; } }
+
+@media screen and (max-width: 775px) {
+  .carousel-caption h5 {
+    font-size: 15px; }
+  .carousel-caption a {
+    font-size: 15px; } }
+
+@media screen and (max-width: 712px) {
+  main section .flex__conteiner .grid__conteiner__paquete-viajes-argentina {
+    grid-template-columns: 500px;
+    grid-template-rows: repeat(3, 0.5fr); }
+  main section .flex__conteiner .grid__conteiner__paquete-viajes-chile {
+    grid-template-columns: 500px;
+    grid-template-rows: repeat(3, 0.5fr); }
+  main section .excursiones__boton__paquete-viajes p {
+    font-size: 18px; }
+    main section .excursiones__boton__paquete-viajes p a {
+      font-size: 17px; } }
+
+@media screen and (max-width: 669px) {
+  main section div .carousel-index .carousel-item .img-carousel {
+    height: 55vh; } }
+
+@media screen and (max-width: 583px) {
+  main section div .carousel-index .carousel-item .carousel-caption {
+    margin-bottom: 70px; }
+  main section div .carousel-index .carousel-item .img-carousel {
+    height: 48vh; }
+  main section div .carousel-indicators {
+    margin-bottom: 70px; } }
+
+@media screen and (max-width: 579px) {
+  header nav .container-fluid div ul .nav-item .nav-link {
+    font-size: 15px; }
+  main .inicio .inicio__titulo {
+    font-size: 25px;
+    padding-top: 250px; }
+  main .inicio .inicio__titulo__parrafo {
+    font-size: 15px; }
+  main .inicio .inicio__boton a {
+    font-size: 13px; }
+  main section div .recomendacion__titulo {
+    font-size: 18px; }
+  main section div .recomendacion__parrafo {
+    font-size: 15px; }
+  main section .index__titulo__paquetes {
+    font-size: 20px; }
+  main section .excursiones__boton__paquete-viajes {
+    height: 130px; }
+    main section .excursiones__boton__paquete-viajes p {
+      font-size: 15px;
+      margin-bottom: 17px; }
+      main section .excursiones__boton__paquete-viajes p a {
+        font-size: 13px; } }
+
+@media screen and (max-width: 507px) {
+  header nav .container-fluid .navbar-brand .logo__avion {
+    width: 100px;
+    height: 100px; }
+  main .inicio .inicio__titulo {
+    font-size: 20px; }
+  main .inicio .inicio__titulo__parrafo {
+    font-size: 12px; }
+  main section div .recomendacion__titulo {
+    font-size: 16px; }
+  main section div .recomendacion__parrafo {
+    font-size: 12px; }
+  main section .flex__conteiner .grid__conteiner__paquete-viajes-argentina {
+    grid-template-columns: 400px;
+    grid-template-rows: repeat(3, 0.5fr); }
+    main section .flex__conteiner .grid__conteiner__paquete-viajes-argentina .grid__texto-encima h3 {
+      font-size: 15px; }
+  main section .flex__conteiner .grid__conteiner__paquete-viajes-chile {
+    grid-template-columns: 400px;
+    grid-template-rows: repeat(3, 0.5fr); }
+    main section .flex__conteiner .grid__conteiner__paquete-viajes-chile .grid__texto-encima h3 {
+      font-size: 15px; }
+  main section .excursiones__boton__paquete-viajes {
+    height: 120px; } }
+
+@media screen and (max-width: 451px) {
+  main section div .recomendacion__titulo {
+    font-size: 14px; }
+  main section .excursiones__boton__paquete-viajes {
+    height: 100px; }
+    main section .excursiones__boton__paquete-viajes p {
+      font-size: 12px; }
+      main section .excursiones__boton__paquete-viajes p a {
+        font-size: 12px; } }
+
+@media screen and (max-width: 411px) {
+  main .inicio .inicio__titulo {
+    font-size: 15px;
+    padding-top: 100px; }
+  main .inicio .inicio__boton a {
+    font-size: 10px; }
+  main section div .recomendacion__titulo {
+    font-size: 12px; }
+  main section div .recomendacion__parrafo {
+    font-size: 10px; }
+  main section div .carousel-index .carousel-item .carousel-caption {
+    margin-bottom: 30px; }
+  main section div .carousel-index .carousel-item .img-carousel {
+    height: 35vh; }
+  main section div .carousel-indicators {
+    margin-bottom: 30px; }
+  main section .index__titulo__paquetes {
+    font-size: 15px; }
+  main section .flex__conteiner .grid__conteiner__paquete-viajes-argentina {
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(3, 0.5fr); }
+    main section .flex__conteiner .grid__conteiner__paquete-viajes-argentina .grid__texto-encima h3 {
+      font-size: 10px; }
+  main section .flex__conteiner .grid__conteiner__paquete-viajes-chile {
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(3, 0.5fr); }
+    main section .flex__conteiner .grid__conteiner__paquete-viajes-chile .grid__texto-encima h3 {
+      font-size: 10px; }
+  main section .excursiones__boton__paquete-viajes {
+    height: 90px; }
+    main section .excursiones__boton__paquete-viajes p {
+      font-size: 10px; }
+      main section .excursiones__boton__paquete-viajes p a {
+        font-size: 8px; }
+  .carousel-caption h5 {
+    font-size: 12px; }
+  .carousel-caption a {
+    font-size: 12px; } }
+
+@media screen and (max-width: 320px) {
+  main section .flex__conteiner .grid__conteiner__paquete-viajes-argentina {
+    grid-template-columns: 250px;
+    grid-template-rows: repeat(3, 0.5fr); }
+  main section .flex__conteiner .grid__conteiner__paquete-viajes-chile {
+    grid-template-columns: 250px;
+    grid-template-rows: repeat(3, 0.5fr); } }
+
+/*----------VUELOS----------*/
+@media screen and (max-width: 1270px) {
+  main section .card-vuelos .row .col-md-8 .card-body-vuelos .card-vuelos-titulo {
+    font-size: 20px; }
+  main section .card-vuelos .row .col-md-8 .card-body-vuelos .card-texto-vuelos {
+    font-size: 13px; }
+  main section .card-vuelos .row .col-md-8 .card-body-vuelos .vuelos__precio strong {
+    font-size: 22px; }
+  main section .card-vuelos .row .col-md-8 .card-body-vuelos a {
+    font-size: 14px; }
+  main section .card-vuelos-contrario .card-body-vuelos .card-vuelos-titulo {
+    font-size: 20px; }
+  main section .card-vuelos-contrario .card-body-vuelos strong {
+    font-size: 22px; }
+  main section .card-vuelos-contrario .card-body-vuelos .card-texto-vuelos {
+    font-size: 13px; }
+  main section .card-vuelos-contrario .card-body-vuelos a {
+    font-size: 14px; } }
+
+@media screen and (max-width: 1267px) {
+  main section .card-vuelos {
+    margin-right: 200px; }
+  main section .card-vuelos-contrario {
+    margin-left: 200px; } }
+
+@media screen and (max-width: 1063px) {
+  main section .card-vuelos .row .col-md-8 .card-body-vuelos .card-vuelos-titulo {
+    font-size: 20px; }
+  main section .card-vuelos .row .col-md-8 .card-body-vuelos .card-texto-vuelos {
+    font-size: 12px; }
+  main section .card-vuelos .row .col-md-8 .card-body-vuelos .vuelos__precio strong {
+    font-size: 20px; }
+  main section .card-vuelos .row .col-md-8 .card-body-vuelos a {
+    font-size: 14px;
+    padding: 8px; }
+  main section .card-vuelos-contrario .card-body-vuelos .card-vuelos-titulo {
+    font-size: 20px; }
+  main section .card-vuelos-contrario .card-body-vuelos .vuelos__precio strong {
+    font-size: 20px; }
+  main section .card-vuelos-contrario .card-body-vuelos .card-texto-vuelos {
+    font-size: 12px; }
+  main section .card-vuelos-contrario .card-body-vuelos a {
+    font-size: 14px;
+    padding: 8px; } }
+
+@media screen and (max-width: 1023px) {
+  main section .card-vuelos {
+    margin-right: 150px; }
+  main section .card-vuelos-contrario {
+    margin-left: 150px; } }
+
+@media screen and (max-width: 989px) {
+  main .vuelos__h1 {
+    font-size: 22px; }
+  main section .card-vuelos {
+    margin-right: 150px; }
+  main section .card-vuelos-contrario {
+    margin-left: 150px; } }
+
+@media screen and (max-width: 817px) {
+  main .vuelos__h1 {
+    font-size: 20px; }
+  main section .card-vuelos .row .col-md-8 .card-body-vuelos .card-vuelos-titulo {
+    font-size: 17px; }
+  main section .card-vuelos .row .col-md-8 .card-body-vuelos .card-texto-vuelos {
+    font-size: 10px; }
+  main section .card-vuelos .row .col-md-8 .card-body-vuelos .vuelos__precio strong {
+    font-size: 17px; }
+  main section .card-vuelos .row .col-md-8 .card-body-vuelos a {
+    font-size: 12px; }
+  main section .card-vuelos-contrario .card-body-vuelos .card-vuelos-titulo {
+    font-size: 17px; }
+  main section .card-vuelos-contrario .card-body-vuelos .vuelos__precio strong {
+    font-size: 17px; }
+  main section .card-vuelos-contrario .card-body-vuelos .card-texto-vuelos {
+    font-size: 10px; }
+  main section .card-vuelos-contrario .card-body-vuelos a {
+    font-size: 12px; } }
+
+@media screen and (max-width: 767px) {
+  main .vuelos__h1 {
+    font-size: 18px; }
+  main section .card-vuelos {
+    margin-right: 0%;
+    margin: 0 auto; }
+    main section .card-vuelos .row .col-md-8 .card-body-vuelos .card-vuelos-titulo {
+      font-size: 15px; }
+    main section .card-vuelos .row .col-md-8 .card-body-vuelos .card-texto-vuelos {
+      font-size: 8px; }
+    main section .card-vuelos .row .col-md-8 .card-body-vuelos .vuelos__precio strong {
+      font-size: 15px; }
+    main section .card-vuelos .row .col-md-8 .card-body-vuelos a {
+      font-size: 10px;
+      padding: 5px; }
+  main section .card-vuelos-contrario {
+    margin-left: 0%;
+    margin: 0 auto; }
+    main section .card-vuelos-contrario .card-body-vuelos .card-vuelos-titulo {
+      font-size: 15px; }
+    main section .card-vuelos-contrario .card-body-vuelos .vuelos__precio strong {
+      font-size: 15px; }
+    main section .card-vuelos-contrario .card-body-vuelos .card-texto-vuelos {
+      font-size: 8px; }
+    main section .card-vuelos-contrario .card-body-vuelos a {
+      font-size: 10px;
+      padding: 5px; } }
+
+@media screen and (max-width: 581px) {
+  main .vuelos__h1 {
+    font-size: 18px; }
+  main section .card-vuelos {
+    max-width: 100% !important; }
+    main section .card-vuelos .row .col-md-8 .card-body-vuelos .card-vuelos-titulo {
+      font-size: 12px; }
+    main section .card-vuelos .row .col-md-8 .card-body-vuelos .card-texto-vuelos {
+      font-size: 6px;
+      margin: 0%; }
+    main section .card-vuelos .row .col-md-8 .card-body-vuelos .vuelos__precio {
+      margin: 0%; }
+      main section .card-vuelos .row .col-md-8 .card-body-vuelos .vuelos__precio strong {
+        font-size: 12px; }
+    main section .card-vuelos .row .col-md-8 .card-body-vuelos a {
+      font-size: 8px; }
+  main section .card-vuelos-contrario {
+    max-width: 100% !important; }
+    main section .card-vuelos-contrario .card-body-vuelos .card-vuelos-titulo {
+      font-size: 12px; }
+    main section .card-vuelos-contrario .card-body-vuelos .vuelos__precio {
+      margin: 0%; }
+      main section .card-vuelos-contrario .card-body-vuelos .vuelos__precio strong {
+        font-size: 12px; }
+    main section .card-vuelos-contrario .card-body-vuelos .card-texto-vuelos {
+      font-size: 6px;
+      margin: 0%; }
+    main section .card-vuelos-contrario .card-body-vuelos a {
+      font-size: 8px; } }
+
+@media screen and (max-width: 500px) {
+  main .vuelos__h1 {
+    font-size: 15px; } }
+
+@media screen and (max-width: 473px) {
+  main .vuelos__h1 {
+    font-size: 15px; }
+  main section .card-vuelos .row .col-md-8 .card-body-vuelos .card-vuelos-titulo {
+    font-size: 10px; }
+  main section .card-vuelos .row .col-md-8 .card-body-vuelos .card-texto-vuelos {
+    font-size: 6px; }
+  main section .card-vuelos .row .col-md-8 .card-body-vuelos .vuelos__precio {
+    margin: 0%; }
+    main section .card-vuelos .row .col-md-8 .card-body-vuelos .vuelos__precio strong {
+      font-size: 10px; }
+  main section .card-vuelos .row .col-md-8 .card-body-vuelos a {
+    font-size: 7px; }
+  main section .card-vuelos-contrario .card-body-vuelos .card-vuelos-titulo {
+    font-size: 10px; }
+  main section .card-vuelos-contrario .card-body-vuelos .vuelos__precio {
+    margin: 0%; }
+    main section .card-vuelos-contrario .card-body-vuelos .vuelos__precio strong {
+      font-size: 10px; }
+  main section .card-vuelos-contrario .card-body-vuelos .card-texto-vuelos {
+    font-size: 6px; }
+  main section .card-vuelos-contrario .card-body-vuelos a {
+    font-size: 7px; } }
+
+@media screen and (max-width: 411px) {
+  main .vuelos__h1 {
+    font-size: 12px; }
+  main section .card-vuelos .row .col-md-8 .card-body-vuelos .card-vuelos-titulo {
+    font-size: 8px; }
+  main section .card-vuelos .row .col-md-8 .card-body-vuelos .vuelos__precio {
+    margin: 0%; }
+    main section .card-vuelos .row .col-md-8 .card-body-vuelos .vuelos__precio strong {
+      font-size: 8px; }
+  main section .card-vuelos .row .col-md-8 .card-body-vuelos .card-texto-vuelos {
+    font-size: 5px; }
+  main section .card-vuelos .row .col-md-8 .card-body-vuelos a {
+    font-size: 6px;
+    padding: 3px; }
+  main section .card-vuelos-contrario .card-body-vuelos .card-vuelos-titulo {
+    font-size: 8px; }
+  main section .card-vuelos-contrario .card-body-vuelos .vuelos__precio {
+    margin: 0%; }
+    main section .card-vuelos-contrario .card-body-vuelos .vuelos__precio strong {
+      font-size: 8px; }
+  main section .card-vuelos-contrario .card-body-vuelos .card-texto-vuelos {
+    font-size: 6px; }
+  main section .card-vuelos-contrario .card-body-vuelos a {
+    font-size: 6px;
+    padding: 3px; } }
+
+@media screen and (max-width: 344px) {
+  main .vuelos__h1 {
+    font-size: 10px; }
+  main section .card-vuelos .row .col-md-8 .card-body-vuelos .card-vuelos-titulo {
+    font-size: 7px; }
+  main section .card-vuelos .row .col-md-8 .card-body-vuelos .vuelos__precio {
+    margin: 0%; }
+    main section .card-vuelos .row .col-md-8 .card-body-vuelos .vuelos__precio strong {
+      font-size: 7px; }
+  main section .card-vuelos .row .col-md-8 .card-body-vuelos a {
+    font-size: 5px; }
+  main section .card-vuelos-contrario .card-body-vuelos .card-vuelos-titulo {
+    font-size: 7px; }
+  main section .card-vuelos-contrario .card-body-vuelos .vuelos__precio {
+    margin: 0%; }
+    main section .card-vuelos-contrario .card-body-vuelos .vuelos__precio strong {
+      font-size: 7px; }
+  main section .card-vuelos-contrario .card-body-vuelos a {
+    font-size: 5px; } }
+
+@media screen and (max-width: 313px) {
+  main section .card-vuelos .card-body-vuelos .card-vuelos-titulo {
+    font-size: 6px; }
+  main section .card-vuelos-contrario .card-body-vuelos .card-vuelos-titulo {
+    font-size: 6px; } }
+
+/*-------------ALOJAMIENTO------------*/
+@media screen and (max-width: 900px) {
+  main section .alojamiento__h1 {
+    font-size: 22px; } }
+
+@media screen and (max-width: 760px) {
+  main section .alojamiento__h1 {
+    font-size: 20px; }
+  main section .row .col-lg-6 .card-alojamiento .card-alojamiento-titulo {
+    font-size: 20px; }
+  main section .row .col-lg-6 .card-alojamiento .alojamiento__texto {
+    font-size: 12px; }
+  main section .row .col-lg-6 .card-alojamiento .alojamiento__precio {
+    font-size: 20px;
+    padding-bottom: 10px; }
+  main section .row .col-lg-6 .card-alojamiento .card-body-alojamiento a {
+    font-size: 15px; } }
+
+@media screen and (max-width: 700px) {
+  main section .row .col-lg-6 .card-alojamiento .card-alojamiento-titulo {
+    font-size: 15px; }
+  main section .row .col-lg-6 .card-alojamiento .alojamiento__texto {
+    font-size: 10px; }
+  main section .row .col-lg-6 .card-alojamiento .alojamiento__precio {
+    font-size: 15px;
+    padding-bottom: 0px; }
+  main section .row .col-lg-6 .card-alojamiento .card-body-alojamiento a {
+    font-size: 10px; } }
+
+@media screen and (max-width: 480px) {
+  main section .alojamiento__h1 {
+    font-size: 15px; } }
+
+/*-------------EXCURSIONES------------*/
+@media screen and (max-width: 1620px) {
+  main section .excursiones__boton-chile {
+    left: 11.1%; }
+  main section .excursiones__boton-japon {
+    left: 76.7%; } }
+
+@media screen and (max-width: 1490px) {
+  main section .flex__conteiner .grid__conteiner {
+    width: 90%; }
+  main section .flex__conteiner .grid__conteiner-chile {
+    width: 90%; }
+  main section .flex__conteiner .grid__conteiner-japon {
+    width: 90%; }
+  main section .excursiones__boton {
+    width: 20%;
+    left: 70.7%; }
+  main section .excursiones__boton-chile {
+    width: 18%;
+    left: 8%; }
+    main section .excursiones__boton-chile p {
+      font-size: 25px; }
+  main section .excursiones__boton-japon {
+    width: 20%;
+    left: 70.9%; } }
+
+@media screen and (max-width: 1420px) {
+  main section .excursiones__boton {
+    left: 74.7%;
+    bottom: 450px;
+    height: 150px; }
+    main section .excursiones__boton p {
+      font-size: 25px; }
+      main section .excursiones__boton p a {
+        font-size: 18px; }
+  main section .excursiones__boton-chile {
+    left: 5.1%;
+    bottom: 450px;
+    height: 150px; }
+    main section .excursiones__boton-chile p {
+      font-size: 25px; }
+      main section .excursiones__boton-chile p a {
+        font-size: 18px; }
+  main section .excursiones__boton-japon {
+    left: 74.9%;
+    bottom: 450px;
+    height: 150px; }
+    main section .excursiones__boton-japon p {
+      font-size: 25px; }
+      main section .excursiones__boton-japon p a {
+        font-size: 18px; } }
+
+@media screen and (max-width: 1260px) {
+  main section .excursiones__boton-japon {
+    left: 74.7%; }
+  main section .excursiones__boton-chile p {
+    font-size: 22px; } }
+
+@media screen and (max-width: 1170px) {
+  main .excursiones__h1 {
+    font-size: 22px; }
+  main section .flex__conteiner .grid__conteiner .excursiones__bloque-texto h2 {
+    font-size: 20px; }
+  main section .flex__conteiner .grid__conteiner .excursiones__bloque-texto .excursiones__texto {
+    font-size: 15px; }
+  main section .flex__conteiner .grid__conteiner-chile {
+    margin-top: -80px; }
+    main section .flex__conteiner .grid__conteiner-chile .excursiones__bloque-texto h2 {
+      font-size: 20px; }
+    main section .flex__conteiner .grid__conteiner-chile .excursiones__bloque-texto .excursiones__texto {
+      font-size: 15px; }
+  main section .flex__conteiner .grid__conteiner-japon {
+    margin-top: -80px; }
+    main section .flex__conteiner .grid__conteiner-japon .excursiones__bloque-texto-japon h2 {
+      font-size: 20px; }
+    main section .flex__conteiner .grid__conteiner-japon .excursiones__bloque-texto-japon .excursiones__texto {
+      font-size: 15px; }
+  main section .excursiones__boton {
+    height: 130px;
+    bottom: 440px; }
+    main section .excursiones__boton p {
+      font-size: 22px; }
+    main section .excursiones__boton a {
+      font-size: 15px; }
+  main section .excursiones__boton-chile {
+    height: 130px;
+    bottom: 440px; }
+    main section .excursiones__boton-chile p {
+      font-size: 20px; }
+      main section .excursiones__boton-chile p a {
+        font-size: 15px; }
+  main section .excursiones__boton-japon {
+    height: 130px;
+    bottom: 440px; }
+    main section .excursiones__boton-japon p {
+      font-size: 22px; }
+      main section .excursiones__boton-japon p a {
+        font-size: 15px; } }
+
+@media screen and (max-width: 1000px) {
+  main section .excursiones__boton {
+    height: 110px;
+    bottom: 420px;
+    left: 74.7%; }
+    main section .excursiones__boton p {
+      font-size: 20px; }
+      main section .excursiones__boton p a {
+        font-size: 12px; }
+  main section .excursiones__boton-chile {
+    height: 110px;
+    bottom: 420px;
+    left: 5.5%; }
+    main section .excursiones__boton-chile p {
+      font-size: 19px; }
+      main section .excursiones__boton-chile p a {
+        font-size: 12px; }
+  main section .excursiones__boton-japon {
+    height: 110px;
+    bottom: 420px;
+    left: 74.9%; }
+    main section .excursiones__boton-japon p {
+      font-size: 20px; }
+      main section .excursiones__boton-japon p a {
+        font-size: 12px; } }
+
+@media screen and (max-width: 930px) {
+  main .excursiones__h1 {
+    font-size: 20px; }
+  main section .flex__conteiner .grid__conteiner .excursiones__bloque-texto h2 {
+    font-size: 17px; }
+  main section .flex__conteiner .grid__conteiner .excursiones__bloque-texto .excursiones__texto {
+    font-size: 15px; }
+  main section .flex__conteiner .grid__conteiner-chile .excursiones__bloque-texto h2 {
+    font-size: 17px; }
+  main section .flex__conteiner .grid__conteiner-chile .excursiones__bloque-texto .excursiones__texto {
+    font-size: 15px; }
+  main section .flex__conteiner .grid__conteiner-japon .excursiones__bloque-texto-japon h2 {
+    font-size: 15px; }
+  main section .flex__conteiner .grid__conteiner-japon .excursiones__bloque-texto-japon .excursiones__texto {
+    font-size: 15px; }
+  main section .excursiones__boton p {
+    font-size: 18px; }
+    main section .excursiones__boton p a {
+      font-size: 10px; }
+  main section .excursiones__boton-chile p {
+    font-size: 16px; }
+    main section .excursiones__boton-chile p a {
+      font-size: 10px; }
+  main section .excursiones__boton-japon p {
+    font-size: 18px; }
+    main section .excursiones__boton-japon p a {
+      font-size: 10px; } }
+
+@media screen and (max-width: 830px) {
+  main .excursiones__h1 {
+    font-size: 17px; }
+  main section .flex__conteiner .grid__conteiner {
+    grid-template-columns: 1fr;
+    grid-template-rows: 290px 500px 500px 500px 350px; }
+    main section .flex__conteiner .grid__conteiner .excursiones__img__buenosaires-dos {
+      grid-column: 1;
+      grid-row: 2; }
+    main section .flex__conteiner .grid__conteiner .excursiones__img__buenosaires-tres {
+      grid-column: 1;
+      grid-row: 3; }
+    main section .flex__conteiner .grid__conteiner .excursiones__img__buenosaires-cuatro {
+      grid-column: 1;
+      grid-row: 4; }
+      main section .flex__conteiner .grid__conteiner .excursiones__img__buenosaires-cuatro .excursiones__bandera-argentina {
+        object-fit: cover; }
+    main section .flex__conteiner .grid__conteiner .excursiones__bloque-texto {
+      grid-column: 1;
+      grid-row: 5; }
+      main section .flex__conteiner .grid__conteiner .excursiones__bloque-texto .excursiones__texto {
+        font-size: 13px; }
+  main section .flex__conteiner .grid__conteiner-chile {
+    margin-top: 0%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 290px 500px 500px 550px 380px; }
+    main section .flex__conteiner .grid__conteiner-chile .excursiones__img__chile-uno {
+      grid-column: 1;
+      grid-row: 1; }
+    main section .flex__conteiner .grid__conteiner-chile .excursiones__img__chile-dos {
+      grid-column: 1;
+      grid-row: 2; }
+    main section .flex__conteiner .grid__conteiner-chile .excursiones__img__chile-tres {
+      grid-column: 1;
+      grid-row: 3; }
+    main section .flex__conteiner .grid__conteiner-chile .excursiones__img__chile-cuatro {
+      grid-column: 1;
+      grid-row: 4; }
+    main section .flex__conteiner .grid__conteiner-chile .excursiones__bloque-texto {
+      grid-column: 1;
+      grid-row: 5; }
+      main section .flex__conteiner .grid__conteiner-chile .excursiones__bloque-texto .excursiones__texto {
+        font-size: 13px; }
+  main section .flex__conteiner .grid__conteiner-japon {
+    margin-top: 0%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 800px 500px 500px; }
+    main section .flex__conteiner .grid__conteiner-japon .excursiones__img__japon-uno {
+      grid-column: 1;
+      grid-row: 1; }
+    main section .flex__conteiner .grid__conteiner-japon .excursiones__img__japon-dos {
+      grid-column: 1;
+      grid-row: 2; }
+    main section .flex__conteiner .grid__conteiner-japon .excursiones__img__japon-tres {
+      grid-column: 1;
+      grid-row: 3; }
+    main section .flex__conteiner .grid__conteiner-japon .excursiones__bloque-texto-japon {
+      grid-column: 1;
+      grid-row: 4; }
+  main section .excursiones__boton {
+    height: 110px;
+    background-color: #3E4346;
+    position: initial;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+    main section .excursiones__boton p {
+      font-size: 15px; }
+      main section .excursiones__boton p a {
+        padding: 5px; }
+  main section .excursiones__boton-chile {
+    height: 110px;
+    background-color: #3E4346;
+    position: initial;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+    main section .excursiones__boton-chile p {
+      font-size: 15px; }
+      main section .excursiones__boton-chile p a {
+        padding: 5px; }
+  main section .excursiones__boton-japon {
+    height: 110px;
+    background-color: #3E4346;
+    position: initial;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+    main section .excursiones__boton-japon p {
+      font-size: 15px; }
+      main section .excursiones__boton-japon p a {
+        padding: 5px; } }
+
+@media screen and (max-width: 730px) {
+  main section .flex__conteiner .grid__conteiner .excursiones__bloque-texto h2 {
+    font-size: 13px; }
+  main section .flex__conteiner .grid__conteiner .excursiones__bloque-texto .excursiones__texto {
+    font-size: 12px; }
+  main section .flex__conteiner .grid__conteiner-chile .excursiones__bloque-texto h2 {
+    font-size: 13px; }
+  main section .flex__conteiner .grid__conteiner-chile .excursiones__bloque-texto .excursiones__texto {
+    font-size: 12px; }
+  main section .flex__conteiner .grid__conteiner-japon .excursiones__bloque-texto-japon .excursiones__texto {
+    font-size: 12px; }
+  main section .excursiones__boton {
+    height: 80px; }
+    main section .excursiones__boton p {
+      font-size: 13px; }
+      main section .excursiones__boton p a {
+        font-size: 8px; }
+  main section .excursiones__boton-chile {
+    height: 80px; }
+    main section .excursiones__boton-chile p {
+      font-size: 13px; }
+      main section .excursiones__boton-chile p a {
+        font-size: 8px; }
+  main section .excursiones__boton-japon {
+    height: 80px; }
+    main section .excursiones__boton-japon p {
+      font-size: 13px; }
+      main section .excursiones__boton-japon p a {
+        font-size: 8px; } }
+
+@media screen and (max-width: 648px) {
+  main .excursiones__h1 {
+    font-size: 15px; }
+  main section .excursiones__boton {
+    height: 70px; }
+    main section .excursiones__boton p {
+      font-size: 10px;
+      margin-bottom: 5px; }
+  main section .excursiones__boton-chile {
+    height: 70px; }
+    main section .excursiones__boton-chile p {
+      font-size: 10px;
+      margin-bottom: 5px; }
+  main section .excursiones__boton-japon {
+    height: 70px; }
+    main section .excursiones__boton-japon p {
+      font-size: 10px;
+      margin-bottom: 5px; } }
+
+@media screen and (max-width: 570px) {
+  main section .flex__conteiner .grid__conteiner .excursiones__bloque-texto h2 {
+    font-size: 13px; }
+  main section .flex__conteiner .grid__conteiner .excursiones__bloque-texto .excursiones__texto {
+    font-size: 10px; }
+  main section .flex__conteiner .grid__conteiner-chile .excursiones__bloque-texto h2 {
+    font-size: 13px; }
+  main section .flex__conteiner .grid__conteiner-chile .excursiones__bloque-texto .excursiones__texto {
+    font-size: 10px; }
+  main section .flex__conteiner .grid__conteiner-japon .excursiones__bloque-texto-japon h2 {
+    font-size: 13px; }
+  main section .flex__conteiner .grid__conteiner-japon .excursiones__bloque-texto-japon .excursiones__texto {
+    font-size: 10px; }
+  main section .excursiones__boton {
+    width: 25%; }
+  main section .excursiones__boton-chile {
+    width: 25%; }
+  main section .excursiones__boton-japon {
+    width: 25%; } }
+
+@media screen and (max-width: 460px) {
+  main section .flex__conteiner .grid__conteiner .excursiones__bloque-texto h2 {
+    font-size: 12px; }
+  main section .flex__conteiner .grid__conteiner .excursiones__bloque-texto .excursiones__texto {
+    font-size: 8px; }
+  main section .flex__conteiner .grid__conteiner-chile .excursiones__bloque-texto h2 {
+    font-size: 12px; }
+  main section .flex__conteiner .grid__conteiner-chile .excursiones__bloque-texto .excursiones__texto {
+    font-size: 8px; }
+  main section .flex__conteiner .grid__conteiner-japon .excursiones__bloque-texto-japon .excursiones__texto {
+    font-size: 8px; } }
+
+@media screen and (max-width: 370px) {
+  main section .flex__conteiner .grid__conteiner .excursiones__bloque-texto .excursiones__texto {
+    font-size: 7px; }
+  main section .flex__conteiner .grid__conteiner-chile .excursiones__bloque-texto .excursiones__texto {
+    font-size: 7px; }
+  main section .flex__conteiner .grid__conteiner-japon .excursiones__bloque-texto-japon .excursiones__texto {
+    font-size: 7px; } }
+
+/*----------SOBRE NOSOTROS---------*/
+@media screen and (max-width: 1296px) {
+  main .sobrenosotros .h1__sobrenosotros {
+    font-size: 30px; } }
+
+@media screen and (max-width: 1155px) {
+  main section .form-sobrenosotros form .form-text-sobrenosotros {
+    font-size: 11px; } }
+
+@media screen and (max-width: 960px) {
+  main .sobrenosotros {
+    height: 60vh; }
+    main .sobrenosotros .h1__sobrenosotros {
+      font-size: 20px; }
+    main .sobrenosotros .div__sobrenosotros .p__sobrenosotros {
+      font-size: 15px; } }
+
+@media screen and (max-width: 907px) {
+  main section .form-sobrenosotros .form-text-sobrenosotros {
+    font-size: 9px; } }
+
+@media screen and (max-width: 650px) {
+  main .sobrenosotros .h1__sobrenosotros {
+    font-size: 15px; }
+  main .sobrenosotros .div__sobrenosotros .p__sobrenosotros {
+    font-size: 12px; }
+  main section .form-sobrenosotros {
+    width: 45%; }
+    main section .form-sobrenosotros .form-label-sobrenosotros {
+      font-size: 12px; }
+    main section .form-sobrenosotros .form-check-label-sobrenosotros {
+      font-size: 12px; }
+    main section .form-sobrenosotros .boton-color-sobrenosotros {
+      font-size: 12px; }
+  main section form .form-text-sobrenosotros {
+    font-size: 7px; } }
+
+@media screen and (max-width: 540px) {
+  main .sobrenosotros .h1__sobrenosotros {
+    font-size: 12px; }
+  main .sobrenosotros .div__sobrenosotros .p__sobrenosotros {
+    font-size: 10px; }
+  main section .form-sobrenosotros .form-label-sobrenosotros {
+    font-size: 10px; }
+  main section .form-sobrenosotros .form-check-label-sobrenosotros {
+    font-size: 10px; }
+  main section .form-sobrenosotros .boton-color-sobrenosotros {
+    font-size: 10px; } }
+
+@media screen and (max-width: 412px) {
+  main section .form-sobrenosotros .form-label-sobrenosotros {
+    font-size: 9px; }
+  main section .form-sobrenosotros .form-check-label-sobrenosotros {
+    font-size: 9px; }
+  main section .form-sobrenosotros .boton-color-sobrenosotros {
+    font-size: 9px; }
+  main section .form-sobrenosotros form .form-text-sobrenosotros {
+    font-size: 7px; } }
+
+@media screen and (max-width: 393px) {
+  main .sobrenosotros .h1__sobrenosotros {
+    font-size: 10px; }
+  main .sobrenosotros .div__sobrenosotros .p__sobrenosotros {
+    font-size: 8px; }
+  main section .form-sobrenosotros .form-label-sobrenosotros {
+    font-size: 8px; }
+  main section .form-sobrenosotros .form-check-label-sobrenosotros {
+    font-size: 8px; }
+  main section .form-sobrenosotros .boton-color-sobrenosotros {
+    font-size: 8px; }
+  main section .form-sobrenosotros form .form-text-sobrenosotros {
+    font-size: 6px; } }
+
+/*--------------FOOTER-----------*/
+@media screen and (max-width: 507px) {
+  footer a .logo__avion {
+    width: 100px;
+    height: 100px; }
+  footer div .facebook {
+    width: 42px;
+    height: 42px; }
+  footer div .twitter {
+    width: 42px;
+    height: 42px; }
+  footer div .instagram {
+    width: 42px;
+    height: 42px; } }

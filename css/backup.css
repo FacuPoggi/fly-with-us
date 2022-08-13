@@ -445,11 +445,6 @@ body {
     border: 1px solid #14181B;
 }
 
-.boton-color-alojamiento {
-    background-color: #CDF6FF;
-    color: #14181B;
-}
-
 .alojamiento__precio {
     font-size: 25px;
     padding-bottom: 30px;
@@ -711,7 +706,6 @@ body {
     justify-content: center;
     padding-top: 100px;
     color: #CDF6FF;
-
 }
 
 .div__sobrenosotros {
@@ -726,7 +720,6 @@ body {
     font-weight: 600;
     padding-top: 10px;
     color: #CDF6FF;
-
 }
 
 .sobrenosotros {

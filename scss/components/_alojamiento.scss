@@ -1,1 +1,58 @@
-/*----------ALOJAMIENTO----------*/
+main{
+    .alojamiento__h1 {
+        font-size: 25px;
+        text-align: center;
+        padding-top: 15px;
+        color: #CDF6FF;
+    }
+    .col-lg-6 {
+        padding: 0% !important;
+        .card-alojamiento {
+            margin: 8% !important;
+            background-color: #3E4346;
+            border-top-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+            .card-body-alojamiento {
+                padding: 0% !important;
+                text-align: center;
+            }
+            img {
+                border-top-left-radius: 30px;
+            }
+            .card-alojamiento-titulo {
+                color: #CDF6FF;
+                padding: 15px;
+                font-weight: 600;
+                font-size: 25px;
+            }
+            .alojamiento__texto {
+                font-size: 20px;
+                margin-bottom: 10px;
+                padding: 15px;
+                line-height: 22px;
+                color: #858585;
+            }
+            a {
+                margin-bottom: 10px;
+                background-color: #CDF6FF;
+                color: #14181B;
+                border: #CDF6FF;
+                border-radius: 15px;
+                &:hover{
+                    color: #CDF6FF;
+                    background-color: #14181B;
+                    border: 1px solid #14181B;
+                }
+            }
+            .alojamiento__precio {
+                font-size: 25px;
+                padding-bottom: 30px;
+                color: #CDF6FF;
+            }
+        }
+        
+    }
+    .card-alojamiento-ultima {
+        margin: 0% auto;
+    }
+}
