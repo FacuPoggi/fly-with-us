@@ -1,3 +1,6 @@
+@import "../base/variables";
+@import "../base/mixin";
+@import "../base/maps";
 main{
     .sobrenosotros {
         width: 100%;
@@ -6,10 +9,10 @@ main{
         background-position: center;
         background-size: cover;
         .h1__sobrenosotros {
-            display: flex;
-            justify-content: center;
+            @include flex-out-align (flex, center);
             padding-top: 100px;
-            color: #CDF6FF;
+            color: nth($colores , 1);
+            font-size: nth($font-size, 3);
         }
         .div__sobrenosotros {
             align-items: center;
@@ -21,7 +24,7 @@ main{
             text-align: center;
             font-weight: 600;
             padding-top: 10px;
-            color: #CDF6FF;
+            color: nth($colores , 1);
         }
     }
     section{
@@ -29,33 +32,33 @@ main{
             width: 30%;
             margin: 0% auto;
             .form-label-sobrenosotros {
-                color: #9dccd6;
+                color: nth($colores , 5);
             }
             .form-control-sobrenosotros {
-                background-color: #444444 !important;
-                border: 2px solid #858585;
-                color: #9dccd6 !important;
+                background-color: nth($colores , 6) !important;
+                border: 2px solid nth($colores , 4);
+                color: nth($colores , 5) !important;
             }
             .form-text-sobrenosotros {
-                color: #9dccd6;
+                color: nth($colores , 5);
             }
             .form-check-label-sobrenosotros {
-                color: #9dccd6;
+                color: nth($colores , 5);
             }
             .form-check-input {
-                background-color: #858585 !important;
+                background-color: nth($colores , 4) !important;
                 &:checked{
-                    background-color: #14181B !important;
-                    border-color: #CDF6FF;
+                    background-color: nth($colores , 2) !important;
+                    border-color: nth($colores , 1);
                 }
             }
             .boton-color-sobrenosotros {
-                background-color: #858585;
-                color: #14181B;
+                background-color: map-get($button-3 , bg-color);
+                color: map-get($button-3 , color-text);
                 &:hover{
-                    border: 2px solid #444444;
-                    background-color: #14181B;
-                    color: #CDF6FF;
+                    border: map-get($button-hover-3 , border-button);
+                    background-color: map-get($button-hover-3 , bg-color);
+                    color: map-get($button-hover-3 , color-text);
                 }
             }
         }

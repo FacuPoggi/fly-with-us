@@ -1,15 +1,17 @@
+@import "../base/variables";
+@import "../base/maps";
 main{
     .vuelos__h1 {
-        font-size: 25px;
+        font-size: nth($font-size, 4);
         text-align: center;
         margin-bottom: 10px;
         padding-top: 15px;
-        color: #CDF6FF;
+        color: nth($colores , 1);
     }
     section{
         .card-vuelos {
-            background-color: #14181B;
-            border: 2px solid #3E4346;
+            background-color: nth($colores , 2);
+            border: 2px solid nth($colores , 3);
             margin: 0 auto;
             margin-right: 250px;
             border-radius: 35px;
@@ -25,38 +27,38 @@ main{
                 width: 100%;
                 text-align: center;
                 .card-vuelos-titulo {
-                    font-size: 25px;
+                    font-size: nth($font-size, 4);
                     margin-bottom: 10px;
-                    color: #CDF6FF;
+                    color: nth($colores , 1);
                 }
                 .card-texto-vuelos {
-                    color: #858585;
+                    color: nth($colores , 4);
                     letter-spacing: 0.30px;
                 }
                 .vuelos__precio {
                     strong{
-                        font-size: 25px;
-                        color: #CDF6FF;
+                        font-size: nth($font-size, 4);
+                        color: nth($colores , 1);
                     }
                 }
                 a {
-                    background-color: #CDF6FF;
+                    background-color: map-get($button, bg-color);
                     padding: 10px;
                     text-decoration: none;
-                    color: #14181B;
+                    color: map-get($button, color-text);
                     text-align: center;
-                    border-radius: 15px;
+                    border-radius: nth($border-radius , 1);
                     &:hover{
-                        color: #14181B;
-                        background-color: #858585;
-                        border: 1px solid #858585;
+                        color: map-get($button-hover-2 , color-text);
+                        background-color: map-get($button-hover-2 , bg-color);
+                        border: map-get($button-hover-2 , border-button);
                     }
                 }
             }
         }
         .card-vuelos-contrario {
-            background-color: #14181B;
-            border: 2px solid #3E4346;
+            background-color: nth($colores , 2);
+            border: 2px solid nth($colores , 3);
             margin: 0 auto;
             margin-left: 250px;
             border-radius: 35px;
@@ -72,39 +74,39 @@ main{
                 width: 100%;
                 text-align: center;
                 .card-vuelos-titulo {
-                    font-size: 25px;
+                    font-size: nth($font-size, 4);
                     margin-bottom: 10px;
-                    color: #CDF6FF;
+                    color: nth($colores , 1);
                 }
                 .card-texto-vuelos {
-                    color: #858585;
+                    color: nth($colores , 4);
                     letter-spacing: 0.30px;
                 }
                 .vuelos__precio {
                     strong {
-                        font-size: 25px;
-                        color: #CDF6FF;
+                        font-size: nth($font-size, 4);
+                        color: nth($colores , 1);
                     }
                 }
                 a {
-                    background-color: #CDF6FF;
+                    background-color: map-get($button , bg-color);
                     padding: 10px;
                     text-decoration: none;
-                    color: #14181B;
+                    color: map-get($button, color-text);
                     text-align: center;
-                    border-radius: 15px;
+                    border-radius: nth($border-radius , 1);
                     &:hover{
-                        color: #14181B;
-                        background-color: #858585;
-                        border: 1px solid #858585;
+                        color: map-get($button-hover-2 , color-text);
+                        background-color: map-get($button-hover-2 , bg-color);
+                        border: map-get($button-hover-2 , border-button);
                     }
                 }
                 
             }
         }
         .card-vuelos {
-            background-color: #14181B;
-            border: 2px solid #3E4346;
+            background-color: nth($colores , 2);
+            border: 2px solid nth($colores , 3);
             margin: 0 auto;
             margin-right: 250px;
             border-radius: 35px;
@@ -120,38 +122,38 @@ main{
                 width: 100%;
                 text-align: center;
                 .card-vuelos-titulo {
-                    font-size: 25px;
+                    font-size: nth($font-size, 4);
                     margin-bottom: 10px;
-                    color: #CDF6FF;
+                    color: nth($colores , 1);
                 }
                 .card-texto-vuelos {
-                    color: #858585;
+                    color: nth($colores , 4);
                     letter-spacing: 0.30px;
                 }
                 .vuelos__precio {
                     strong {
-                        font-size: 25px;
-                        color: #CDF6FF;
+                        font-size: nth($font-size, 4);
+                        color: nth($colores , 1);
                     }
                 }
                 a {
-                    background-color: #CDF6FF;
+                    background-color: map-get($button , bg-color);
                     padding: 10px;
                     text-decoration: none;
-                    color: #14181B;
+                    color: map-get($button, color-text);
                     text-align: center;
-                    border-radius: 15px;
+                    border-radius: nth($border-radius , 1);
                     &:hover{
-                        color: #14181B;
-                        background-color: #858585;
-                        border: 1px solid #858585;
+                        color: map-get($button-hover-2 , color-text);
+                        background-color: map-get($button-hover-2 , bg-color);
+                        border: map-get($button-hover-2 , border-button);
                     }
                 }
             }
         }
         .card-vuelos-contrario {
-            background-color: #14181B;
-            border: 2px solid #3E4346;
+            background-color: nth($colores , 2);
+            border: 2px solid nth($colores , 3);
             margin: 0 auto;
             margin-left: 250px;
             border-radius: 35px;
@@ -167,38 +169,38 @@ main{
                 width: 100%;
                 text-align: center;
                 .card-vuelos-titulo {
-                    font-size: 25px;
+                    font-size: nth($font-size, 4);
                     margin-bottom: 10px;
-                    color: #CDF6FF;
+                    color: nth($colores , 1);
                 }
                 .card-texto-vuelos {
-                    color: #858585;
+                    color: nth($colores , 4);
                     letter-spacing: 0.30px;
                 }
                 .vuelos__precio {
                     strong {
-                        font-size: 25px;
-                        color: #CDF6FF;
+                        font-size: nth($font-size, 4);
+                        color: nth($colores , 1);
                     }
                 }
                 .card-body-vuelos a {
-                    background-color: #CDF6FF;
+                    background-color: map-get($button , bg-color);
                     padding: 10px;
                     text-decoration: none;
-                    color: #14181B;
+                    color: map-get($button , color-text);
                     text-align: center;
-                    border-radius: 15px;
+                    border-radius: nth($border-radius , 1);
                     &:hover{
-                        color: #14181B;
-                        background-color: #858585;
-                        border: 1px solid #858585;
+                        color: map-get($button-hover-2 , color-text);
+                        background-color: map-get($button-hover-2 , bg-color);
+                        border: map-get($button-hover-2 , border-button);
                     }
                 }
             }
         }
         .card-vuelos {
-            background-color: #14181B;
-            border: 2px solid #3E4346;
+            background-color: nth($colores , 2);
+            border: 2px solid nth($colores , 3);
             margin: 0 auto;
             margin-right: 250px;
             border-radius: 35px;
@@ -214,38 +216,38 @@ main{
                 width: 100%;
                 text-align: center;
                 .card-vuelos-titulo {
-                    font-size: 25px;
+                    font-size: nth($font-size, 4);
                     margin-bottom: 10px;
-                    color: #CDF6FF;
+                    color: nth($colores , 1);
                 }
                 .card-texto-vuelos {
-                    color: #858585;
+                    color: nth($colores , 4);
                     letter-spacing: 0.30px;
                 }
                 .vuelos__precio {
                     strong {
-                        font-size: 25px;
-                        color: #CDF6FF;
+                        font-size: nth($font-size, 4);
+                        color: nth($colores , 1);
                     }
                 }
                 a {
-                    background-color: #CDF6FF;
+                    background-color: map-get($button , bg-color);
                     padding: 10px;
                     text-decoration: none;
-                    color: #14181B;
+                    color: map-get($button, color-text);
                     text-align: center;
-                    border-radius: 15px;
+                    border-radius: nth($border-radius , 1);
                     &:hover{
-                        color: #14181B;
-                        background-color: #858585;
-                        border: 1px solid #858585;
+                        color: map-get($button-hover-2 , color-text);
+                        background-color: map-get($button-hover-2 , bg-color);
+                        border: map-get($button-hover-2 , border-button);
                     }
                 }
             }
         }
         .card-vuelos-contrario {
-            background-color: #14181B;
-            border: 2px solid #3E4346;
+            background-color: nth($colores , 2);
+            border: 2px solid nth($colores , 3);
             margin: 0 auto;
             margin-left: 250px;
             border-radius: 35px;
@@ -261,39 +263,39 @@ main{
                 width: 100%;
                 text-align: center;
                 .card-vuelos-titulo {
-                    font-size: 25px;
+                    font-size: nth($font-size, 4);
                     margin-bottom: 10px;
-                    color: #CDF6FF;
+                    color: nth($colores , 1);
                 }
                 .card-texto-vuelos {
-                    color: #858585;
+                    color: nth($colores , 4);
                     letter-spacing: 0.30px;
                 }
                 .vuelos__precio {
                     strong {
-                        font-size: 25px;
-                        color: #CDF6FF;
+                        font-size: nth($font-size, 4);
+                        color: nth($colores , 1);
                     }
                 }
                 a {
-                    background-color: #CDF6FF;
+                    background-color: map-get($button , bg-color);
                     padding: 10px;
                     text-decoration: none;
-                    color: #14181B;
+                    color: map-get($button, color-text);
                     text-align: center;
-                    border-radius: 15px;
+                    border-radius: nth($border-radius , 1);
                     &:hover{
-                        color: #14181B;
-                        background-color: #858585;
-                        border: 1px solid #858585;
+                        color: map-get($button-hover-2 , color-text);
+                        background-color: map-get($button-hover-2 , bg-color);
+                        border: map-get($button-hover-2 , border-button);
                     }
                 }
             }
             
         }
         .card-vuelos {
-            background-color: #14181B;
-            border: 2px solid #3E4346;
+            background-color: nth($colores , 2);
+            border: 2px solid nth($colores , 3);
             margin: 0 auto;
             margin-right: 250px;
             border-radius: 35px;
@@ -309,31 +311,31 @@ main{
                 width: 100%;
                 text-align: center;
                 .card-vuelos-titulo {
-                    font-size: 25px;
+                    font-size: nth($font-size, 4);
                     margin-bottom: 10px;
-                    color: #CDF6FF;
+                    color: nth($colores , 1);
                 }
                 .card-texto-vuelos {
-                    color: #858585;
+                    color: nth($colores , 4);
                     letter-spacing: 0.30px;
                 }
                 .vuelos__precio {
                     strong {
-                        font-size: 25px;
-                        color: #CDF6FF;
+                        font-size: nth($font-size, 4);
+                        color: nth($colores , 1);
                     }
                 }
                 a {
-                    background-color: #CDF6FF;
+                    background-color: map-get($button , bg-color);
                     padding: 10px;
                     text-decoration: none;
-                    color: #14181B;
+                    color: map-get($button, color-text);
                     text-align: center;
-                    border-radius: 15px;
+                    border-radius: nth($border-radius , 1);
                     &:hover{
-                        color: #14181B;
-                        background-color: #858585;
-                        border: 1px solid #858585;
+                        color: map-get($button-hover-2 , color-text);
+                        background-color: map-get($button-hover-2 , bg-color);
+                        border: map-get($button-hover-2 , border-button);
                     }
                 }
             }

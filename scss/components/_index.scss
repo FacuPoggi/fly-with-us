@@ -1,4 +1,6 @@
 @import "../base/variables";
+@import "../base/mixin";
+@import "../base/maps";
 main{
     .inicio{
         width: 100%;
@@ -9,7 +11,7 @@ main{
         background-repeat: no-repeat;
         background-attachment: fixed;
         .inicio__titulo{
-            font-size: 40px;
+            font-size: nth($font-size, 1);
             text-align: center;
             font-weight: 600;
             padding-top: 300px;
@@ -19,7 +21,7 @@ main{
             text-align: center;
             font-weight: 300;
             padding-top: 10px;
-            font-size: 20px;
+            font-size: nth($font-size, 5);
             color: $color-textos-principales;
             width: 50%;
             margin-left: 25%;
@@ -29,16 +31,16 @@ main{
             padding: 20px;
             a{
                 text-decoration: none;
-                color: #14181B;
-                background-color: $color-textos-principales;
+                color: map-get($button, color-text);
+                background-color: map-get($button, bg-color);
                 padding: 10px;
-                border: 1px solid $color-textos-principales;
+                border: map-get($button, border-button);
                 font-weight: 600;
-                border-radius: 15px;
+                border-radius: nth($border-radius , 1);
                 &:hover{
-                    color: $color-textos-principales;
-                    background-color: #14181B;
-                    border: 1px solid #14181B;
+                    color: map-get($button-hover , color-text);
+                    background-color: map-get($button-hover, bg-color);
+                    border: map-get($button-hover, border-button);
                 }
             }
         }
@@ -46,22 +48,22 @@ main{
     section{
         div{
             .recomendacion__titulo {
-                font-size: 25px;
+                font-size: nth($font-size, 4);
                 text-align: center;
                 padding-top: 20px;
                 font-weight: 600;
                 color: $color-textos-principales;
             }
             .recomendacion__parrafo {
-                font-size: 23px;
+                font-size: nth($font-size, 5);
                 text-decoration: none;
                 font-weight: 200;
                 text-align: center;
-                color: #CDF6FF;
+                color: nth($colores , 1);
             }
             .recomendacion__enlace{
                 &:hover{
-                    color: #858585;
+                    color: nth($colores , 4);
                 }
             }
         }
@@ -78,13 +80,13 @@ main{
                 .carousel-boton-index{
                     a{
                         text-decoration: none;
-                        color: #14181B;
-                        background-color: #CDF6FF;
+                        color: map-get($button, color-text);
+                        background-color: map-get($button, bg-color);
                         padding: 5px;
                         border-radius: 13px;
                         &:hover{
-                            background-color: #14181B;
-                            color: #CDF6FF;
+                            background-color: map-get($button-hover , bg-color);
+                            color: map-get($button-hover , color-text);
                         }
                     }
                 }
@@ -99,25 +101,23 @@ main{
     }
     section{
         .index__hr {
-            border-color: #CDF6FF;
+            border-color: nth($colores , 1);
             margin-top: 10px;
             margin-left: 20%;
             margin-right: 20%;
         }
         .index__titulo__paquetes {
             text-align: center;
-            font-size: 30px;
-            color: #CDF6FF;
+            font-size: nth($font-size, 3);
+            color: nth($colores , 1);
             margin-top: 30px;
         }
         .flex__conteiner {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @extend %flex;
             max-width: 1500px;
             margin: 0 auto;
             .grid__conteiner__paquete-viajes-argentina {
-                border: 2px solid #3E4346;
+                border: 2px solid nth($colores , 3);
                 margin-top: 20px;
                 display: grid;
                 grid-template-columns: repeat(3, 1fr);
@@ -126,7 +126,7 @@ main{
                 -webkit-box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
                 -moz-box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
                 .grid__items {
-                    background-color: #3E4346;
+                    background-color: nth($colores , 3);
                 }
                 .grid__texto-encima {
                     position: relative;
@@ -149,10 +149,7 @@ main{
         .excursiones__boton__paquete-viajes {
             height: 200px;
             width: 21%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            @extend %flex-column;
             border: 1px;
             background-color: #14181b;
             position: relative;
@@ -160,36 +157,34 @@ main{
             left: 39vw;
             border-radius: 15px;
             p {
-                color: #CDF6FF;
+                color: nth($colores , 1);
                 text-align: center;
-                font-size: 30px;
+                font-size: nth($font-size, 3);
                 margin-bottom: 25px;
                 
             }
             a {
                 text-decoration: none;
-                background-color: #CDF6FF;
-                color: #14181B;
-                font-size: 20px;
+                background-color: map-get($button , bg-color);
+                color: map-get($button , color-text);
+                font-size: nth($font-size, 5);
                 padding: 8px;
-                border-radius: 10px;
+                border-radius: nth($border-radius , 2);
                 &:hover{
-                    color: #14181B;
-                    background-color: #858585;
-                    border: 1px solid #858585;
+                    color: map-get($button-hover-2 , color-text);
+                    background-color: map-get($button-hover-2 , bg-color);
+                    border: map-get($button-hover-2 , border-button);
                 }
             }
         }
     }
     section{
         .flex__conteiner{
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @extend %flex;
             max-width: 1500px;
             margin: 0 auto;
             .grid__conteiner__paquete-viajes-chile {
-                border: 2px solid #3E4346;
+                border: 2px solid nth($colores , 3);
                 margin-top: -120px;
                 display: grid;
                 grid-template-columns: repeat(3, 1fr);
@@ -198,7 +193,7 @@ main{
                 -webkit-box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
                 -moz-box-shadow: 10px 10px 25px -6px rgba(0, 0, 0, 0.75);
                 .grid__items {
-                    background-color: #3E4346;
+                    background-color: nth($colores , 3);
                 }
                 .grid__texto-encima {
                     position: relative;
@@ -221,10 +216,7 @@ main{
         .excursiones__boton__paquete-viajes {
             height: 200px;
             width: 21%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            @extend %flex-column;
             border: 1px;
             background-color: #14181b;
             position: relative;
@@ -232,23 +224,23 @@ main{
             left: 39vw;
             border-radius: 15px;
             p {
-                color: #CDF6FF;
+                color: nth($colores , 1);
                 text-align: center;
-                font-size: 30px;
+                font-size: nth($font-size, 3);
                 margin-bottom: 25px;
                 
             }
             a {
                 text-decoration: none;
-                background-color: #CDF6FF;
-                color: #14181B;
-                font-size: 20px;
+                background-color: map-get($button , bg-color);
+                color: map-get($button , color-text);
+                font-size: nth($font-size , 5);
                 padding: 8px;
-                border-radius: 10px;
+                border-radius: nth($border-radius , 2);
                 &:hover{
-                    color: #14181B;
-                    background-color: #858585;
-                    border: 1px solid #858585;
+                    color: map-get($button-hover-2 , color-text);
+                    background-color: map-get($button-hover-2 , bg-color);
+                    border: map-get($button-hover-2 , border-radius);
                 }
             }
         }

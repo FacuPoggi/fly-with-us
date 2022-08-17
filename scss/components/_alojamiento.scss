@@ -1,15 +1,17 @@
+@import "../base/variables";
+@import "../base/maps";
 main{
     .alojamiento__h1 {
-        font-size: 25px;
+        font-size: nth($font-size, 4);
         text-align: center;
         padding-top: 15px;
-        color: #CDF6FF;
+        color: nth($colores , 1);
     }
     .col-lg-6 {
         padding: 0% !important;
         .card-alojamiento {
             margin: 8% !important;
-            background-color: #3E4346;
+            background-color: nth($colores, 3);
             border-top-left-radius: 30px;
             border-bottom-right-radius: 30px;
             .card-body-alojamiento {
@@ -20,36 +22,37 @@ main{
                 border-top-left-radius: 30px;
             }
             .card-alojamiento-titulo {
-                color: #CDF6FF;
+                color: nth($colores , 1);
                 padding: 15px;
                 font-weight: 600;
-                font-size: 25px;
+                font-size: nth($font-size, 4);
             }
             .alojamiento__texto {
-                font-size: 20px;
+                font-size: nth($font-size, 5);
                 margin-bottom: 10px;
                 padding: 15px;
                 line-height: 22px;
-                color: #858585;
+                color: nth($colores , 4);
+                text-align: initial;
             }
             a {
                 margin-bottom: 10px;
-                background-color: #CDF6FF;
-                color: #14181B;
-                border: #CDF6FF;
-                border-radius: 15px;
+                background-color: map-get($button, bg-color);
+                color: map-get($button, color-text);
+                border: map-get($button, border-button);
+                border-radius: nth($border-radius, 1);
                 &:hover{
-                    color: #CDF6FF;
-                    background-color: #14181B;
-                    border: 1px solid #14181B;
+                    color: map-get($button-hover, color-text);
+                    background-color: map-get($button-hover, bg-color);
+                    border: map-get($button-hover, border-button);
                 }
             }
             .alojamiento__precio {
-                font-size: 25px;
+                font-size: nth($font-size, 4);
                 padding-bottom: 30px;
-                color: #CDF6FF;
+                color: nth($colores , 1);
             }
-        }
+        }   
         
     }
     .card-alojamiento-ultima {

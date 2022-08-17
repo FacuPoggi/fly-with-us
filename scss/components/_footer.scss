@@ -1,8 +1,8 @@
+@import "../base/variables";
+@import "../base/mixin";
 footer{
-    background-color: #3E4346;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background-color: nth($colores , 3);
+    @include flex (flex, space-between, center);
     .logo__avion{
         width: 150px;
         height: 150px;

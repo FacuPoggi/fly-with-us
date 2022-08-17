@@ -1,9 +1,12 @@
+@import "../base/variables";
+@import "../base/extends";
+@import "../base/maps";
 main{
     .excursiones__h1 {
-        color: #CDF6FF;
+        color: nth($colores , 1);
         text-align: center;
         padding: 15px;
-        font-size: 30px;
+        font-size: nth($font-size, 3);
     }
     section{
         .img-carousel-excursiones-bs {
@@ -17,19 +20,17 @@ main{
     }
     section{
         .flex__conteiner {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @extend %flex;
             max-width: 1500px;
             margin: 0 auto;
             .grid__conteiner {
-                border: 2px solid #3E4346;
+                border: 2px solid nth($colores , 3);
                 margin-top: 50px;
                 display: grid;
                 grid-template-columns: repeat(3, 1.5fr);
                 grid-auto-rows: 350px;
                 .grid__items {
-                    background-color: #3E4346;
+                    background-color: nth($colores , 3);
                     .excursiones__img {
                         width: 100%;
                         height: 100%;
@@ -66,19 +67,19 @@ main{
                     
                 }
                 .excursiones__bloque-texto {
-                    border: 2px solid #3E4346;
+                    border: 2px solid nth($colores , 3);
                     grid-column: 1 / 4;
                     grid-row: 3;
                     h2 {
                         text-align: center;
                         padding: 15px;
-                        color: #CDF6FF;
-                        font-size: 25px;
+                        color: nth($colores , 1);
+                        font-size: nth($font-size, 4);
                     }
                     .excursiones__texto {
-                        font-size: 20px;
+                        font-size: nth($font-size, 5);
                         line-height: 20px;
-                        color: #858585;
+                        color: nth($colores , 4);
                         margin-bottom: 20px;
                         letter-spacing: -0.50px;
                     }
@@ -88,31 +89,27 @@ main{
         .excursiones__boton {
             height: 200px;
             width: 16%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            border: 1px;
-            background-color: #14181b;
+            @extend %flex-column;
+            background-color: nth($colores , 2);
             position: relative;
             bottom: 500px;
             left: 68.7%;
             border-radius: 15px;
             p {
-                color: #CDF6FF;
+                color: nth($colores , 1);
                 text-align: center;
-                font-size: 25px;
+                font-size: nth($font-size, 4);
                 a {
                     text-decoration: none;
-                    background-color: #CDF6FF;
-                    color: #14181B;
-                    font-size: 20px;
+                    background-color: map-get($button, bg-color);
+                    color: map-get($button, color-text);
+                    font-size: nth($font-size, 5);
                     padding: 8px;
-                    border-radius: 10px;
+                    border-radius: nth($border-radius , 2);
                     &:hover{
-                        color: #14181B;
-                        background-color: #858585;
-                        border: 1px solid #858585;
+                        color: map-get($button-hover-2 , color-text);
+                        background-color: map-get($button-hover-2 , bg-color);
+                        border: map-get($button-hover-2 , border-button);
                     }
                 }
             }
@@ -121,20 +118,18 @@ main{
     }
     section{
         .flex__conteiner {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @extend %flex;
             max-width: 1500px;
             margin: 0 auto;
             .grid__conteiner-chile {
-                border: 2px solid #3E4346;
+                border: 2px solid nth($colores , 3);
                 margin-top: 8px;
                 display: grid;
                 grid-template-columns: repeat(3, 1.5fr);
                 grid-auto-rows: 350px;
                 margin-top: -120px;
                 .grid__items {
-                    background-color: #3E4346;
+                    background-color: nth($colores , 3);
                     .excursiones__img {
                         width: 100%;
                         height: 100%;
@@ -168,19 +163,19 @@ main{
                     }
                 }
                 .excursiones__bloque-texto {
-                    border: 2px solid #3E4346;
+                    border: 2px solid nth($colores , 3);
                     grid-column: 1 / 4;
                     grid-row: 3;
                     h2 {
                         text-align: center;
                         padding: 15px;
-                        color: #CDF6FF;
-                        font-size: 25px;
+                        color: nth($colores , 1);
+                        font-size: nth($font-size, 4);
                     }
                     .excursiones__texto {
-                        font-size: 20px;
+                        font-size: nth($font-size, 5);
                         line-height: 20px;
-                        color: #858585;
+                        color: nth($colores , 4);
                         margin-bottom: 20px;
                         letter-spacing: -0.50px;
                     }
@@ -190,31 +185,28 @@ main{
         .excursiones__boton-chile {
             height: 200px;
             width: 16%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            @extend %flex-column;
             border: 1px;
-            background-color: #14181b;
+            background-color: nth($colores , 2);
             position: relative;
             bottom: 500px;
             left: 15.1%;
             border-radius: 15px;
             p {
-                color: #CDF6FF;
+                color: nth($colores , 1);
                 text-align: center;
-                font-size: 25px;
+                font-size: nth($font-size, 4);
                 a {
                     text-decoration: none;
-                    background-color: #CDF6FF;
-                    color: #14181B;
-                    font-size: 20px;
+                    background-color: map-get($button, bg-color);
+                    color: map-get($button , color-text);
+                    font-size: nth($font-size, 5);
                     padding: 8px;
-                    border-radius: 10px;
+                    border-radius: nth($border-radius, 2);
                     &:hover{
-                        color: #14181B;
-                        background-color: #858585;
-                        border: 1px solid #858585;
+                        color: map-get($button-hover-2 , color-text);
+                        background-color: map-get($button-hover-2, bg-color);
+                        border: map-get($button-hover-2, border-button);
                     }
                 }
             }
@@ -222,20 +214,18 @@ main{
     }
     section{
         .flex__conteiner {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @extend %flex;
             max-width: 1500px;
             margin: 0 auto;
             .grid__conteiner-japon {
-                border: 2px solid #3E4346;
+                border: 2px solid nth($colores , 3);
                 margin-top: 8px;
                 display: grid;
                 grid-template-columns: repeat(3, 1.5fr);
                 grid-auto-rows: 350px;
                 margin-top: -120px;
                 .grid__items {
-                    background-color: #3E4346;
+                    background-color: nth($colores , 3);
                     .excursiones__img {
                         width: 100%;
                         height: 100%;
@@ -276,13 +266,13 @@ main{
                     h2 {
                         text-align: center;
                         padding: 15px;
-                        color: #CDF6FF;
-                        font-size: 25px;
+                        color: nth($colores , 1);
+                        font-size: nth($font-size, 4);
                     }
                     .excursiones__texto {
-                        font-size: 20px;
+                        font-size: nth($font-size, 5);
                         line-height: 20px;
-                        color: #858585;
+                        color: nth($colores , 4);
                         margin-bottom: 20px;
                         letter-spacing: -0.50px;
                     }
@@ -292,32 +282,29 @@ main{
         .excursiones__boton-japon {
             height: 200px;
             width: 16%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            @extend %flex-column;
             border: 1px;
-            background-color: #14181b;
+            background-color: nth($colores , 2);
             position: relative;
             bottom: 500px;
             left: 68.7%;
             border-radius: 15px;
             p {
-                color: #CDF6FF;
+                color: nth($colores , 1);
                 text-align: center;
-                font-size: 25px;
+                font-size: nth($font-size, 4);
             }
             a {
                 text-decoration: none;
-                background-color: #CDF6FF;
-                color: #14181B;
-                font-size: 20px;
+                background-color: map-get($button, bg-color);
+                color: map-get($button, color-text);
+                font-size: nth($font-size, 5);
                 padding: 8px;
-                border-radius: 10px;
+                border-radius: nth($border-radius, 2);
                 &:hover{
-                    color: #14181B;
-                    background-color: #858585;
-                    border: 1px solid #858585;
+                    color: map-get($button-hover-2, color-text);
+                    background-color: map-get($button-hover-2, bg-color);
+                    border: map-get($button-hover-2, border-button);
                 }
             }
         }

@@ -13,6 +13,17 @@ body {
   font-weight: 100;
   font-style: normal; }
 
+main section .flex__conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+main section .excursiones__boton__paquete-viajes, main section .excursiones__boton, main section .excursiones__boton-chile, main section .excursiones__boton-japon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
 header .header-color {
   background-color: #3E4346 !important; }
   header .header-color .container-fluid {
@@ -41,7 +52,12 @@ header .header-color {
     header .header-color .container-fluid div form .boton-color-index {
       color: #14181B !important;
       border-color: #CDF6FF !important;
-      background-color: #CDF6FF !important; }
+      background-color: #CDF6FF !important;
+      border-radius: 10px; }
+      header .header-color .container-fluid div form .boton-color-index:hover {
+        color: #CDF6FF !important;
+        background-color: #14181B !important;
+        border: 1px solid #14181B !important; }
 
 main .inicio {
   width: 100%;
@@ -89,7 +105,7 @@ main section div .recomendacion__titulo {
   color: #CDF6FF; }
 
 main section div .recomendacion__parrafo {
-  font-size: 23px;
+  font-size: 20px;
   text-decoration: none;
   font-weight: 200;
   text-align: center;
@@ -133,9 +149,6 @@ main section .index__titulo__paquetes {
   margin-top: 30px; }
 
 main section .flex__conteiner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   max-width: 1500px;
   margin: 0 auto; }
   main section .flex__conteiner .grid__conteiner__paquete-viajes-argentina {
@@ -166,10 +179,6 @@ main section .flex__conteiner {
 main section .excursiones__boton__paquete-viajes {
   height: 200px;
   width: 21%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   border: 1px;
   background-color: #14181b;
   position: relative;
@@ -194,9 +203,6 @@ main section .excursiones__boton__paquete-viajes {
       border: 1px solid #858585; }
 
 main section .flex__conteiner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   max-width: 1500px;
   margin: 0 auto; }
   main section .flex__conteiner .grid__conteiner__paquete-viajes-chile {
@@ -227,10 +233,6 @@ main section .flex__conteiner {
 main section .excursiones__boton__paquete-viajes {
   height: 200px;
   width: 21%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   border: 1px;
   background-color: #14181b;
   position: relative;
@@ -251,8 +253,7 @@ main section .excursiones__boton__paquete-viajes {
     border-radius: 10px; }
     main section .excursiones__boton__paquete-viajes a:hover {
       color: #14181B;
-      background-color: #858585;
-      border: 1px solid #858585; }
+      background-color: #858585; }
 
 main .vuelos__h1 {
   font-size: 25px;
@@ -548,12 +549,13 @@ main .col-lg-6 {
       margin-bottom: 10px;
       padding: 15px;
       line-height: 22px;
-      color: #858585; }
+      color: #858585;
+      text-align: initial; }
     main .col-lg-6 .card-alojamiento a {
       margin-bottom: 10px;
       background-color: #CDF6FF;
       color: #14181B;
-      border: #CDF6FF;
+      border: 1px solid #CDF6FF;
       border-radius: 15px; }
       main .col-lg-6 .card-alojamiento a:hover {
         color: #CDF6FF;
@@ -566,6 +568,17 @@ main .col-lg-6 {
 
 main .card-alojamiento-ultima {
   margin: 0% auto; }
+
+main section .flex__conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+main section .excursiones__boton__paquete-viajes, main section .excursiones__boton, main section .excursiones__boton-chile, main section .excursiones__boton-japon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
 
 main .excursiones__h1 {
   color: #CDF6FF;
@@ -582,9 +595,6 @@ main section .img-carousel {
   object-fit: contain; }
 
 main section .flex__conteiner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   max-width: 1500px;
   margin: 0 auto; }
   main section .flex__conteiner .grid__conteiner {
@@ -637,12 +647,7 @@ main section .flex__conteiner {
 main section .excursiones__boton {
   height: 200px;
   width: 16%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border: 1px;
-  background-color: #14181b;
+  background-color: #14181B;
   position: relative;
   bottom: 500px;
   left: 68.7%;
@@ -664,9 +669,6 @@ main section .excursiones__boton {
         border: 1px solid #858585; }
 
 main section .flex__conteiner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   max-width: 1500px;
   margin: 0 auto; }
   main section .flex__conteiner .grid__conteiner-chile {
@@ -721,12 +723,8 @@ main section .flex__conteiner {
 main section .excursiones__boton-chile {
   height: 200px;
   width: 16%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   border: 1px;
-  background-color: #14181b;
+  background-color: #14181B;
   position: relative;
   bottom: 500px;
   left: 15.1%;
@@ -748,9 +746,6 @@ main section .excursiones__boton-chile {
         border: 1px solid #858585; }
 
 main section .flex__conteiner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   max-width: 1500px;
   margin: 0 auto; }
   main section .flex__conteiner .grid__conteiner-japon {
@@ -806,12 +801,8 @@ main section .flex__conteiner {
 main section .excursiones__boton-japon {
   height: 200px;
   width: 16%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   border: 1px;
-  background-color: #14181b;
+  background-color: #14181B;
   position: relative;
   bottom: 500px;
   left: 68.7%;
@@ -842,7 +833,8 @@ main .sobrenosotros {
     display: flex;
     justify-content: center;
     padding-top: 100px;
-    color: #CDF6FF; }
+    color: #CDF6FF;
+    font-size: 30px; }
   main .sobrenosotros .div__sobrenosotros {
     align-items: center;
     height: 150px;

@@ -1,6 +1,8 @@
+@import "../base/variables";
+@import "../base/maps";
 header {
     .header-color {
-        background-color: #3E4346 !important;
+        background-color: nth($colores , 3) !important;
         .container-fluid {
             margin-right: 25px !important;
             a {
@@ -13,34 +15,40 @@ header {
                 ul{
                     li{
                         .nav-link{
-                            color: #CDF6FF !important;
+                            color: nth($colores , 1) !important;
                             margin: 0%;
                             margin-right: 10px;
                             margin-left: 10px;
                             text-decoration: none;
                             list-style-type: none;
-                            font-size: 20px;
+                            font-size: nth($font-size, 5);
                             font-weight: 600;
-                            color: #CDF6FF;
+                            color: nth($colores , 1);
                             &:hover{
-                                color: #14181B !important;
+                                color: nth($colores , 2) !important;
                             }
                         }
                     }
                 }
                 form{
                     .form-control-index{
-                        background-color: #14181B !important;
-                        border: 1px solid #14181B;
-                        color: #CDF6FF !important;
+                        background-color: nth($colores , 2) !important;
+                        border: 1px solid nth($colores , 2);
+                        color: nth($colores , 1) !important;
                         &::placeholder{
-                            color: #CDF6FF;
+                            color: nth($colores , 1);
                         }
                     }
                     .boton-color-index{
-                        color: #14181B !important;
-                        border-color: #CDF6FF !important;
-                        background-color: #CDF6FF !important;
+                        color: map-get($button, color-text)!important;
+                        border-color: nth($colores , 1) !important;
+                        background-color: map-get($button, bg-color) !important;
+                        border-radius: nth($border-radius , 2);
+                        &:hover{
+                            color: map-get($button-hover, color-text)!important;
+                            background-color: map-get($button-hover, bg-color)!important;
+                            border: map-get($button-hover, border-button) !important;
+                        }
                     }
                 }
             }
