@@ -24,6 +24,7 @@ main section .excursiones__boton__paquete-viajes, main section .excursiones__bot
   justify-content: center;
   align-items: center; }
 
+/*-----------HEADER---------*/
 header .header-color {
   background-color: #3E4346 !important; }
   header .header-color .container-fluid {
@@ -59,6 +60,7 @@ header .header-color {
         background-color: #14181B !important;
         border: 1px solid #14181B !important; }
 
+/*-----------INDEX---------*/
 main .inicio {
   width: 100%;
   height: 80vh;
@@ -257,6 +259,7 @@ main section .excursiones__boton__paquete-viajes {
       color: #14181B;
       background-color: #858585; }
 
+/*-----------VUELOS---------*/
 main .vuelos__h1 {
   font-size: 25px;
   text-align: center;
@@ -523,6 +526,7 @@ main section .card-vuelos {
         background-color: #858585;
         border: 1px solid #858585; }
 
+/*-----------ALOJAMIENTO---------*/
 main .alojamiento__h1 {
   font-size: 25px;
   text-align: center;
@@ -582,6 +586,7 @@ main section .excursiones__boton__paquete-viajes, main section .excursiones__bot
   justify-content: center;
   align-items: center; }
 
+/*-----------EXCURSIONES---------*/
 main .excursiones__h1 {
   color: #CDF6FF;
   text-align: center;
@@ -825,6 +830,7 @@ main section .excursiones__boton-japon {
       background-color: #858585;
       border: 1px solid #858585; }
 
+/*------------SOBRE-NOSOTROS--------*/
 main .sobrenosotros {
   width: 100%;
   height: 85vh;
@@ -874,6 +880,7 @@ main section .form-sobrenosotros {
       background-color: #14181B;
       color: #CDF6FF; }
 
+/*-----------FOOTER---------*/
 footer {
   background-color: #3E4346;
   display: flex;
@@ -894,7 +901,7 @@ footer {
       width: 64px;
       height: 64px; }
 
-/*-----------MEDIA QUERIES---------*/
+/*-----------MEDIA-QUERIES---------*/
 /*---------------INDEX-------------*/
 @media screen and (max-width: 1588px) {
   main section .excursiones__boton__paquete-viajes {
@@ -1281,53 +1288,47 @@ footer {
   main .vuelos__h1 {
     font-size: 12px; }
   main section .card-vuelos .row .col-md-8 .card-body-vuelos .card-vuelos-titulo {
-    font-size: 8px; }
+    font-size: 10px; }
   main section .card-vuelos .row .col-md-8 .card-body-vuelos .vuelos__precio {
     margin: 0%; }
     main section .card-vuelos .row .col-md-8 .card-body-vuelos .vuelos__precio strong {
-      font-size: 8px; }
+      font-size: 9px; }
   main section .card-vuelos .row .col-md-8 .card-body-vuelos .card-texto-vuelos {
-    font-size: 5px; }
+    font-size: 7px; }
   main section .card-vuelos .row .col-md-8 .card-body-vuelos a {
-    font-size: 6px;
+    font-size: 8px;
     padding: 3px; }
   main section .card-vuelos-contrario .card-body-vuelos .card-vuelos-titulo {
-    font-size: 8px; }
+    font-size: 10px; }
   main section .card-vuelos-contrario .card-body-vuelos .vuelos__precio {
     margin: 0%; }
     main section .card-vuelos-contrario .card-body-vuelos .vuelos__precio strong {
-      font-size: 8px; }
+      font-size: 9px; }
   main section .card-vuelos-contrario .card-body-vuelos .card-texto-vuelos {
-    font-size: 6px; }
+    font-size: 7px; }
   main section .card-vuelos-contrario .card-body-vuelos a {
-    font-size: 6px;
+    font-size: 8px;
     padding: 3px; } }
 
 @media screen and (max-width: 344px) {
   main .vuelos__h1 {
     font-size: 10px; }
   main section .card-vuelos .row .col-md-8 .card-body-vuelos .card-vuelos-titulo {
-    font-size: 7px; }
+    font-size: 9px; }
   main section .card-vuelos .row .col-md-8 .card-body-vuelos .vuelos__precio {
     margin: 0%; }
     main section .card-vuelos .row .col-md-8 .card-body-vuelos .vuelos__precio strong {
-      font-size: 7px; }
+      font-size: 9px; }
   main section .card-vuelos .row .col-md-8 .card-body-vuelos a {
-    font-size: 5px; }
+    font-size: 8px; }
   main section .card-vuelos-contrario .card-body-vuelos .card-vuelos-titulo {
-    font-size: 7px; }
+    font-size: 9px; }
   main section .card-vuelos-contrario .card-body-vuelos .vuelos__precio {
     margin: 0%; }
     main section .card-vuelos-contrario .card-body-vuelos .vuelos__precio strong {
-      font-size: 7px; }
+      font-size: 9px; }
   main section .card-vuelos-contrario .card-body-vuelos a {
-    font-size: 5px; } }
-
-@media screen and (max-width: 313px) {
-  main section .card-vuelos .card-body-vuelos .card-vuelos-titulo {
-    font-size: 6px; }
-  main section .card-vuelos-contrario .card-body-vuelos .card-vuelos-titulo {
-    font-size: 6px; } }
+    font-size: 8px; } }
 
 /*-------------ALOJAMIENTO------------*/
 @media screen and (max-width: 900px) {

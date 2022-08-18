@@ -1,5 +1,6 @@
 @import "../base/variables";
 @import "../base/mixin";
+/*-----------FOOTER---------*/
 footer{
     background-color: nth($colores , 3);
     @include flex (flex, space-between, center);

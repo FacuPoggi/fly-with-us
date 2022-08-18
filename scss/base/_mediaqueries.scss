@@ -1,4 +1,4 @@
-/*-----------MEDIA QUERIES---------*/
+/*-----------MEDIA-QUERIES---------*/
 /*---------------INDEX-------------*/
 @media screen and (max-width: 1588px) {
     main{
@@ -910,19 +910,19 @@
                     .col-md-8{
                         .card-body-vuelos{
                             .card-vuelos-titulo {
-                                font-size: 8px;
+                                font-size: 10px;
                             }
                             .vuelos__precio {
                                 margin: 0%;
                                 strong {
-                                    font-size: 8px;
+                                    font-size: 9px;
                                 }
                             }
                             .card-texto-vuelos {
-                                font-size: 5px;
+                                font-size: 7px;
                             }
                             a {
-                                font-size: 6px;
+                                font-size: 8px;
                                 padding: 3px;
                             }
                         }
@@ -932,19 +932,19 @@
             .card-vuelos-contrario {
                 .card-body-vuelos{
                     .card-vuelos-titulo {
-                        font-size: 8px;
+                        font-size: 10px;
                     }
                     .vuelos__precio {
                         margin: 0%;
                         strong {
-                            font-size: 8px;
+                            font-size: 9px;
                         }
                     }
                     .card-texto-vuelos {
-                        font-size: 6px;
+                        font-size: 7px;
                     }
                     a {
-                        font-size: 6px;
+                        font-size: 8px;
                         padding: 3px;
                     }
                 }
@@ -965,16 +965,16 @@
                     .col-md-8{
                         .card-body-vuelos{
                             .card-vuelos-titulo {
-                                font-size: 7px;
+                                font-size: 9px;
                             }
                             .vuelos__precio {
                                 margin: 0%;
                                 strong {
-                                    font-size: 7px;
+                                    font-size: 9px;
                                 }
                             }
                             a {
-                                font-size: 5px;;
+                                font-size: 8px;;
                             }
                         }
                     }
@@ -983,40 +983,19 @@
             .card-vuelos-contrario {
                 .card-body-vuelos{
                     .card-vuelos-titulo {
-                        font-size: 7px;
+                        font-size: 9px;
                     }
                     .vuelos__precio {
                         margin: 0%;
                         strong {
-                            font-size: 7px;
+                            font-size: 9px;
                         }
                     }
                     a {
-                        font-size: 5px;
+                        font-size: 8px;
                     }
                 }
                 
-            }
-        }
-    }
-}
-
-@media screen and (max-width:313px) {
-    main{
-        section{
-            .card-vuelos{
-                .card-body-vuelos{
-                    .card-vuelos-titulo {
-                        font-size: 6px;
-                    }
-                }
-            }
-            .card-vuelos-contrario{
-                .card-body-vuelos{
-                    .card-vuelos-titulo {
-                        font-size: 6px;
-                    }
-                }
             }
         }
     }
