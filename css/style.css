@@ -539,7 +539,10 @@ main .col-lg-6 {
     margin: 8% !important;
     background-color: #3E4346;
     border-top-left-radius: 30px;
-    border-bottom-right-radius: 30px; }
+    border-bottom-right-radius: 30px;
+    transition: 0.5s; }
+    main .col-lg-6 .card-alojamiento:hover {
+      transform: scale(1.1); }
     main .col-lg-6 .card-alojamiento .card-body-alojamiento {
       padding: 0% !important;
       text-align: center; }
